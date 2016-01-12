@@ -1,0 +1,87 @@
+{
+    "id": "asus-tp500lb-i5-5200u",
+    "name": "Laptop Asus TP500LB i5 5200U",
+    "icon": "../images/laptop/asus-tp500lb-i5-5200u.png",
+    "image":"../images/laptop/asus-tp500lb-i5-5200u-14.jpg",
+    "slide": [
+        "../images/laptop/asus-tp500lb-i5-5200u-10.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-11.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-12.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-13.jpg"
+    ],
+    "images": [
+        "../images/laptop/asus-tp500lb-i5-5200u-1.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-2.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-3.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-4.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-5.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-6.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-7.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-8.jpg",
+        "../images/laptop/asus-tp500lb-i5-5200u-9.jpg"
+    ],
+    "CPU":{
+    	"Manufacturer": "Intel",
+    	"Tech": "Core i5 Broadwell",
+    	"Type": "5200U",
+    	"Speed": "2.20 Ghz",
+    	"Cache": "Intel® Smart Cache, 3 MB",
+    	"MaxSpeed": "2.7 GHz"
+    },
+    "MainBoard":{
+    	"Chipset":"Intel® HM Series Express Chipset",
+    	"Bus":"1600Mhz",
+    	"SupporRam":"8GB"
+    },
+    "Storage":{
+    	"Type": "DDR3L(On board+1Khe)",
+    	"RAM": "4 Gb",
+    	"Bus": "1600 Mhz"
+    },
+    "HardDisk":{
+    	"Type": "HDD",
+    	"Capacity": "500 GB"
+    },
+    "Display":{
+    	"ScreenSize":"15.6 inch",
+    	"screenResolution":"HD (1366 x 768 pixels)",
+    	"Tech":"Splend Video Intelligent, LED Backlight",
+    	"touchScreen":"Có"
+    },
+    "Graphics":{
+    	"Chipset":"NVIDIA® GeForce® 940M",
+    	"Capacity":"2GB",
+    	"Design":"Card rời"
+    },
+    "Audio":{
+    	"Channels": "2.0",
+    	"Other":"Combo Microphone & Headphone"
+    },
+    "CD":{
+    	"CD":"Không",
+    	"Type":"Không"
+    },
+    "Interface":{
+    	"Interfaces":"2 x USB 2.0, HDMI, LAN (RJ45), USB 3.0",
+    	"Other":"Instant On, Ice Cool"
+    },
+    "Network":{
+    	"LAN":"10/100/1000 Mbps Ethernet LAN (RJ-45 connector)",
+    	"Wifi":"802.11b/g/n",
+    	"Other":"Bluetooth v4.0"
+    },
+    "CardReader":{
+    	"Support":"Có",
+    	"Type":"SD"
+    },
+    "Webcam":{
+    	"Resolution":"0.3 MP(16:9)",
+    	"Other":"VGA  webcam"
+    },
+    "Battery":"Li-Ion 3 cell",
+    "OS":"Windows 8.1",
+    "Design":{
+    	"dimensions":"Dài 380 mm - Ngang 258 mm - Dày 22 mm",
+    	"weight":"2.24 kg"
+    }
+}

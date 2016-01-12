@@ -1,0 +1,81 @@
+{
+	"id": "huawei-y6",
+	"name": "Huawei Y6",
+	"icon": "../images/phones/huawei-y6.jpg",
+	"slide": [
+		"../images/phones/huawei-y6-6.jpg",
+		"../images/phones/huawei-y6-7.jpg",
+		"../images/phones/huawei-y6-8.jpg",
+		"../images/phones/huawei-y6-9.jpg"
+	],
+	"images": [
+		"../images/phones/huawei-y6-1.jpg",
+		"../images/phones/huawei-y6-2.jpg",
+		"../images/phones/huawei-y6-3.jpg",
+		"../images/phones/huawei-y6-4.jpg"
+	],
+	"Display": {
+		"screenTech": "IPS LCD",
+		"screenResolution": "720 x 1280 pixels",
+		"screenSize": "5.0",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính thường"
+	},
+	"CameraBehind": {
+		"primary": "8 MP",
+		"film": "Quay phim HD 720@30fps",
+		"Flash": "Có",
+		"Advanced": "Gắn thẻ địa lý, Tự động lấy nét"
+	},
+	"CameraFront": {
+		"primary": "2 MP",
+		"film": "Có",
+		"VideoCall": "Có",
+		"Orther": "Không"
+	},
+	"OS-CPU": {
+		"OS": "Android 5.1 (Lollipop)",
+		"Chipset": "Snapdragon 210",
+		"NumCore": "4 nhân",
+		"Speed": "1.15 GHz",
+		"GPU": "Adreno 304"
+	},
+	"Storage": {
+		"RAM": "1 GB",
+		"ROM": "8 GB",
+		"availability": "Đang cập nhật",
+		"memoryCard": "MicroSD (T-Flash)",
+		"MaximumSupport": "128 GB"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "Có",
+		"NumSIM": "2 SIM 2 sóng",
+		"Type": "Micro SIM",
+		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",
+		"GPS": "A-GPS, GLONASS",
+		"Bluetooth": "Có",
+		"NFC": "không",
+		"Charger": "Micro USB",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"Type": "Pin rời",
+		"Material": "Nhựa",
+		"dimensions": "Dài 143.5 mm - Ngang 72.1 mm - Dày 8.5 mm",
+		"weight": "125 g"
+	},
+	"Battery": {
+		"Capacity": "2200 mAh",
+		"Type": "Pin chuẩn Li-Ion"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, WMV, H.264, DivX, Xvid",
+		"Music": "MP3, WAV, WMA, eAAC+, FLAC",
+		"Record": "Có",
+		"Radio": "Có",
+		"Other":"Mở khóa bằng vân tay"
+	}
+}

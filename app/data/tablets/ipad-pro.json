@@ -1,0 +1,73 @@
+{
+	"id": "ipad-pro",
+	"name": "iPad Pro Wifi 32GB",
+	"icon": "../images/tablet/ipad-pro.jpg",
+	"slide": [
+		"../images/tablet/ipad-pro-6.jpg",
+		"../images/tablet/ipad-pro-7.jpg",
+		"../images/tablet/ipad-pro-8.jpg"
+	],
+	"images": [
+		"../images/tablet/ipad-pro-1.jpg",
+		"../images/tablet/ipad-pro-2.jpg",
+		"../images/tablet/ipad-pro-3.jpg",
+		"../images/tablet/ipad-pro-4.jpg",
+		"../images/tablet/ipad-pro-5.jpg"
+	],
+	"general":{
+		"OS": "iOS 9",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "LED backlit LCD",
+		"screenResolution": "2732 x 2048 pixels",
+		"screenSize": "12.9",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "Apple A9X",
+		"NumCore": "Dual-core",
+		"Speed": "2.2 GHz",
+		"RAM": "4 GB",
+		"GPU": "MPower VR"
+	},
+	"Storage":{
+		"ROM": "32 GB",
+		"memoryCard": "Không",
+		"MaximumSupport": "Không"
+	},
+	"Camera":{
+		"Behind": "8 MP",
+		"Front": "1.2 MP",
+		"Advanced": "Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, Nhân diện nụ cười, HDR, Panorama",
+		"Film": "Full HD 1080p@30fps"
+	},
+	"Connection":{
+		"3G": "Không",
+		"4G": "Không",
+		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac",
+		"Conversation": "Face-Time",
+		"SIM": "Không",
+		"Bluetooth": "4.2",
+		"GPS": "A-GPS",
+		"USB": "Lightning",
+		"HDMI": "Không",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"dimensions": "Dài 305.7mm - Rộng 220.6mm - Dày 6.9mm",
+		"weight": "713 g"
+	},
+	"Battery": {
+		"TimeLive": "Đang cập nhật",
+		"Type": "Lithium - Polymer"
+	},
+	"Entertaiment":{
+		"WatchMovie": "WMV, 3GP, MP4, MPEG-4",
+		"Music": "MP3, WAV, WMA",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Không"
+	}
+}

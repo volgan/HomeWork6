@@ -1,0 +1,73 @@
+{
+	"id": "asus-zenpad-z170cg",
+	"name": "ASUS ZenPad C 7.0 (Z170CG)",
+	"icon": "../images/tablet/asus-zenpad-z170cg.jpg",
+	"slide": [
+		"../images/tablet/asus-zenpad-z170cg-6.jpg",
+		"../images/tablet/asus-zenpad-z170cg-7.jpg",
+		"../images/tablet/asus-zenpad-z170cg-8.jpg"
+	],
+	"images": [
+		"../images/tablet/asus-zenpad-z170cg-1.jpg",
+		"../images/tablet/asus-zenpad-z170cg-2.jpg",
+		"../images/tablet/asus-zenpad-z170cg-3.jpg",
+		"../images/tablet/asus-zenpad-z170cg-4.jpg",
+		"../images/tablet/asus-zenpad-z170cg-5.jpg"
+	],
+	"general":{
+		"OS": "Android 5.0",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "IPS LCD",
+		"screenResolution": "1024 x 600 pixels",
+		"screenSize": "7",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "Intel Atom x3-C3230",
+		"NumCore": "Quad-core",
+		"Speed": "1 GHz",
+		"GPU": "Mali-450MP4",
+		"RAM": "1 GB"
+	},
+	"Storage":{
+		"ROM": "8 GB",
+		"memoryCard": "Micro SD",
+		"MaximumSupport": "64 GB"
+	},
+	"Camera":{
+		"Behind": "2 MP",
+		"Front": "0.3 MP",
+		"Advanced": "Gắn thẻ vật lý",
+		"Film": "Có quay phim"
+	},
+	"Connection":{
+		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"4G": "Không",
+		"Wifi": "Wi-Fi 802.11 b/g/n",
+		"Conversation": "Không",
+		"SIM": "2 sim - Loại sim: micro",
+		"Bluetooth": "4.0",
+		"GPS": "A-GPS",
+		"USB": "Micro USB",
+		"HDMI": "Không",
+		"audioJack": "3.5 mm",
+		"other": "OTG"
+	},
+	"Design": {
+		"dimensions": "Dài 189 mm - Ngang 108 mm - Dày 8.4 mm",
+		"weight": "265 g"
+	},
+	"Battery": {
+		"Capacity": "2650 mAh",
+		"Type": "Lithium - Polymer"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MPEG-4, MP4",
+		"Music": "MP3, MIDI",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Không"
+	}
+}

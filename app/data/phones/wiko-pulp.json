@@ -1,0 +1,82 @@
+{
+	"id": "wiko-pulp",
+	"name": "Wiko Pulp Fab",
+	"icon": "../images/phones/wiko-pulp.jpg",
+	"slide": [
+		"../images/phones/wiko-pulp-6.jpg",
+		"../images/phones/wiko-pulp-7.jpg",
+		"../images/phones/wiko-pulp-8.jpg",
+		"../images/phones/wiko-pulp-9.jpg"
+	],
+	"images": [
+		"../images/phones/wiko-pulp-1.jpg",
+		"../images/phones/wiko-pulp-2.jpg",
+		"../images/phones/wiko-pulp-3.jpg",
+		"../images/phones/wiko-pulp-4.jpg",
+		"../images/phones/wiko-pulp-5.jpg"
+	],
+	"Display": {
+		"screenTech": "IPS LCD",
+		"screenResolution": "720 x 1280 pixels",
+		"screenSize": "5.5",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính thường"
+	},
+	"CameraBehind": {
+		"primary": "13 MP",
+		"film": "Có",
+		"Flash": "Có",
+		"Advanced": "Gắn thẻ địa lý, Tự động lấy nét"
+	},
+	"CameraFront": {
+		"primary": "2 MP",
+		"film": "Có",
+		"VideoCall": "Hỗ trợ VideoCall thông qua ứng dụng OTT",
+		"Orther": "Không"
+	},
+	"OS-CPU": {
+		"OS": "Android 5.1 (Lollipop)",
+		"Chipset": "MTK 6592",
+		"NumCore": "8 nhân",
+		"Speed": "1.4 GHz",
+		"GPU": "Mali 450 MP"
+	},
+	"Storage": {
+		"RAM": "2 GB",
+		"ROM": "16 GB",
+		"availability": "Đang cập nhật",
+		"memoryCard": "MicroSD (T-Flash)",
+		"MaximumSupport": "64 GB"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "Không",
+		"NumSIM": "2 SIM 2 sóng",
+		"Type": "Micro SIM",
+		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",
+		"GPS": "A-GPS",
+		"Bluetooth": "Có",
+		"NFC": "không",
+		"Charger": "Micro USB",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"Type": "Pin rời",
+		"Material": "Nhựa",
+		"dimensions": "Dà̀i 154.7 mm - Ngang 79.3 mm - Rộng 8.5 mm",
+		"weight": "170 g"
+	},
+	"Battery": {
+		"Capacity": "2820 mAh",
+		"Type": "Pin chuẩn Li-Po"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, WMV, H.264, DivX, Xvid",
+		"Music": "MP3, WAV, WMA, eAAC+, FLAC",
+		"Record": "Có",
+		"Radio": "Có",
+		"Other":"Không"
+	}
+}

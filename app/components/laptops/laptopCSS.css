@@ -1,0 +1,6 @@
+.laptopList p{
+	margin: 0;
+}
+.laptopList .name, .laptopList .price{
+	margin: 0 0 10px;
+}

@@ -1,0 +1,73 @@
+{
+	"id": "samsung-galaxy-tab-e-96",
+	"name": "Samsung Galaxy Tab S2 9.7 (SM-T815)",
+	"icon": "../images/tablet/samsung-galaxy-tab-e-96.jpg",
+	"slide": [
+		"../images/tablet/samsung-galaxy-tab-e-96-6.jpg",
+		"../images/tablet/samsung-galaxy-tab-e-96-7.jpg",
+		"../images/tablet/samsung-galaxy-tab-e-96-8.jpg"
+	],
+	"images": [
+		"../images/tablet/samsung-galaxy-tab-e-96-1.jpg",
+		"../images/tablet/samsung-galaxy-tab-e-96-2.jpg",
+		"../images/tablet/samsung-galaxy-tab-e-96-3.jpg",
+		"../images/tablet/samsung-galaxy-tab-e-96-4.jpg",
+		"../images/tablet/samsung-galaxy-tab-e-96-5.jpg"
+	],
+	"general":{
+		"OS": "Android 4.4",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "WXGA TFT",
+		"screenResolution": "1280 x 800 Pixels",
+		"screenSize": "9.6",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "Exynos",
+		"NumCore": "Quad-core",
+		"Speed": "1.3 GHz",
+		"GPU": "Đang cập nhật",
+		"RAM": "1.5 GB"
+	},
+	"Storage":{
+		"ROM": "8 GB",
+		"memoryCard": "Micro SD",
+		"MaximumSupport": "128 GB"
+	},
+	"Camera":{
+		"Behind": "5 MP",
+		"Front": "2 MP",
+		"Advanced": "Gắn thẻ địa lý, Tự động lấy nét",
+		"Film": "HD 720p (1280 x 720 pixels)"
+	},
+	"Connection":{
+		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"4G": "Không",
+		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",
+		"Conversation": "Có",
+		"Bluetooth": "4.0",
+		"GPS": "A-GPS, GLONASS",		
+		"SIM": "Micro SIM",
+		"USB": "Micro USB",
+		"HDMI": "Không",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"dimensions": "Dài 241.9 mm - Ngang 149.5 mm - Dày 8.5 mm",
+		"weight": "495 g"
+	},
+	"Battery": {
+		"Capacity": "5000 mAh",
+		"Type": "Lithium - Ion"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, AVI, WMV, H.263, H.264(MPEG4-AVC), DivX, Xvid",
+		"Music": "AMR, MP3, WAV, WMA, eAAC+",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Không"
+	}
+}

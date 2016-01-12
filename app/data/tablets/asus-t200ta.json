@@ -1,0 +1,74 @@
+{
+	"id": "asus-t200ta",
+	"name": "ASUS Transformer Book T200TA",
+	"icon": "../images/tablet/asus-t200ta.jpg",
+	"slide": [
+		"../images/tablet/asus-t200ta-6.jpg",
+		"../images/tablet/asus-t200ta-7.jpg",
+		"../images/tablet/asus-t200ta-8.jpg",
+		"../images/tablet/asus-t200ta-9.jpg"
+	],
+	"images": [
+		"../images/tablet/asus-t200ta-1.jpg",
+		"../images/tablet/asus-t200ta-2.jpg",
+		"../images/tablet/asus-t200ta-3.jpg",
+		"../images/tablet/asus-t200ta-4.jpg",
+		"../images/tablet/asus-t200ta-5.jpg"
+	],
+	"general":{
+		"OS": "Windows 8.1 32 bit",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "IPS LCD",
+		"screenResolution": "1334 x 750 Pixels",
+		"screenSize": "11.6",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "Intel Atom Z3775",
+		"NumCore": "Quad-core",
+		"Speed": "1.46 GHz",
+		"GPU": "Intel HD Graphics",
+		"RAM": "2 GB"
+	},
+	"Storage":{
+		"ROM": "64 GB",
+		"memoryCard": "Micro SD",
+		"MaximumSupport": "64 GB"
+	},
+	"Camera":{
+		"Behind": "5 MP (2592 x 1952 pixels)",
+		"Front": "2 MP",
+		"Advanced": "Không",
+		"Film": "Full HD 1080p (1920 x 1080 pixels)"
+	},
+	"Connection":{
+		"3G": "Không",
+		"4G": "Không",
+		"Wifi": "Có",
+		"Conversation": "Không",
+		"Bluetooth": "4.0",
+		"GPS": "A-GPS",		
+		"SIM": "Không",
+		"USB": "USB 3.0, USB 2.0, RJ45 LAN, Micro USB, micro HDM",
+		"HDMI": "Micro HDMI",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"dimensions": "305 x 194 x 11.95 mm, (305 x 200 x 26 mm DOCK)",
+		"weight": "143 g"
+	},
+	"Battery": {
+		"Capacity": "3050 mAh",
+		"Type": "Lithium - Polymer"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, AVI, WMV, H.263, H.264(MPEG4-AVC), DivX, Xvid",
+		"Music": "AMR, MP3, WAV, WMA, eAAC+",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Không"
+	}
+}

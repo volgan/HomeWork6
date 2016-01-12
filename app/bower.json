@@ -1,0 +1,32 @@
+{
+  "name": "homework5-Angular",
+  "authors": [
+    "Phan Tran Hong Phuc <aladin1266@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "angular-resource": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
+    "angular-material": "~1.0.1",
+    "angular-ui-router": "~0.2.15",
+    "angular-directive.g-signin": "~0.1.2",
+    "ng-facebook": "~0.1.6"
+  }
+}

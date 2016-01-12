@@ -1,0 +1,73 @@
+{
+	"id": "lenovo-ideatab-a5500",
+	"name": "Lenovo IdeaTab A8-50 HD (A5500)",
+	"icon": "../images/tablet/lenovo-ideatab-a5500.jpg",
+	"slide": [
+		"../images/tablet/lenovo-ideatab-a5500-6.jpg",
+		"../images/tablet/lenovo-ideatab-a5500-7.jpg",
+		"../images/tablet/lenovo-ideatab-a5500-8.jpg"
+	],
+	"images": [
+		"../images/tablet/lenovo-ideatab-a5500-1.jpg",
+		"../images/tablet/lenovo-ideatab-a5500-2.jpg",
+		"../images/tablet/lenovo-ideatab-a5500-3.jpg",
+		"../images/tablet/lenovo-ideatab-a5500-4.jpg",
+		"../images/tablet/lenovo-ideatab-a5500-5.jpg"
+	],
+	"general":{
+		"OS": "Android 4.2",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "LED Backlit IPS LCD",
+		"screenResolution": "1280 x 800 pixels",
+		"screenSize": "8",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "MediaTek MTK 8382",
+		"NumCore": "Quad-core",
+		"Speed": "1.3 GHz",
+		"GPU": "Mali-400MP",
+		"RAM": "1 GB"
+	},
+	"Storage":{
+		"ROM": "16 GB",
+		"memoryCard": "Micro SD",
+		"MaximumSupport": "32 GB"
+	},
+	"Camera":{
+		"Behind": "5 MP",
+		"Front": "2 MP",
+		"Advanced": "Gắn thẻ địa lý, Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, Nhân diện nụ cười, HDR, Panorama, Chụp bằng giọng nói",
+		"Film": "Full HD 1080p (1920 x 1080 pixels)"
+	},
+	"Connection":{
+		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"4G": "Không",
+		"Wifi": "Wi-Fi 802.11 b/g/n, Dual-band",
+		"Conversation": "Có",
+		"SIM": "Micro SIM",
+		"Bluetooth": "Có",
+		"GPS": "A-GPS, GLONASS",
+		"USB": "Micro USB",
+		"HDMI": "Không",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"dimensions": "Dài 217 mm - Ngang 136 mm - Dày 8.9 mm",
+		"weight": "360 g"
+	},
+	"Battery": {
+		"Capacity": "3000 mAh",
+		"Type": "Lithium - Ion"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MPEG-4, DAT, AAC, 3GP, JPEG, WMV7, MP4, AVI, WMV9, WMV8",
+		"Music": "MIDI, WAVE, FLAC, WMA, Dolby Hometheater",
+		"Record": "Có",
+		"Radio": "Có",
+		"Other":"Không"
+	}
+}

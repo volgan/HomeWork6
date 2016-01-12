@@ -1,0 +1,81 @@
+{
+	"id": "ss-galaxy-s6-edge",
+	"name": "Samsung Galaxy S6 Edge 32GB",
+	"icon": "../images/phones/ss-galaxy-s6-edge.jpg",
+	"slide": [
+		"../images/phones/ss-galaxy-s6-edge-6.jpg",
+		"../images/phones/ss-galaxy-s6-edge-7.jpg",
+		"../images/phones/ss-galaxy-s6-edge-8.jpg",
+		"../images/phones/ss-galaxy-s6-edge-9.jpg"
+	],
+	"images": [
+		"../images/phones/ss-galaxy-s6-edge-1.jpg",
+		"../images/phones/ss-galaxy-s6-edge-2.jpg",
+		"../images/phones/ss-galaxy-s6-edge-3.jpg",
+		"../images/phones/ss-galaxy-s6-edge-4.jpg"
+	],
+	"Display": {
+		"screenTech": "Super AMOLED",
+		"screenResolution": "1440 x 2560 pixels",
+		"screenSize": "5.1",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính cường lực Gorilla Glass 4"
+	},
+	"CameraBehind": {
+		"primary": "16 MP",
+		"film": "Quay phim 4K 2160p@30fps",
+		"Flash": "Có",
+		"Advanced": "Tự động lấy nét, Chạm lấy nét, HDR, Panorama"
+	},
+	"CameraFront": {
+		"primary": "5 MP",
+		"film": "Có",
+		"VideoCall": "Có",
+		"Orther": "Chống rung, Nhận diện khuôn mặt, Làm mịn da, Tự động lấy nét, Selfie ngược sáng HDR"
+	},
+	"OS-CPU": {
+		"OS": "Android 5.0 (Lollipop)",
+		"Chipset": "Exynos 7420",
+		"NumCore": "8 nhân",
+		"Speed": "4x1.5GHz Cortex-A53 & 4x2.1 GHz Cortex-A57",
+		"GPU": "Mali-T760"
+	},
+	"Storage": {
+		"RAM": "3 GB",
+		"ROM": "32 GB",
+		"availability": "24.8 GB",
+		"memoryCard": "Không",
+		"MaximumSupport": "Không"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "LTE Cat 6",
+		"NumSIM": "1 SIM",
+		"Type": "Nano SIM",
+		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac, DLNA, Wi-Fi Direct, Wi-Fi hotspot",
+		"GPS": "A-GPS, GLONASS",
+		"Bluetooth": "A2DP, V4.1",
+		"NFC": "Có",
+		"Charger": "Micro USB",
+		"audioJack": "3.5 mm",
+		"other": "NFC, OTG, Hồng Ngoại, Screen Mirroring"
+	},
+	"Design": {
+		"Type": "Pin liền",
+		"Material": "Khung kim loại + mặt kính cường lực",
+		"dimensions": "Dài 142.1 mm - Ngang 70.1 mm - Dày 7 mm",
+		"weight": "132 g"
+	},
+	"Battery": {
+		"Capacity": "2600 mAh",
+		"Type": "Pin chuẩn Li-Ion"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, WMV, H.264, DivX, Xvid",
+		"Music": "MP3, WAV, WMA, eAAC+, FLAC",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Sạ̣c pin nhanh, Mở khóa vân tay"
+	}
+}

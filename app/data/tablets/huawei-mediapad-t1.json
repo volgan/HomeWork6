@@ -1,0 +1,74 @@
+{
+	"id": "huawei-mediapad-t1",
+	"name": "Huawei MediaPad T1 8.0",
+	"icon": "../images/tablet/huawei-mediapad-t1.jpg",
+	"slide": [
+		"../images/tablet/huawei-mediapad-t1-9.jpg",
+		"../images/tablet/huawei-mediapad-t1-7.jpg",
+		"../images/tablet/huawei-mediapad-t1-8.jpg"
+	],
+	"images": [
+		"../images/tablet/huawei-mediapad-t1-1.jpg",
+		"../images/tablet/huawei-mediapad-t1-2.jpg",
+		"../images/tablet/huawei-mediapad-t1-3.jpg",
+		"../images/tablet/huawei-mediapad-t1-4.jpg",
+		"../images/tablet/huawei-mediapad-t1-5.jpg",
+		"../images/tablet/huawei-mediapad-t1-6.jpg"
+	],
+	"general":{
+		"OS": "Android 4.3",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "IPS WXGA",
+		"screenResolution": "1280 x 800 Pixels Pixels",
+		"screenSize": "8.0",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "ARM Cortex A7 (MSM 8210)",
+		"NumCore": "Quad-core",
+		"Speed": "1.2 GHz",
+		"GPU": "Adreno 302",
+		"RAM": "1 GB"
+	},
+	"Storage":{
+		"ROM": "8 GB",
+		"memoryCard": "Micro SD",
+		"MaximumSupport": "32 GB"
+	},
+	"Camera":{
+		"Behind": "5.0 MP",
+		"Front": "0.3 MP",
+		"Advanced": "Tự động lấy nét, HDR",
+		"Film": "HD 720p (1280 x 720 pixels)"
+	},
+	"Connection":{
+		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"4G": "Không",
+		"Wifi": "Wi-Fi 802.11 b/g/n",
+		"Conversation": "Có",
+		"Bluetooth": "4.0",
+		"GPS": "A-GPS",		
+		"SIM": "Micro SIM",
+		"USB": "Micro USB",
+		"HDMI": "Không",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"dimensions": "Dài 210.6 mm - Ngang 127.7 mm - Dày 7,9 mm",
+		"weight": "360 g"
+	},
+	"Battery": {
+		"Capacity": "4800 mAh",
+		"Type": "Lithium - Ion"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, AVI, WMV, H.263, H.264(MPEG4-AVC), DivX, Xvid",
+		"Music": "AMR, MP3, WAV, WMA, eAAC+",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Không"
+	}
+}

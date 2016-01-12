@@ -1,0 +1,82 @@
+{
+	"id": "huawei-g7-plus",
+	"name": "Huawei G7 Plus",
+	"icon": "../images/phones/huawei-g7-plus.jpg",
+	"slide": [
+		"../images/phones/huawei-g7-plus-6.jpg",
+		"../images/phones/huawei-g7-plus-7.jpg",
+		"../images/phones/huawei-g7-plus-8.jpg",
+		"../images/phones/huawei-g7-plus-9.jpg"
+	],
+	"images": [
+		"../images/phones/huawei-g7-plus-1.jpg",
+		"../images/phones/huawei-g7-plus-2.jpg",
+		"../images/phones/huawei-g7-plus-3.jpg",
+		"../images/phones/huawei-g7-plus-4.jpg",
+		"../images/phones/huawei-g7-plus-5.jpg"
+	],
+	"Display": {
+		"screenTech": "IPS LCD",
+		"screenResolution": "1080 x 1920 pixels",
+		"screenSize": "5.5",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính cường lực Gorilla Glass"
+	},
+	"CameraBehind": {
+		"primary": "13 MP",
+		"film": "Quay phim FullHD 1080p@30fps",
+		"Flash": "Có",
+		"Advanced": "Gắn thẻ địa lý, Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, Nhận diện nụ cười, HDR, Panorama"
+	},
+	"CameraFront": {
+		"primary": "5 MP",
+		"film": "Có",
+		"VideoCall": "Có",
+		"Orther": "Không"
+	},
+	"OS-CPU": {
+		"OS": "Android 5.1 (Lollipop)",
+		"Chipset": "Snapdragon 615",
+		"NumCore": "8 nhân",
+		"Speed": "Quad-core 1.5 GHz + Quad-core 1 GHz",
+		"GPU": "Adreno 405"
+	},
+	"Storage": {
+		"RAM": "3 GB",
+		"ROM": "32 GB",
+		"availability": "Đang cập nhật",
+		"memoryCard": "MicroSD (T-Flash)",
+		"MaximumSupport": "128 GB"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "Có",
+		"NumSIM": "2 SIM 2 sóng",
+		"Type": "Nano SIM",
+		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",
+		"GPS": "A-GPS, GLONASS",
+		"Bluetooth": "V4.0, A2DP, LE, EDR",
+		"NFC": "không",
+		"Charger": "Micro USB",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"Type": "Nguyên khối",
+		"Material": "Hợp kim nhôm + Magie",
+		"dimensions": "Dài 152.5 mm - Ngang 76.5 mm - Dày 7.5 mm",
+		"weight": "167 g"
+	},
+	"Battery": {
+		"Capacity": "3000 mAh",
+		"Type": "Pin chuẩn Li-Ion"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, WMV, H.264, DivX, Xvid",
+		"Music": "MP3, WAV, WMA, eAAC+, FLAC",
+		"Record": "Có",
+		"Radio": "Có",
+		"Other":"Mở khóa bằng vân tay"
+	}
+}

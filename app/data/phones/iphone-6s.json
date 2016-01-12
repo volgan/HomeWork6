@@ -1,0 +1,82 @@
+{
+	"id": "iphone-6s",
+	"name": "iPhone 6s 64GB",
+	"icon": "../images/phones/iphone-6s.jpg",
+	"slide": [
+		"../images/phones/iphone-6s-6.jpg",
+		"../images/phones/iphone-6s-7.jpg",
+		"../images/phones/iphone-6s-8.jpg",
+		"../images/phones/iphone-6s-9.jpg"
+	],
+	"images": [
+		"../images/phones/iphone-6s-1.jpg",
+		"../images/phones/iphone-6s-2.jpg",
+		"../images/phones/iphone-6s-3.jpg",
+		"../images/phones/iphone-6s-4.jpg",
+		"../images/phones/iphone-6s-5.jpg"
+	],
+	"Display": {
+		"screenTech": "LED-backlit IPS LCD",
+		"screenResolution": "1334 x 750 Pixels",
+		"screenSize": "4.7",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính oleophobic (ion cường lực)"
+	},
+	"CameraBehind": {
+		"primary": "12 MP",
+		"film": "Quay phim 4K 2160p@30fps",
+		"Flash": "Có",
+		"Advanced": "Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, Nhận diện nụ cười, HDR, Panorama, Chống rung quang học"
+	},
+	"CameraFront": {
+		"primary": "5 MP",
+		"film": "Có",
+		"VideoCall": "Có",
+		"Orther": "Nhận diện khuôn mặt, Tự động cân bằng sáng, Retina Flash, Làm mịn da."
+	},
+	"OS-CPU": {
+		"OS": "iOS9",
+		"Chipset": "Apple A9",
+		"NumCore": "2 nhân",
+		"Speed": "1.8 GHz",
+		"GPU": "PowerVR GT7600"
+	},
+	"Storage": {
+		"RAM": "2 GB",
+		"ROM": "64 GB",
+		"availability": "60.5GB",
+		"memoryCard": "Không",
+		"MaximumSupport": "Không"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "LTE Cat 6",
+		"NumSIM": "1 SIM",
+		"Type": "Nano SIM",
+		"Wifi": "Dual-band",
+		"GPS": "A-GPS, GLONASS",
+		"Bluetooth": "A2DP, V4.1",
+		"NFC": "Có",
+		"Charger": "Lightning",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"Type": "Nguyên khối",
+		"Material": "Hợp kim nhôm",
+		"dimensions": "Dài 138.3 mm - Ngang 67.1 mm - Dày 7.1 mm",
+		"weight": "143 g"
+	},
+	"Battery": {
+		"Capacity": "1715 mAh",
+		"Type": "Pin chuẩn Li-Po"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, AVI, WMV, H.263, H.264(MPEG4-AVC), DivX, Xvid",
+		"Music": "AMR, MP3, WAV, WMA, eAAC+",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Mở khóa bằng vân tay"
+	}
+}

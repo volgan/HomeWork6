@@ -1,0 +1,87 @@
+{
+    "id": "dell-inspiron-5458",
+    "name": "Laptop Dell Inspiron 5458",
+    "icon": "../images/laptop/dell-inspiron-5458.png",
+    "image":"../images/laptop/dell-inspiron-5458-14.jpg",
+    "slide": [
+        "../images/laptop/dell-inspiron-5458-10.jpg",
+        "../images/laptop/dell-inspiron-5458-11.jpg",
+        "../images/laptop/dell-inspiron-5458-12.jpg",
+        "../images/laptop/dell-inspiron-5458-13.jpg"
+    ],
+    "images": [
+        "../images/laptop/dell-inspiron-5458-1.jpg",
+        "../images/laptop/dell-inspiron-5458-2.jpg",
+        "../images/laptop/dell-inspiron-5458-3.jpg",
+        "../images/laptop/dell-inspiron-5458-4.jpg",
+        "../images/laptop/dell-inspiron-5458-5.jpg",
+        "../images/laptop/dell-inspiron-5458-6.jpg",
+        "../images/laptop/dell-inspiron-5458-7.jpg",
+        "../images/laptop/dell-inspiron-5458-8.jpg",
+        "../images/laptop/dell-inspiron-5458-9.jpg"
+    ],
+    "CPU":{
+    	"Manufacturer": "Intel",
+    	"Tech": "Core i7 Broadwell",
+    	"Type": " 5550U",
+    	"Speed": "2.40 GHz",
+    	"Cache": "Intel® Smart Cache, 3 MB",
+    	"MaxSpeed": "Turbo Boost 3.0GHz"
+    },
+    "MainBoard":{
+    	"Chipset":"Intel® HM8 Series Express Chipset",
+    	"Bus":"1600Mhz",
+    	"SupporRam":"16GB"
+    },
+    "Storage":{
+    	"Type": "DDR3L (2 khe RAM)",
+    	"RAM": "4Gb",
+    	"Bus": "1600 Mhz"
+    },
+    "HardDisk":{
+    	"Type": "HDD",
+    	"Capacity": "1 TB"
+    },
+    "Display":{
+    	"ScreenSize":"14",
+    	"screenResolution":"HD (1366 x 768 pixels)",
+    	"Tech":"HD WLED TrueLife",
+    	"touchScreen":"Không"
+    },
+    "Graphics":{
+    	"Chipset":"NVIDIA® GeForce® 920M",
+    	"Capacity":"2GB",
+    	"Design":"Card rời"
+    },
+    "Audio":{
+    	"Channels": "2.0",
+    	"Other":"Combo Microphone & Headphone"
+    },
+    "CD":{
+    	"CD":"Có",
+    	"Type":"DVD Super Multi Double Layer"
+    },
+    "Interface":{
+    	"Interfaces":"2 x USB 2.0, HDMI, LAN (RJ45), USB 3.0",
+    	"Other":"Multi TouchPad"
+    },
+    "Network":{
+    	"LAN":"10/100/1000 Mbps Ethernet LAN (RJ-45 connector)",
+    	"Wifi":"802.11b/g/n",
+    	"Other":"Bluetooth v4.0"
+    },
+    "CardReader":{
+    	"Support":"Có",
+    	"Type":"MMC, SD, SDXC, SDHC"
+    },
+    "Webcam":{
+    	"Resolution":"0.9 MP(16:9)",
+    	"Other":"HD webcam"
+    },
+    "Battery":"Li-Ion 4 cell",
+    "OS":"Windows 10",
+    "Design":{
+    	"dimensions":"Dài 345 mm - Ngang 243 mm - Dày 23.35 mm",
+    	"weight":"2.0 kg"
+    }
+}

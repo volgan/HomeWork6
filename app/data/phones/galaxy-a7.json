@@ -1,0 +1,82 @@
+{
+	"id": "galaxy-a7",
+	"name": "Samsung Galaxy A7",
+	"icon": "../images/phones/galaxy-a7.jpg",
+	"slide": [
+		"../images/phones/galaxy-a7-6.jpg",
+		"../images/phones/galaxy-a7-7.jpg",
+		"../images/phones/galaxy-a7-8.jpg",
+		"../images/phones/galaxy-a7-9.jpg"
+	],
+	"images": [
+		"../images/phones/galaxy-a7-1.jpg",
+		"../images/phones/galaxy-a7-2.jpg",
+		"../images/phones/galaxy-a7-3.jpg",
+		"../images/phones/galaxy-a7-4.jpg",
+		"../images/phones/galaxy-a7-5.jpg"
+	],
+	"Display": {
+		"screenTech": "Super AMOLED",
+		"screenResolution": "1080 x 1920 pixels",
+		"screenSize": "5.5",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính cường lực Gorilla Glass 4"
+	},
+	"CameraBehind": {
+		"primary": "13 MP",
+		"film": "Quay phim FullHD 1080p@30fps",
+		"Flash": "Có",
+		"Advanced": "Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, Panorama"
+	},
+	"CameraFront": {
+		"primary": "5 MP",
+		"film": "Có",
+		"VideoCall": "Có",
+		"Orther": "Nhận diện khuôn mặt, Làm mịn da"
+	},
+	"OS-CPU": {
+		"OS": "Android 4.4 (KitKat)",
+		"Chipset": "Snapdragon 615",
+		"NumCore": "8 nhân",
+		"Speed": "Quad-core 1.5 GHz + Quad-core 1 GHz",
+		"GPU": "Adreno 405"
+	},
+	"Storage": {
+		"RAM": "2 GB",
+		"ROM": "16 GB",
+		"availability": "Đang cập nhật",
+		"memoryCard": "MicroSD (T-Flash)",
+		"MaximumSupport": "64 GB"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "Không",
+		"NumSIM": "2 SIM 2 sóng",
+		"Type": "Nano SIM",
+		"Wifi": "Wi-Fi Direct",
+		"GPS": "A-GPS, GLONASS",
+		"Bluetooth": "V4.0, A2DP, LE, EDR",
+		"NFC": "không",
+		"Charger": "Micro USB",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"Type": "Nguyên khối",
+		"Material": "Hợp kim nhôm",
+		"dimensions": "Dài 151 mm - Ngang 76.3 mm - Dày 6.3 mm",
+		"weight": "133 g"
+	},
+	"Battery": {
+		"Capacity": "2600 mAh",
+		"Type": "Pin chuẩn Li-Ion"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, WMV, H.264, DivX, Xvid",
+		"Music": "MP3, WAV, WMA, eAAC+, FLAC",
+		"Record": "Có",
+		"Radio": "Có",
+		"Other":"Không"
+	}
+}

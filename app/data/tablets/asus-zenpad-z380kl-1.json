@@ -1,0 +1,72 @@
+{
+	"id": "asus-zenpad-z380kl",
+	"name": "Asus Zenpad Z380KL",
+	"icon": "../images/tablet/asus-zenpad-z380kl.jpg",
+	"slide": [
+		"../images/tablet/asus-zenpad-z380kl-6.jpg",
+		"../images/tablet/asus-zenpad-z380kl-7.jpg",
+		"../images/tablet/asus-zenpad-z380kl-8.jpg"
+	],
+	"images": [
+		"../images/tablet/asus-zenpad-z380kl-1.jpg",
+		"../images/tablet/asus-zenpad-z380kl-2.jpg",
+		"../images/tablet/asus-zenpad-z380kl-3.jpg",
+		"../images/tablet/asus-zenpad-z380kl-4.jpg"
+	],
+	"general":{
+		"OS": "Android 5.0",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "IPS WXGA LED",
+		"screenResolution": "1280 x 800 pixels",
+		"screenSize": "8",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "Qualcomm MSM8916",
+		"NumCore": "Quad-core",
+		"Speed": "1.2 GHz",
+		"GPU": "Adreno 306",
+		"RAM": "2 GB"
+	},
+	"Storage":{
+		"ROM": "16 GB",
+		"memoryCard": "Micro SD",
+		"MaximumSupport": "64 GB"
+	},
+	"Camera":{
+		"Behind": "8 MP, 3264 x 2448 pixels, công nghệ Pixel Master, autofocus",
+		"Front": "2.0 MP",
+		"Advanced": "Geo-tagging, touch focus, face/smile detection, HDR",
+		"Film": "Có quay phim"
+	},
+	"Connection":{
+		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"4G": "LTE",
+		"Wifi": "Wi-Fi 802.11 b/g/n",
+		"Conversation": "Không",
+		"SIM": "2 sim - Loại sim: micro",
+		"Bluetooth": "4.0",
+		"GPS": "A-GPS, GLONASS",
+		"USB": "Micro USB",
+		"HDMI": "Không",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"dimensions": "Dài 209 mm - Ngang 123 mm - Dày 8.5 mm",
+		"weight": "340 g"
+	},
+	"Battery": {
+		"Capacity": "Thời lượng pin 10 tiếng",
+		"Type": "Lithium - Po"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MPEG-4, MP4",
+		"Music": "MP3, MIDI",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Không"
+	}
+}

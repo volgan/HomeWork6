@@ -1,0 +1,73 @@
+{
+	"id": "lenovo-phab-plus",
+	"name": "Lenovo Phab Plus",
+	"icon": "../images/tablet/lenovo-phab-plus.jpg",
+	"slide": [
+		"../images/tablet/lenovo-phab-plus-6.jpg",
+		"../images/tablet/lenovo-phab-plus-7.jpg",
+		"../images/tablet/lenovo-phab-plus-8.jpg"
+	],
+	"images": [
+		"../images/tablet/lenovo-phab-plus-1.jpg",
+		"../images/tablet/lenovo-phab-plus-2.jpg",
+		"../images/tablet/lenovo-phab-plus-3.jpg",
+		"../images/tablet/lenovo-phab-plus-4.jpg",
+		"../images/tablet/lenovo-phab-plus-5.jpg"
+	],
+	"general":{
+		"OS": "Android 5.0",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "IPS LCD",
+		"screenResolution": "1920 x 1080 pixels",
+		"screenSize": "7",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "Qualcomm Snapdragon 615",
+		"NumCore": "8 nhân",
+		"Speed": "1.5 GHz",
+		"GPU": "Adreno 405",
+		"RAM": "2 GB"
+	},
+	"Storage":{
+		"ROM": "32 GB",
+		"memoryCard": "Micro SD",
+		"MaximumSupport": "64 GB"
+	},
+	"Camera":{
+		"Behind": "13 MP",
+		"Front": "5 MP",
+		"Advanced": "Gắn thẻ địa lý, Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, HDR, Panorama",
+		"Film": "Có quay phim"
+	},
+	"Connection":{
+		"3G": "Có 3G",
+		"4G": "Có",
+		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac",
+		"Conversation": "Có, 2 Sim 2 Sóng",
+		"SIM": "Micro sim",
+		"Bluetooth": "4.0",
+		"GPS": "A-GPS",
+		"USB": "Micro USB",
+		"HDMI": "Không",
+		"audioJack": "3.5 mm",
+		"other": "OTG"
+	},
+	"Design": {
+		"dimensions": "Dài 186.6 mm - Ngang 96.6 mm - Dày 7.6 mm",
+		"weight": "229 g"
+	},
+	"Battery": {
+		"Capacity": "3500 mAh",
+		"Type": "Lithium - Polymer"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, H.264",
+		"Music": "MP3, WAV",
+		"Record": "Có",
+		"Radio": "Có",
+		"Other":"Không"
+	}
+}

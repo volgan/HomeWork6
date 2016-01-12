@@ -1,0 +1,81 @@
+{
+	"id": "zenfone-2-laser-zẹ00kg",
+	"name": "Asus Zenfone 2 Laser",
+	"icon": "../images/phones/zenfone-2-laser-ze500kg.jpg",
+	"slide": [
+		"../images/phones/zenfone-2-laser-ze500kg-6.jpg",
+		"../images/phones/zenfone-2-laser-ze500kg-7.jpg",
+		"../images/phones/zenfone-2-laser-ze500kg-8.jpg"
+	],
+	"images": [
+		"../images/phones/zenfone-2-laser-ze500kg-1.jpg",
+		"../images/phones/zenfone-2-laser-ze500kg-2.jpg",
+		"../images/phones/zenfone-2-laser-ze500kg-3.jpg",
+		"../images/phones/zenfone-2-laser-ze500kg-4.jpg",
+		"../images/phones/zenfone-2-laser-ze500kg-5.jpg"
+	],
+	"Display": {
+		"screenTech": "IPS LCD",
+		"screenResolution": "720 x 1280 pixels",
+		"screenSize": "5.0",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính cường lực Gorilla Glass 4"
+	},
+	"CameraBehind": {
+		"primary": "8 MP",
+		"film": "Quay phim FullHD 1080@30fps",
+		"Flash": "Có",
+		"Advanced": "Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, HDR, Panorama"
+	},
+	"CameraFront": {
+		"primary": "5 MP",
+		"film": "Có",
+		"VideoCall": "Có",
+		"Orther": "Tự động lấy nét"
+	},
+	"OS-CPU": {
+		"OS": "Android 5e (Lollipop)",
+		"Chipset": "Snapdragon 410",
+		"NumCore": "4 nhân",
+		"Speed": "1.2 GHz",
+		"GPU": "Adreno 306"
+	},
+	"Storage": {
+		"RAM": "2 GB",
+		"ROM": "16 GB",
+		"availability": "Đang cập nhật",
+		"memoryCard": "MicroSD (T-Flash)",
+		"MaximumSupport": "128 GB"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "Không",
+		"NumSIM": "2 SIM 2 sóng",
+		"Type": "Micro SIM",
+		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",
+		"GPS": "A-GPS, GLONASS",
+		"Bluetooth": "V4.0, A2DP, EDR",
+		"NFC": "không",
+		"Charger": "Micro USB",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"Type": "Pin rời",
+		"Material": "Nhựa",
+		"dimensions": "Dài 143.7 mm - Ngang 71.5 mm - Dày 10.5 mm",
+		"weight": "170 g"
+	},
+	"Battery": {
+		"Capacity": "2070 mAh",
+		"Type": "Pin chuẩn Li-Po"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, WMV, H.264, DivX, Xvid",
+		"Music": "MP3, WAV, WMA, eAAC+, FLAC",
+		"Record": "Có",
+		"Radio": "Có",
+		"Other":"Không"
+	}
+}

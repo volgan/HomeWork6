@@ -1,0 +1,46 @@
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('../fonts/Oswald/Oswald-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Sigmar;
+    src: url('../fonts/Sigmar_One/SigmarOne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body {
+    font-family: OpenSans;
+}
+
+.fabSpeedDialdemoBasicUsage .text-capitalize {
+    text-transform: capitalize;
+}
+
+.fabSpeedDialdemoBasicUsage .md-fab:hover,
+.fabSpeedDialdemoBasicUsage .md-fab.md-focused {
+    background-color: #000 !important;
+}
+
+.fabSpeedDialdemoBasicUsage p.note {
+    font-size: 1.2rem;
+}
+
+.fabSpeedDialdemoBasicUsage .lock-size {
+    min-width: 300px;
+    min-height: 300px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,84 @@
+{
+    "id": "hp-pavilion-15-ab254tx-i7-6500u",
+    "name": "Laptop HP Pavilion 15 ab254TX i7 6500U",
+    "icon": "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u.png",
+    "image":"../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-14.jpg",
+    "slide": [
+        
+    ],
+    "images": [
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-1.jpg",
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-2.jpg",
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-3.jpg",
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-4.jpg",
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-5.jpg",
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-6.jpg",
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-7.jpg",
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-8.jpg",
+        "../images/laptop/hp-pavilion-15-ab254tx-i7-6500u-9.jpg"
+    ],
+    "CPU":{
+    	"Manufacturer": "Intel",
+    	"Tech": "Core i7 Skylake",
+    	"Type": " 6500U",
+    	"Speed": "2.50 GHz",
+    	"Cache": "Intel® Smart Cache, 4 MB, L3 Cache",
+    	"MaxSpeed": "Turbo Boost 3.1GHz"
+    },
+    "MainBoard":{
+    	"Chipset":"Intel® HM8 Series Express Chipset",
+    	"Bus":"1600Mhz",
+    	"SupporRam":"16GB"
+    },
+    "Storage":{
+    	"Type": "DDR3L (2 khe RAM)",
+    	"RAM": "4Gb",
+    	"Bus": "1600 Mhz"
+    },
+    "HardDisk":{
+    	"Type": "HDD",
+    	"Capacity": "1 TB"
+    },
+    "Display":{
+    	"ScreenSize":"15.6",
+    	"screenResolution":"HD (1366 x 768 pixels)",
+    	"Tech":"HD BrightView LED-backlit",
+    	"touchScreen":"Không"
+    },
+    "Graphics":{
+    	"Chipset":"NVIDIA® GeForce® 920M",
+    	"Capacity":"2GB",
+    	"Design":"Card rời"
+    },
+    "Audio":{
+    	"Channels": "2.0",
+    	"Other":"Combo Microphone & Headphone"
+    },
+    "CD":{
+    	"CD":"Có",
+    	"Type":"DVD Super Multi Double Layer"
+    },
+    "Interface":{
+    	"Interfaces":"2 x USB 3.0, HDMI, LAN (RJ45), USB 2.0",
+    	"Other":"HP ProtectSmart, HP CoolSense"
+    },
+    "Network":{
+    	"LAN":"10/100/1000 Mbps Ethernet LAN (RJ-45 connector)",
+    	"Wifi":"802.11b/g/n",
+    	"Other":"Bluetooth v4.0"
+    },
+    "CardReader":{
+    	"Support":"Có",
+    	"Type":"SD, SDXC, SDHC"
+    },
+    "Webcam":{
+    	"Resolution":"0.9 MP(16:9)",
+    	"Other":"HD webcam"
+    },
+    "Battery":"Li-Ion 4 cell",
+    "OS":"Windows 10",
+    "Design":{
+    	"dimensions":"Dài 384mm - Ngang 261 mm - Dày 25.2 mm",
+    	"weight":"2.1 kg"
+    }
+}

@@ -1,0 +1,81 @@
+{
+	"id": "mobiistar-lai-zumbo",
+	"name": "Mobiistar LAI Zumbo",
+	"icon": "../images/phones/mobiistar-lai-zumbo.jpg",
+	"slide": [
+		"../images/phones/mobiistar-lai-zumbo-6.jpg",
+		"../images/phones/mobiistar-lai-zumbo-7.jpg",
+		"../images/phones/mobiistar-lai-zumbo-8.jpg",
+		"../images/phones/mobiistar-lai-zumbo-9.jpg"
+	],
+	"images": [
+		"../images/phones/mobiistar-lai-zumbo-1.jpg",
+		"../images/phones/mobiistar-lai-zumbo-2.jpg",
+		"../images/phones/mobiistar-lai-zumbo-3.jpg",
+		"../images/phones/mobiistar-lai-zumbo-4.jpg"
+	],
+	"Display": {
+		"screenTech": "IPS LCD",
+		"screenResolution": "720 x 1280 pixels",
+		"screenSize": "5.5 inches",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính thường"
+	},
+	"CameraBehind": {
+		"primary": "8 MP",
+		"film": "Có",
+		"Flash": "Có",
+		"Advanced": "Tự động lấy nét"
+	},
+	"CameraFront": {
+		"primary": "5 MP",
+		"film": "Có",
+		"VideoCall": "Hỗ trợ VideoCall thông qua ứng dụng OTT",
+		"Orther": "Không"
+	},
+	"OS-CPU": {
+		"OS": "Android 5.1 (Lollipop)",
+		"Chipset": "Cortex-A7",
+		"NumCore": "4 nhân",
+		"Speed": "1.2 GHz",
+		"GPU": "Mali-400MP"
+	},
+	"Storage": {
+		"RAM": "2 GB",
+		"ROM": "16 GB",
+		"availability": "Đang cập nhật",
+		"memoryCard": "MicroSD (T-Flash)",
+		"MaximumSupport": "32 GB"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "Không",
+		"NumSIM": "2 SIM 2 sóng",
+		"Type": "1 SIM thường & 1 Micro SIM",
+		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",
+		"GPS": "A-GPS",
+		"Bluetooth": "Có",
+		"NFC": "Không",
+		"Charger": "Micro USB",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"Type": "Pin rời",
+		"Material": "Nhựa",
+		"dimensions": "Dài 151.4 mm - Ngang 76.37 mm - Dày 8.15 mm",
+		"weight": "160 g"
+	},
+	"Battery": {
+		"Capacity": "3000 mAh",
+		"Type": "Pin chuẩn Li-Ion"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, AVI, WMV, H.263, H.264(MPEG4-AVC), DivX, Xvid",
+		"Music": "AMR, MP3, WAV, WMA, eAAC+",
+		"Record": "Có, microphone chuyên dụng chống ồn",
+		"Radio": "Có",
+		"Other":"Không"
+	}
+}

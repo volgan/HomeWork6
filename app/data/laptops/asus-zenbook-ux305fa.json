@@ -1,0 +1,87 @@
+{
+    "id": "asus-zenbook-ux305fa",
+    "name": "Laptop Asus Zenbook UX305FA",
+    "icon": "../images/laptop/asus-zenbook-ux305fa.png",
+    "image":"../images/laptop/asus-zenbook-ux305fa-14.jpg",
+    "slide": [
+        "../images/laptop/asus-zenbook-ux305fa-10.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-11.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-12.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-13.jpg"
+    ],
+    "images": [
+        "../images/laptop/asus-zenbook-ux305fa-1.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-2.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-3.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-4.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-5.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-6.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-7.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-8.jpg",
+        "../images/laptop/asus-zenbook-ux305fa-9.jpg"
+    ],
+    "CPU":{
+    	"Manufacturer": "Intel",
+    	"Tech": "Core M",
+    	"Type": "5Y10",
+    	"Speed": "800Mhz",
+    	"Cache": "Intel® Smart Cache, 4 MB",
+    	"MaxSpeed": "2 GHz"
+    },
+    "MainBoard":{
+    	"Chipset":"Intel® HM Series Express Chipset",
+    	"Bus":"1600Mhz",
+    	"SupporRam":"Không hỗ trợ nâng cấp"
+    },
+    "Storage":{
+    	"Type": "DDR3 (On board)",
+    	"RAM": "8Gb",
+    	"Bus": "1600 Mhz"
+    },
+    "HardDisk":{
+    	"Type": "SSD",
+    	"Capacity": "128 GB"
+    },
+    "Display":{
+    	"ScreenSize":"13.3",
+    	"screenResolution":"FHD (1920 x 1080 pixels)",
+    	"Tech":"IPS LCD",
+    	"touchScreen":"Không"
+    },
+    "Graphics":{
+    	"Chipset":"Intel HD Graphics 5300",
+    	"Capacity":"Share (Dùng chung bộ nhớ với RAM)",
+    	"Design":"Tích hợp"
+    },
+    "Audio":{
+    	"Channels": "2.0",
+    	"Other":"Combo Microphone & Headphone"
+    },
+    "CD":{
+    	"CD":"Không",
+    	"Type":"Không"
+    },
+    "Interface":{
+    	"Interfaces":"3 x USB 3.0, Micro HDMI",
+    	"Other":"USB Charge, Instant On, Smart Gesture, Power4Gear Hybrid"
+    },
+    "Network":{
+    	"LAN":"10/100/1000 Mbps Ethernet LAN (RJ-45 connector)",
+    	"Wifi":"802.11ac",
+    	"Other":"Không"
+    },
+    "CardReader":{
+    	"Support":"Có",
+    	"Type":"SD, SDXC"
+    },
+    "Webcam":{
+    	"Resolution":"0.9 MP(16:9)",
+    	"Other":"HD webcam"
+    },
+    "Battery":"45 Whrs Li-Po khoảng 10 tiếng",
+    "OS":"Windows 10",
+    "Design":{
+    	"dimensions":"Dài 345 mm - Ngang 243 mm - Dày 23.35 mm",
+    	"weight":"2.0 kg"
+    }
+}

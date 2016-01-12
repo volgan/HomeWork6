@@ -1,0 +1,77 @@
+{
+	"id": "asus-zenpad-z300cg",
+	"name": "Asus Zenpad Z300CG",
+	"icon": "../images/tablet/asus-zenpad-z300cg.jpg",
+	"slide": [
+		"../images/tablet/asus-zenpad-z300cg-9.jpg",
+		"../images/tablet/asus-zenpad-z300cg-10.jpg",
+		"../images/tablet/asus-zenpad-z300cg-11.jpg",
+		"../images/tablet/asus-zenpad-z300cg-12.jpg"
+	],
+	"images": [
+		"../images/tablet/asus-zenpad-z300cg-1.jpg",
+		"../images/tablet/asus-zenpad-z300cg-2.jpg",
+		"../images/tablet/asus-zenpad-z300cg-3.jpg",
+		"../images/tablet/asus-zenpad-z300cg-4.jpg",
+		"../images/tablet/asus-zenpad-z300cg-5.jpg",
+		"../images/tablet/asus-zenpad-z300cg-6.jpg",
+		"../images/tablet/asus-zenpad-z300cg-7.jpg",
+		"../images/tablet/asus-zenpad-z300cg-8.jpg"		
+	],
+	"general":{
+		"OS": "Android 5.0",
+		"Lang": "Đa ngôn ngữ"
+	},
+	"display":{
+		"screenTech": "LED Backlight WXGA",
+		"screenResolution": "1280 x 800 pixels",
+		"screenSize": "10.1",
+		"touchScreen": "Cảm ứng điện dung đa điểm"
+	},
+	"CPU-RAM":{
+		"Chipset": "Intel® Atom™ x3-C3230",
+		"NumCore": "Quad-core",
+		"Speed": "1 GHz",
+		"GPU": "Mali-450 MP4",
+		"RAM": "2 GB"
+	},
+	"Storage":{
+		"ROM": "8 GB",
+		"memoryCard": "Micro SD",
+		"MaximumSupport": "64 GB"
+	},
+	"Camera":{
+		"Behind": "2 MP",
+		"Front": "0.3 MP",
+		"Advanced": "Không",
+		"Film": "Có quay phim"
+	},
+	"Connection":{
+		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"4G": "Không",
+		"Wifi": "Wi-Fi 802.11 b/g/n",
+		"Conversation": "Không",
+		"SIM" : "1 micro SIM",
+		"Bluetooth": "4.0",
+		"GPS": "GLONASS",
+		"USB": "Micro USB",
+		"HDMI": "Không",
+		"audioJack": "3.5 mm",
+		"other": "Không"
+	},
+	"Design": {
+		"dimensions": "Dài 251.6 mm - Ngang 172 mm - Dày 7.9 mm",
+		"weight": "510 g"
+	},
+	"Battery": {
+		"Capacity": "Thời gian sống 8h",
+		"Type": "Lithium - Polymer"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MPEG-4, MP4",
+		"Music": "MP3, MIDI",
+		"Record": "Có",
+		"Radio": "Không",
+		"Other":"Không"
+	}
+}

@@ -1,0 +1,87 @@
+{
+    "id": "acer-e5-573g-i7-4510u",
+    "name": "Laptop Acer E5 573G i7 4510U",
+    "icon": "../images/laptop/acer-e5-573g-i7-4510u.png",
+    "image":"../images/laptop/acer-e5-573g-i7-4510u-14.jpg",
+    "slide": [
+        "../images/laptop/acer-e5-573g-i7-4510u-10.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-11.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-12.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-13.jpg"
+    ],
+    "images": [
+        "../images/laptop/acer-e5-573g-i7-4510u-1.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-2.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-3.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-4.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-5.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-6.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-7.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-8.jpg",
+        "../images/laptop/acer-e5-573g-i7-4510u-9.jpg"
+    ],
+    "CPU":{
+    	"Manufacturer": "Intel",
+    	"Tech": "Core i7 Haswell",
+    	"Type": " 4510U",
+    	"Speed": "2.00 GHz",
+    	"Cache": "Intel® Smart Cache, 3 MB",
+    	"MaxSpeed": "Turbo Boost 3.1GHz"
+    },
+    "MainBoard":{
+    	"Chipset":"Intel® HM8 Series Express Chipset",
+    	"Bus":"1600Mhz",
+    	"SupporRam":"16GB"
+    },
+    "Storage":{
+    	"Type": "DDR3L (2 khe RAM)",
+    	"RAM": "4Gb",
+    	"Bus": "1600 Mhz"
+    },
+    "HardDisk":{
+    	"Type": "HDD",
+    	"Capacity": "500 GB"
+    },
+    "Display":{
+    	"ScreenSize":"15.6",
+    	"screenResolution":"HD (1366 x 768 pixels)",
+    	"Tech":"ACER CineCrystal LED Backlight",
+    	"touchScreen":"Không"
+    },
+    "Graphics":{
+    	"Chipset":"NVIDIA® GeForce® 920M",
+    	"Capacity":"2GB",
+    	"Design":"Card rời"
+    },
+    "Audio":{
+    	"Channels": "2.0",
+    	"Other":"Combo Microphone & Headphone"
+    },
+    "CD":{
+    	"CD":"Có",
+    	"Type":"DVD Super Multi Double Layer"
+    },
+    "Interface":{
+    	"Interfaces":"2 x USB 3.0, HDMI, LAN (RJ45), USB 2.0, VGA (D-Sub)",
+    	"Other":"ENERGY STAR"
+    },
+    "Network":{
+    	"LAN":"10/100/1000 Mbps Ethernet LAN (RJ-45 connector)",
+    	"Wifi":"802.11b/g/n",
+    	"Other":"Bluetooth v4.0"
+    },
+    "CardReader":{
+    	"Support":"Có",
+    	"Type":"SD, SDXC, SDHC"
+    },
+    "Webcam":{
+    	"Resolution":"0.9 MP(16:9)",
+    	"Other":"HD webcam"
+    },
+    "Battery":"Li-Ion 4 cell",
+    "OS":"Windows 10",
+    "Design":{
+    	"dimensions":"Dài 381.6 mm - Ngang 256 mm - Dày 29.2 mm",
+    	"weight":"2.14 kg"
+    }
+}

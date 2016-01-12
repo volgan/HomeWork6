@@ -1,0 +1,47 @@
+.tabletList{
+	width: 92%;
+}
+.tabletList .row{
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+}
+.itemTab .name{
+	font-family: OpenSans;
+	line-height: 1.3em;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	height: 20px;
+	padding-top: 5px;
+}
+.itemTab .name a{
+	color: black;
+}
+.itemTab .price{
+	color: #d0021b;
+	font-weight: bold;
+}
+.itemTab{
+	height: 430px;
+	width: 280px;
+	border: 1px solid #ececec;
+	overflow: hidden;
+}
+.itemTab .imgItem{
+	padding-top: 20px;
+}
+.imgItem a{
+	padding-left: 30px;
+}
+.itemTab:hover a{
+	color: #4a90e2;
+}
+.itemTab span{
+	display: block;
+	color: #666;
+	text-decoration: none;
+	line-height: 21px;
+	font-size: 13px;
+}

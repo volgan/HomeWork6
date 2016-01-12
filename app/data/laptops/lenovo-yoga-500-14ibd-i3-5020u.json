@@ -1,0 +1,87 @@
+{
+    "id": "lenovo-yoga-500-14ibd-i3-5020u",
+    "name": "Laptop Lenovo Yoga 500 14IBD i3 5020U",
+    "icon": "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u.png",
+    "image":"../images/laptop/lenovo-yoga-500-14ibd-i3-5020u.jpg",
+    "slide": [
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-10.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-11.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-12.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-13.jpg"
+    ],
+    "images": [
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-1.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-2.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-3.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-4.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-5.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-6.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-7.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-8.jpg",
+        "../images/laptop/lenovo-yoga-500-14ibd-i3-5020u-9.jpg"
+    ],
+    "CPU":{
+    	"Manufacturer": "Intel",
+    	"Tech": "Core i3 Broadwell",
+    	"Type": " 5020U",
+    	"Speed": "2.20 GHz",
+    	"Cache": "Intel® Smart Cache, 1 MB, L2 Cache",
+    	"MaxSpeed": "Không"
+    },
+    "MainBoard":{
+    	"Chipset":"Intel® HM8 Series Express Chipset",
+    	"Bus":"1600Mhz",
+    	"SupporRam":"Không hỗ trợ nâng cấp"
+    },
+    "Storage":{
+    	"Type": "DDR3L (1 khe RAM)",
+    	"RAM": "4Gb",
+    	"Bus": "1600 Mhz"
+    },
+    "HardDisk":{
+    	"Type": "HDD",
+    	"Capacity": "500 GB"
+    },
+    "Display":{
+    	"ScreenSize":"14",
+    	"screenResolution":"FHD (1920 x 1080 pixels)",
+    	"Tech":"cảm ứng điện dung đa điểm, LED Backlit",
+    	"touchScreen":"Có"
+    },
+    "Graphics":{
+    	"Chipset":"Intel® HD Graphics 5500",
+    	"Capacity":"Share (Dùng chung bộ nhớ với RAM)",
+    	"Design":"Tích hợp"
+    },
+    "Audio":{
+    	"Channels": "2.0",
+    	"Other":"Combo Microphone & Headphone"
+    },
+    "CD":{
+    	"CD":"Không",
+    	"Type":"Không"
+    },
+    "Interface":{
+    	"Interfaces":"2 x USB 3.0, LAN (RJ45), Micro HDMI, USB 2.0",
+    	"Other":"AccuType Keyboard"
+    },
+    "Network":{
+    	"LAN":"10/100/1000 Mbps Ethernet LAN (RJ-45 connector)",
+    	"Wifi":"802.11b/g/n",
+    	"Other":"Bluetooth v4.0"
+    },
+    "CardReader":{
+    	"Support":"Có",
+    	"Type":"MMC, SD, SDXC, SDHC"
+    },
+    "Webcam":{
+    	"Resolution":"0.9 MP(16:9)",
+    	"Other":"HD webcam"
+    },
+    "Battery":"Li-Ion 3 cell",
+    "OS":"Windows 10",
+    "Design":{
+    	"dimensions":"Dài 340 mm - Ngang 235 mm - Dày 21.5 mm",
+    	"weight":"1.8 kg"
+    }
+}

@@ -1,0 +1,82 @@
+{
+	"id": "oppo-r7s",
+	"name": "OPPO R7s",
+	"icon": "../images/phones/oppo-r7s.jpg",
+	"slide": [
+		"../images/phones/oppo-r7s-6.jpg",
+		"../images/phones/oppo-r7s-7.jpg",
+		"../images/phones/oppo-r7s-8.jpg",
+		"../images/phones/oppo-r7s-9.jpg"
+	],
+	"images": [
+		"../images/phones/oppo-r7s-1.jpg",
+		"../images/phones/oppo-r7s-2.jpg",
+		"../images/phones/oppo-r7s-3.jpg",
+		"../images/phones/oppo-r7s-4.jpg",
+		"../images/phones/oppo-r7s-5.jpg"
+	],
+	"Display": {
+		"screenTech": "AMOLED",
+		"screenResolution": "1080 x 1920 pixels",
+		"screenSize": "5.5",
+		"touchScreen": "Cảm ứng điện dung đa điểm",
+		"glassTouch": "Kính cường lực Gorilla Glass 4"
+	},
+	"CameraBehind": {
+		"primary": "13 MP",
+		"film": "Quay phim FullHD 1080p@30fps",
+		"Flash": "Có",
+		"Advanced": "Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, HDR, Panorama"
+	},
+	"CameraFront": {
+		"primary": "8 MP",
+		"film": "Có",
+		"VideoCall": "Có",
+		"Orther": "Làm mịn da"
+	},
+	"OS-CPU": {
+		"OS": "Android 5.1 (Lollipop)",
+		"Chipset": "Qualcomm Snapdragon 615",
+		"NumCore": "8 nhân",
+		"Speed": "Quad-core 1.5 GHz + Quad-core 1 GHz",
+		"GPU": "Adreno 405"
+	},
+	"Storage": {
+		"RAM": "4 GB",
+		"ROM": "32 GB",
+		"availability": "Đang cập nhật",
+		"memoryCard": "MicroSD (T-Flash)",
+		"MaximumSupport": "128 GB"
+	},
+	"Connection": {
+		"2G": "GSM 850/900/1800/1900",
+		"3G": "HSDPA 850/900/1900/2100, LTE",
+		"4G": "LTE Cat 6",
+		"NumSIM": "2 SIM 2 sóng",
+		"Type": "1 Nano + 1 Micro",
+		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi hotspot",
+		"GPS": "A-GPS, GLONASS",
+		"Bluetooth": "V4.0, A2DP",
+		"NFC": "Không",
+		"Charger": "Micro USB",
+		"audioJack": "3.5 mm",
+		"other": "OTG"
+	},
+	"Design": {
+		"Type": "Nguyên khối",
+		"Material": "Hợp kim Nhôm + Magie",
+		"dimensions": "Dài 151.8 mm - Ngang 75.4 mm - Dà̀y 7 mm",
+		"weight": "155 g"
+	},
+	"Battery": {
+		"Capacity": "3070 mAh",
+		"Type": "Pin chuẩn Li-Po"
+	},
+	"Entertaiment":{
+		"WatchMovie": "MP4, H.264",
+		"Music": "MP3, WAV, eAAC, FLAC",
+		"Record": "Có, microphone chuyên dụng chống ồn",
+		"Radio": "Có",
+		"Other":"Sạ̣c pin nhanh"
+	}
+}
