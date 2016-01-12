@@ -30,43 +30,43 @@ function configFunc($stateProvider, $urlRouterProvider, $facebookProvider) {
         })
         .state('Phones', {
             url: '/Phone',
-            templateUrl: 'components/phones/phone-list.html',
+            templateUrl: 'components/phones/list/phone-list.html',
             controller: 'PhoneListController',
             controllerAs: 'PhoneList'
         })
         .state('PhonesDetails', {
             url: '/Phone/:PhoneId',
-            templateUrl: 'components/phones/phone-detail.html',
+            templateUrl: 'components/phones/detail/phone-detail.html',
             controller: 'PhoneDetailController',
             controllerAs: 'PhoneDetail'
         })
         .state('Laptop', {
             url: '/Laptop',
-            templateUrl: 'components/laptops/laptop-list.html',
+            templateUrl: 'components/laptops/list/laptop-list.html',
             controller: 'LaptopListController',
             controllerAs: 'LaptopList'
         })
         .state('LaptopDetails', {
             url: '/Laptop/:LaptopId',
-            templateUrl: 'components/laptops/laptop-detail.html',
+            templateUrl: 'components/laptops/detail/laptop-detail.html',
             controller: 'LaptopDetailController',
             controllerAs: 'LaptopDetail'
         })
         .state('Tablets', {
             url: '/Tablet',
-            templateUrl: 'components/tablets/tablet-list.html',
+            templateUrl: 'components/tablets/list/tablet-list.html',
             controller: 'TabletListController',
             controllerAs: 'TabletList'
         })
         .state('TabletsDetails', {
             url: '/Tablet/:TabletId',
-            templateUrl: 'components/tablets/tablet-detail.html',
+            templateUrl: 'components/tablets/detail/tablet-detail.html',
             controller: 'TabletDetailController',
             controllerAs: 'TabletList'
         })
         .state('Accessories', {
             url: '/phu-kien',
-            templateUrl: 'components/accessories/Accessory-list.html',
+            templateUrl: 'components/accessories/list/Accessory-list.html',
             controller: 'AccessoryListController',
             controllerAs: 'AccessoryList'
         })

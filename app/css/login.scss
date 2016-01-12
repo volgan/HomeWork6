@@ -1,0 +1,14 @@
+@mixin margin-border($pixel) {
+	margin:{
+		left: $pixel;
+	}
+}
+.avatar{
+	@include margin-border(30px);
+}
+.icon_1{
+	@include margin-border(-30px);
+}
+.icon_2{
+	@include margin-border(-13px);
+}

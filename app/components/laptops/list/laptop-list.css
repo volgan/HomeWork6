@@ -1,0 +1,34 @@
+a {
+  text-decoration: none !important; }
+
+.laptopList {
+  width: 92%;
+  margin-top: 20px; }
+  .laptopList .itemTab {
+    height: 430px;
+    width: 280px;
+    border: 1px solid #ececec;
+    overflow: hidden; }
+    .laptopList .itemTab .name {
+      height: 20px;
+      overflow: hidden;
+      padding-top: 5px;
+      margin: 0 0 10px; }
+      .laptopList .itemTab .name a {
+        color: black;
+        line-height: 1.3em;
+        font-size: 14px;
+        font-family: OpenSans;
+        font-weight: bold; }
+      .laptopList .itemTab .name:hover a {
+        color: #4a90e2; }
+    .laptopList .itemTab .imgItem {
+      padding-top: 20px; }
+      .laptopList .itemTab .imgItem a {
+        padding-left: 30px; }
+    .laptopList .itemTab .price {
+      color: #d0021b;
+      font-weight: bold;
+      margin: 0 0 10px; }
+    .laptopList .itemTab p {
+      margin: 0; }

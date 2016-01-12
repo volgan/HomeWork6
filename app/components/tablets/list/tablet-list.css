@@ -1,0 +1,40 @@
+a {
+  text-decoration: none !important; }
+
+.tabletList {
+  width: 92%;
+  margin-top: 20px; }
+  .tabletList .itemTab {
+    height: 430px;
+    width: 280px;
+    border: 1px solid #ececec;
+    overflow: hidden; }
+    .tabletList .itemTab .name {
+      height: 20px;
+      overflow: hidden;
+      padding-top: 5px; }
+      .tabletList .itemTab .name a {
+        color: black;
+        line-height: 1.3em;
+        font-size: 14px;
+        font-family: OpenSans;
+        font-weight: bold; }
+      .tabletList .itemTab .name:hover a {
+        color: #4a90e2; }
+    .tabletList .itemTab .imgItem {
+      padding-top: 20px; }
+      .tabletList .itemTab .imgItem a {
+        padding-left: 30px; }
+    .tabletList .itemTab .price {
+      color: #d0021b;
+      font-weight: bold; }
+    .tabletList .itemTab span {
+      color: #666;
+      line-height: 21px;
+      font-size: 13px;
+      font-family: OpenSans;
+      font-weight: normal;
+      display: block;
+      text-decoration: none; }
+
+/*# sourceMappingURL=tablet-list.css.map */

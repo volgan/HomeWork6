@@ -102,12 +102,13 @@
 
     function LoginController($scope, $facebook) {
         var vm = this;
-        vm.isOpen = false;
+        vm.isOpen1 = false;
+        vm.isOpen2 = false;
         vm.Email = "";
         vm.Name = "";
         vm.Avatar = "";
-        vm.displayIcon = {display: 'block'};
-        vm.display = {display: 'none'};
+        vm.display = true;
+        // vm.display = {display: 'none'};
 
         vm.FBLogin = function() {
             $facebook.login().then(function() {
@@ -123,30 +124,19 @@
                 vm.Avatar = resp.picture.data.url;
 
                 console.log(vm.Avatar);
-                vm.displayIcon = {display: 'none'};
-                vm.display = {display: 'block'};
+                // vm.display = {display: 'none'};
+                // vm.display = {display: 'block'};
+                vm.display = false;
             }, function(err) {
                 console.log('error');
             });
         };
 
-        vm.FBLogout = function(){
-            $facebook.logout().then(function(){
-                vm.displayIcon = {display: 'block'};
-                vm.display = {display: 'none'};                
-            });
+        vm.Logout = function(){
+            vm.Email = ""; 
+            vm.Name = ""; 
+            vm.display = true;
         };
-        // $scope.$on('event:google-plus-signin-success', function(event, authResult) {
-        //     gapi.client.load('plus', 'v1', function() {
-        //         var request = gapi.client.plus.people.get({
-        //             'userId': 'me'
-        //         });
-        //         request.execute(function(resp) {
-        //             console.log(resp.name);
-        //             console.log(resp.emails[0]);
-        //         });
-        //     });
-
-        // });
+       
     }
 })();
