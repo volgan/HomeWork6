@@ -122,6 +122,7 @@
                 vm.Name = resp.name;
                 vm.Avatar = resp.picture.data.url;
 
+                console.log(vm.Avatar);
                 vm.displayIcon = {display: 'none'};
                 vm.display = {display: 'block'};
             }, function(err) {

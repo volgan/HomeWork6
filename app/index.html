@@ -41,14 +41,19 @@
     <div id="HEADER">
         <div class="container">
             <div id="nav">
-                <div id="menu">
-                    <div id="buttonMenu">
-                        <div>
+                <div id="menu" ng-include="'responsive.html'">
+                    
+                </div>
+                <div class="row" id="leftNav">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="col-lg-4 col-md-4 img">
                             <a href="#">
-                                <img src="images/poseidon.png" alt="" height="41px">
+                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
+                                    <img src="images/poseidon.png" alt="" height="50px">
+                                </label>
                             </a>
                         </div>
-                        <div ng-controller="DemoCtrl as ctrl" layout="column" ng-cloak class="autocompletedemoBasicUsage">
+                        <div class="col-lg-8 col-md-8" ng-controller="DemoCtrl as ctrl" layout="column" ng-cloak class="autocompletedemoBasicUsage">
                             <md-content class="md-padding">
                                 <form ng-submit="$event.preventDefault()">
                                     <md-autocomplete ng-disabled="ctrl.isDisabled" md-no-cache="ctrl.noCache" md-selected-item="ctrl.selectedItem" md-search-text-change="ctrl.searchTextChange(ctrl.searchText)" md-search-text="ctrl.searchText" md-selected-item-change="ctrl.selectedItemChange(item)" md-items="item in ctrl.querySearch(ctrl.searchText)" md-item-text="item.display" md-min-length="0" placeholder="Bạn muốn tìm gì?">
@@ -63,370 +68,33 @@
                                 </form>
                             </md-content>
                         </div>
-                        <div></div>
                     </div>
-                    <div id="dropdown">
-                        <div>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#/Phone">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Mobile.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Điện thoại</label>
-                            </a>
-                        </div>
-                        <div>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#/Tablet">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Tablet.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Tablet</label>
-                            </a>
-                        </div>
-                        <div>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#/Laptop">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Laptop.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Laptop</label>
-                            </a>
-                        </div>
-                        <div>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/SmartWatch.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Smart Watch</label>
-                            </a>
-                        </div>
-                        <div>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#/phu-kien">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Headphone.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Phụ kiện</label>
-                            </a>
-                        </div>
-                        <div>
-                            <a class="row" href="#">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Sale.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Khuyến mãi</label>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" id="leftNav">
-                    <div class="col-lg-2 col-md-2 img">
-                        <a href="#">
-                            <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                <img src="images/poseidon.png" alt="" height="50px">
-                            </label>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-3" ng-controller="DemoCtrl as ctrl" layout="column" ng-cloak class="autocompletedemoBasicUsage">
-                        <md-content class="md-padding">
-                            <form ng-submit="$event.preventDefault()">
-                                <md-autocomplete ng-disabled="ctrl.isDisabled" md-no-cache="ctrl.noCache" md-selected-item="ctrl.selectedItem" md-search-text-change="ctrl.searchTextChange(ctrl.searchText)" md-search-text="ctrl.searchText" md-selected-item-change="ctrl.selectedItemChange(item)" md-items="item in ctrl.querySearch(ctrl.searchText)" md-item-text="item.display" md-min-length="0" placeholder="Bạn muốn tìm gì?">
-                                    <md-item-template>
-                                        <span md-highlight-text="ctrl.searchText" md-highlight-flags="^i">{{item.display}}</span>
-                                    </md-item-template>
-                                    <md-not-found>
-                                        No states matching "{{ctrl.searchText}}" were found.
-                                        <a ng-click="ctrl.newState(ctrl.searchText)">Create a new one!</a>
-                                    </md-not-found>
-                                </md-autocomplete>
-                            </form>
-                        </md-content>
-                    </div>
-                    <div class="col-lg-7 col-md-7">
+                    <div class="col-lg-6 col-md-6">
                         <div class="row">
-                            <div class="col-lg-5 col-md-5" ng-controller="LoginController as Login" layout="column" ng-cloak="">
-                                <md-content>
-                                    <div ng-style="Login.displayIcon" class="lock-size" layout="row" layout-align="center center">
-                                        <md-fab-speed-dial md-open="Login.isOpen" md-direction="{{'right'}}" ng-class="'md-fling'" ng-mouseenter="Login.isOpen=true" ng-mouseleave="Login.isOpen=false">
-                                            <md-fab-trigger title="Đăng nhập">
-                                                <md-button aria-label="menu" class="md-fab md-warn">
-                                                    <md-tooltip md-direction="top">
-                                                        Đăng nhập
-                                                    </md-tooltip>
-                                                    <md-icon md-svg-src="images/User.svg"></md-icon>
-                                                </md-button>
-                                            </md-fab-trigger>
-                                            <md-fab-actions>
-                                                <md-button aria-label="Login" class="md-fab md-raised md-mini" title="Poseidon" ng-click="">
-                                                    <md-tooltip md-direction="down">
-                                                        Poseidon
-                                                    </md-tooltip>
-                                                    <md-icon md-svg-src="images/Login-01.svg" aria-label="Poseidon"></md-icon>
-                                                </md-button>
-                                                <md-button aria-label="Facebook" class="md-fab md-raised md-mini" title="Facebook" ng-click="Login.FBLogin()">
-                                                    <md-tooltip md-direction="down">
-                                                        Facebook
-                                                    </md-tooltip>
-                                                    <md-icon md-svg-src="images/Facebook.svg" aria-label="Facebook"></md-icon>
-                                                </md-button>
-                                                <md-button aria-label="Google Plus" class="md-fab md-raised md-mini" title="Google Plus">
-                                                    <md-tooltip md-direction="down">
-                                                        Google Plus
-                                                    </md-tooltip>
-                                                    <md-icon md-svg-src="images/Google_Plus.svg" aria-label="Google Plus"></md-icon>
-                                                </md-button>
-                                            </md-fab-actions>
-                                        </md-fab-speed-dial>
-                                    </div>
-                                    <div ng-style="Login.display" class="lock-size" layout="row" layout-align="center center">
-                                        <md-fab-speed-dial md-open="Login.isOpen" md-direction="{{'right'}}" ng-class="'md-fling'" ng-mouseenter="Login.isOpen=true" ng-mouseleave="Login.isOpen=false">
-                                            <md-fab-trigger title="Đăng nhập">
-                                                <button aria-label="menu" class="md-fab md-warn">
-                                                    <md-tooltip md-direction="top">
-                                                        {{Login.Name}}
-                                                    </md-tooltip>
-                                                    <img src="{{Login.Avatar}}" alt="">  
-                                                </button>
-                                            </md-fab-trigger>
-                                            <md-fab-actions>
-                                                <md-button aria-label="Logout" class="md-fab md-raised md-mini" ng-click="Login.FBLogout()">
-                                                    <md-tooltip md-direction="down">
-                                                        Đăng xuất
-                                                    </md-tooltip>
-                                                    <md-icon md-svg-src="images/Logout.svg" aria-label="Poseidon"></md-icon>
-                                                </md-button>
-                                                <md-button aria-label="Facebook" class="md-fab md-raised md-mini" title="Facebook" ng-click="Login.FBLogin()">
-                                                    <md-tooltip md-direction="down">
-                                                        Facebook
-                                                    </md-tooltip>
-                                                    <md-icon md-svg-src="images/Facebook.svg" aria-label="Facebook"></md-icon>
-                                                </md-button>
-                                            </md-fab-actions>
-                                        </md-fab-speed-dial>
-                                    </div>
-                                </md-content>
+
+                            <!-- Begin Login -->
+                            <div class="col-lg-7 col-md-7" ng-controller="LoginController as Login" ng-cloak="" ng-include="'login.html'">
+                                
                             </div>
-                            <div class="col-lg-7 col-md-7">
-                                <div class="col-lg-4 col-md-4">
-                                    <md-content title="Đăng ký">
-                                        <md-button aria-label="menu" class="md-fab md-raised">
-                                            <md-icon md-svg-src="images/User_Add.svg"></md-icon>
-                                        </md-button>
-                                    </md-content>
-                                </div>
-                                <div class="col-lg-8 col-md-8 firstRow">
+                            <!-- End Login -->
+
+                            <div class="col-lg-4 col-md-4 firstRow">
                                     <a href="#/Location" title="Cửa hàng Poseidon">
                                         <img src="images/Maps.png" alt="" height="40px">
                                     </a>
                                     <a href="#/Location" title="Cửa hàng Poseidon">
                                         <label class="txt-menu" style="font-size:15px;">Cửa hàng Poseidon</label>
                                     </a>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <ul id="submenu">
-                        <li>
-                            <a class="row" href="#/Phone">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Mobile.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Điện thoại</label>
-                            </a>
-                            <span id="s1"></span>
-                            <ul class="subs">
-                                <li class="MenuSubs">
-                                    <a href="#">Hãng sản xuất</a>
-                                    <div class="border"></div>
-                                    <ul class="row">
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Apple (iPhone)">Apple (iPhone)</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="OPPO">OPPO</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Sony">Sony</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Samsung">Samsung</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Blackberry">Blackberry</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Nokia">Nokia</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="HTC">HTC</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Asus">Asus</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="LG">LG</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Lenovo">Lenovo</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Motorola">Motorola</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Mobiistar">Mobiistar</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Mức giá</a>
-                                    <div class="border"></div>
-                                    <ul>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Dưới 1 triệu">Dưới 1 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 1 - 3 triệu">Từ 1 - 3 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 3 - 6 triệu">Từ 3 - 6 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 6 - 10 triệu">Từ 6 - 10 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Trên 10 triệu">Trên 10 triệu</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <img src="images/img/phone.png" alt="" width="280px" height="200px">
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="row" href="#/Tablet">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Tablet.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Tablet</label>
-                            </a>
-                            <span id="s1"></span>
-                            <ul class="subs">
-                                <li>
-                                    <a href="#">Hãng sản xuất</a>
-                                    <div class="border"></div>
-                                    <ul class="row">
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Apple (iPad)">Apple (iPad)</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Samsung">Samsung</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Acer">Acer</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Asus">Asus</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Archos">Archos</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Dell">Dell</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Lenovo">Lenovo</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Masstel">Masstel</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Huawei">Huawei</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Mức giá</a>
-                                    <div class="border"></div>
-                                    <ul>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Dưới 2 triệu">Dưới 2 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 2 - 5 triệu">Từ 2 - 5 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 5 - 8 triệu">Từ 5 - 8 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Trên 8 triệu">Trên 8 triệu</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <img src="images/img/ipad.png" alt="" width="280px" height="230px">
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#/Laptop">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Laptop.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Laptop</label>
-                            </a>
-                            <span id="s1"></span>
-                            <ul class="subs">
-                                <li>
-                                    <a href="#">Hãng sản xuất</a>
-                                    <div class="border"></div>
-                                    <ul class="row">
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Apple (Macbook)">Apple (Macbook)</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Asus">Asus</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Dell">Dell</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="HP">HP</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Lenovo">Lenovo</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Toshiba">Toshiba</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Acer">Acer</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Sony Vaio">VAIO</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Mức giá</a>
-                                    <div class="border"></div>
-                                    <ul class="row">
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Dưới 5 triệu">Dưới 5 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 5 - 10 triệu">Từ 5 - 10 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 10 - 15 triệu">Từ 10 - 15 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 15 - 20 triệu">Từ 15 - 20 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 20 - 25 triệu">Từ 20 - 25 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Từ 25 - 30 triệu">Từ 25 - 30 triệu</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Trên 30 triệu">Trên 30 triệu</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <img src="images/img/laptop.png" alt="" width="280px" height="200px">
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#/phu-kien">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Headphone.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Phụ kiện</label>
-                            </a>
-                            <span id="s1"></span>
-                            <ul class="subs">
-                                <li>
-                                    <a href="#"> Phụ kiện Laptop</a>
-                                    <div class="border"></div>
-                                    <ul class="row">
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Ổ cứng ngoài">Ổ cứng ngoài</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Miếng dán màn hình &amp; Film">Miếng dán màn hình &amp; Film</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Vỏ bảo vệ và ốp ">Vỏ bảo vệ và ốp </a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Tấm phủ bàn phím">Tấm phủ bàn phím</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Phụ kiện khác">Phụ kiện khác</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Sạc Laptop">Sạc Laptop</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Loa dàn">Loa dàn</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Tai nghe Laptop">Tai nghe Laptop</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Chuột">Chuột</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="USB">USB</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#"> Phụ kiện Điện Thoại - Tablet</a>
-                                    <div class="border"></div>
-                                    <ul class="row">
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Loa">Loa</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Combo phụ kiện">Combo phụ kiện</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Phụ kiện khác ĐT &amp; MTB">Phụ kiện khác ĐT &amp; MTB</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Tai nghe">Tai nghe</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Bao da và ốp lưng">Bao da và ốp lưng</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Thẻ nhớ MicroSD">Thẻ nhớ MicroSD</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Sạc và cáp">Sạc và cáp</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Sạc dự phòng">Sạc dự phòng</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#">Dịch vụ</a>
-                                    <div class="border"></div>
-                                    <ul class="row">
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="USB 3G">USB 3G</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Sim">Sim</a></li>
-                                        <li class="col-xs-5 col-sm-5 col-md-5 col-lg-5"><a href="#" title="Phần mềm">Phần mềm</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/SmartWatch.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Smart Watch</label>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-toggle row" data-toggle="dropdown" href="#">
-                                <label class="col-lg-12 col-md-12 col-sm-3 col-xs-3 icon-menu">
-                                    <img src="images/Sale.png" alt="" height="29px">
-                                </label>
-                                <label class="col-xs-8 col-sm-8 col-md-12 col-lg-12 txt-menu">Khuyến mãi</label>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="row" ng-include="'navBar.html'"> 
                 </div>
             </div>
         </div>
     </div>
-    <script>
-    $(document).ready(function() {
-        $("#dropdown>div").hide();
-        $("#buttonMenu").click(function() {
-            $("#dropdown>div").toggle();
-        });
-    });
-    </script>
+    
     <div ui-view style="margin-left: 40px"></div>
 </body>
 

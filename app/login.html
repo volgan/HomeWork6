@@ -1,0 +1,66 @@
+<div class="col-lg-7 col-md-7" layout="column">
+    <md-content>
+        <div ng-style="Login.displayIcon" class="lock-size" layout="row" layout-align="center center">
+            <md-fab-speed-dial md-open="Login.isOpen" md-direction="{{'right'}}" ng-class="'md-fling'" ng-mouseenter="Login.isOpen=true" ng-mouseleave="Login.isOpen=false">
+                <md-fab-trigger>
+                    <md-button aria-label="menu" class="md-fab md-warn">
+                        <md-tooltip md-direction="bottom">
+                            Đăng nhập
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/User.svg"></md-icon>
+                    </md-button>
+                </md-fab-trigger>
+                <md-fab-actions>
+                    <md-button aria-label="Login" class="md-fab md-raised md-mini" ng-click="">
+                        <md-tooltip md-direction="top">
+                            Poseidon
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/Login-01.svg" aria-label="Poseidon"></md-icon>
+                    </md-button>
+                    <md-button aria-label="Facebook" class="md-fab md-raised md-mini" ng-click="Login.FBLogin()">
+                        <md-tooltip md-direction="top">
+                            Facebook
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/Facebook.svg" aria-label="Facebook"></md-icon>
+                    </md-button>
+                </md-fab-actions>
+            </md-fab-speed-dial>
+        </div>
+        <div ng-style="Login.display" class="lock-size" layout="row" layout-align="center center">
+            <md-fab-speed-dial md-open="Login.isOpen" md-direction="{{'right'}}" ng-class="'md-fling'" ng-mouseenter="Login.isOpen=true" ng-mouseleave="Login.isOpen=false">
+                <md-fab-trigger>
+                    <button aria-label="menu" class="md-fab md-warn">
+                        <md-tooltip md-direction="bottom">
+                            Phan Trần Hồng Phúc
+                        </md-tooltip>
+                        <img src="https://z-1-scontent.xx.fbcdn.net/hprofile-xtf1/v/t1.0-1/c0.13.50.50/p50x50/11062923_832119740170652_7520992972041437085_n.jpg?oh=da91b320754d43fe7892b2d90801b192&oe=5705B467" alt="">
+                    </button>
+                </md-fab-trigger>
+                <md-fab-actions>
+                    <md-button aria-label="Logout" class="md-fab md-raised md-mini" ng-click="Login.FBLogout()">
+                        <md-tooltip md-direction="top">
+                            Đăng xuất
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/Logout.svg" aria-label="Logout"></md-icon>
+                    </md-button>
+                    <md-button aria-label="Cart" class="md-fab md-raised md-mini" ng-click="">
+                        <md-tooltip md-direction="top">
+                            Shopping Cart
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/Shopping-Cart-01.svg" aria-label="Cart"></md-icon>
+                    </md-button>
+                </md-fab-actions>
+            </md-fab-speed-dial>
+        </div>
+    </md-content>
+</div>
+<div class="col-lg-4 col-md-4">
+    <md-content>
+        <md-tooltip md-direction="bottom">
+            Đăng Ký
+        </md-tooltip>
+        <md-button aria-label="menu" class="md-fab md-raised">
+            <md-icon md-svg-src="images/User_Add.svg"></md-icon>
+        </md-button>
+    </md-content>
+</div>
