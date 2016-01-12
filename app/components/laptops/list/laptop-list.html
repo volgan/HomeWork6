@@ -1,0 +1,18 @@
+<div class="container laptopList">
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 itemTab" ng-repeat="laptop in LaptopList.Laptops | orderBy: LaptopList.price" ng-mouseleave= "show={display: 'none'}; hide={display: 'block'}">
+            <p class="imgItem">
+                <a href="#/Laptop/{{laptop.id}}">
+                    <img src="{{laptop.icon}}" alt="{{laptop.name}}" height="180px" height="180px">
+                </a>
+            </p>
+            <p class="name"><a href="#/Laptop/{{laptop.id}}">{{laptop.name | uppercase}}</a></p>
+            <p class="price">{{laptop.price}}</p>
+            <p><strong>Màn hình:</strong> {{laptop.Display}}" </p>
+            <p><strong>CPU:</strong> {{laptop.CPU}}</p>
+            <p><strong>RAM:</strong> {{laptop.RAM}}/{{laptop.HardDisk}}</p>
+            <p><strong>VGA:</strong> {{laptop.VGA}}</p>
+            <p><strong>HĐH:</strong> {{laptop.OS}}</p>
+        </div>
+    </div>
+</div>

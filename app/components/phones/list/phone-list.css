@@ -1,0 +1,70 @@
+a {
+  text-decoration: none !important; }
+
+.PhoneList {
+  width: 95%;
+  margin-top: 20px; }
+  .PhoneList .item {
+    height: 250px;
+    width: 193px;
+    border: 1px solid #ececec;
+    overflow: hidden;
+    text-align: center; }
+    .PhoneList .item .name {
+      height: 40px;
+      overflow: hidden;
+      padding-top: 5px; }
+      .PhoneList .item .name a {
+        color: black;
+        line-height: 1.3em;
+        font-size: 14px;
+        font-family: OpenSans;
+        font-weight: bold; }
+      .PhoneList .item .name:hover a {
+        color: #4a90e2; }
+    .PhoneList .item .imgItem {
+      padding-top: 20px; }
+      .PhoneList .item .imgItem a {
+        padding-left: 30px; }
+    .PhoneList .item .price {
+      color: #d0021b;
+      font-weight: bold; }
+    .PhoneList .item .itemHidden {
+      text-align: left;
+      display: none; }
+      .PhoneList .item .itemHidden h3 {
+        color: #288ad6;
+        line-height: 1.3em;
+        font-size: 14px;
+        font-family: OpenSans;
+        font-weight: bold;
+        margin: 5px 10px 5px; }
+      .PhoneList .item .itemHidden .price {
+        color: #d0021b;
+        font-weight: bold;
+        color: #d0021b;
+        line-height: 1.3em;
+        font-size: 13px;
+        font-family: OpenSans;
+        font-weight: bold;
+        display: inline-block;
+        float: none;
+        margin: 0 9px 5px;
+        margin-right: 5px; }
+      .PhoneList .item .itemHidden span {
+        color: #666;
+        line-height: 18px;
+        font-size: 12px;
+        font-family: OpenSans;
+        font-weight: normal;
+        display: block;
+        margin: 0 0 0 5px;
+        text-decoration: none;
+        padding: 2px 6px; }
+      .PhoneList .item .itemHidden div {
+        padding: 0 0 5px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 5px;
+        display: block; }
+
+/*# sourceMappingURL=phone-list.css.map */

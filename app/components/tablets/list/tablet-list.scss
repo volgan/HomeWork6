@@ -1,0 +1,65 @@
+a {
+    text-decoration: none !important;
+}
+
+@mixin sexy-border($height, $width) {
+    height: $height;
+    width: $width;
+    border: 1px solid #ececec;
+    overflow: hidden;
+}
+
+@mixin Demension($width) {
+    width: $width;
+    margin-top: 20px;
+}
+
+@mixin GeneralLink($color, $size, $lineHeight, $weight) {
+    color: $color;
+    line-height: $lineHeight;
+    font: {
+        size: $size;
+        family: OpenSans;
+        weight: $weight;
+    }
+}
+
+@mixin General($height) {
+    height: $height;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+@mixin price() {
+    color: #d0021b;
+    font-weight: bold;
+}
+.tabletList {
+    @include Demension(92%);
+    .itemTab {
+        @include sexy-border(430px, 280px);
+        .name {
+            @include General(20px);
+            a {
+                @include GeneralLink(black, 14px, 1.3em, bold);
+            }
+            &:hover a {
+                color: #4a90e2;
+            }
+        }
+        .imgItem {
+            padding-top: 20px;
+            a {
+                padding-left: 30px;
+            }
+        }
+        .price {
+            @include price();
+        }
+        span {
+            @include GeneralLink(#666, 13px, 21px, normal);
+            display: block;
+            text-decoration: none;
+        }
+    }
+}
