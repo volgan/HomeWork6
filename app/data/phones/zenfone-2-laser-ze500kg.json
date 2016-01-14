@@ -2,6 +2,8 @@
 	"id": "zenfone-2-laser-zẹ00kg",
 	"name": "Asus Zenfone 2 Laser",
 	"icon": "../images/phones/zenfone-2-laser-ze500kg.jpg",
+	"price": "3.690.000",
+	"manuf": "ASUS",
 	"slide": [
 		"../images/phones/zenfone-2-laser-ze500kg-6.jpg",
 		"../images/phones/zenfone-2-laser-ze500kg-7.jpg",
@@ -33,7 +35,7 @@
 		"VideoCall": "Có",
 		"Orther": "Tự động lấy nét"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 5e (Lollipop)",
 		"Chipset": "Snapdragon 410",
 		"NumCore": "4 nhân",

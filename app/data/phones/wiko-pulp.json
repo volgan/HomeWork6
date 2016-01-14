@@ -2,6 +2,8 @@
 	"id": "wiko-pulp",
 	"name": "Wiko Pulp Fab",
 	"icon": "../images/phones/wiko-pulp.jpg",
+	"price": "3.690.000",
+	"manuf": "Wiko",
 	"slide": [
 		"../images/phones/wiko-pulp-6.jpg",
 		"../images/phones/wiko-pulp-7.jpg",
@@ -34,7 +36,7 @@
 		"VideoCall": "Hỗ trợ VideoCall thông qua ứng dụng OTT",
 		"Orther": "Không"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 5.1 (Lollipop)",
 		"Chipset": "MTK 6592",
 		"NumCore": "8 nhân",

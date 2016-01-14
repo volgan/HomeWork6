@@ -2,6 +2,8 @@
 	"id": "mobiistar-lai-zumbo",
 	"name": "Mobiistar LAI Zumbo",
 	"icon": "../images/phones/mobiistar-lai-zumbo.jpg",
+	"price": "3.190.000",
+	"manuf": "Mobiistar",
 	"slide": [
 		"../images/phones/mobiistar-lai-zumbo-6.jpg",
 		"../images/phones/mobiistar-lai-zumbo-7.jpg",
@@ -33,7 +35,7 @@
 		"VideoCall": "Hỗ trợ VideoCall thông qua ứng dụng OTT",
 		"Orther": "Không"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 5.1 (Lollipop)",
 		"Chipset": "Cortex-A7",
 		"NumCore": "4 nhân",

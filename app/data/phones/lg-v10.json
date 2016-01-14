@@ -2,6 +2,8 @@
 	"id": "lg-v10",
 	"name": "LG V10",
 	"icon": "../images/phones/lg-v10.jpg",
+	"price": "15.990.000đ",
+	"manuf":"LG",
 	"slide": [
 		"../images/phones/lg-v10-6.jpg",
 		"../images/phones/lg-v10-7.jpg",
@@ -34,7 +36,7 @@
 		"VideoCall": "Có",
 		"Orther": "Camera kép, Chụp bằng giọng nói, Nhận diện khuôn mặt, Làm mịn da, Camera góc rộng, Selfie ngược sáng HDR."
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 5.1 (Lollipop)",
 		"Chipset": "Qualcomm Snapdragon 808",
 		"NumCore": "6 nhân",

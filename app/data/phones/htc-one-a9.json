@@ -1,7 +1,9 @@
 {
 	"id": "htc-one-a9",
-	"name": "Samsung Galaxy A7",
+	"name": "HTC ONE A9",
 	"icon": "../images/phones/htc-one-a9.jpg",
+	"price": "11.590.000",
+	"manuf": "HTC",
 	"slide": [
 		"../images/phones/htc-one-a9-6.jpg",
 		"../images/phones/htc-one-a9-7.jpg",
@@ -33,7 +35,7 @@
 		"VideoCall": "Có",
 		"Orther": "Nhận diện khuôn mặt, Quay video Full HD, Camera góc rộng"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 6.0 (Marshmallow)",
 		"Chipset": "Snapdragon 617",
 		"NumCore": "8 nhân",

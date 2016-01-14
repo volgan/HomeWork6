@@ -2,6 +2,8 @@
 	"id": "ss-galaxy-s6-edge",
 	"name": "Samsung Galaxy S6 Edge 32GB",
 	"icon": "../images/phones/ss-galaxy-s6-edge.jpg",
+	"price": "17.490.000đ",
+	"manuf": "Samsung",
 	"slide": [
 		"../images/phones/ss-galaxy-s6-edge-6.jpg",
 		"../images/phones/ss-galaxy-s6-edge-7.jpg",
@@ -33,7 +35,7 @@
 		"VideoCall": "Có",
 		"Orther": "Chống rung, Nhận diện khuôn mặt, Làm mịn da, Tự động lấy nét, Selfie ngược sáng HDR"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 5.0 (Lollipop)",
 		"Chipset": "Exynos 7420",
 		"NumCore": "8 nhân",

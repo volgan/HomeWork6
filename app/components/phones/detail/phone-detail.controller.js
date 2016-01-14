@@ -38,7 +38,7 @@
     function PhoneDetailController($scope,phoneDetailService) {
         var $scope = this;
         $scope.phone = {};
-        $scope.price = "price";
+        
         
         activated();
         function activated(){

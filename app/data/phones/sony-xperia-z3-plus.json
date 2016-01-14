@@ -2,6 +2,8 @@
 	"id": "sony-xperia-z3-plus",
 	"name": "Sony Xperia Z3 Plus",
 	"icon": "../images/phones/sony-xperia-z3-plus.jpg",
+	"price": "11.990.000",
+	"manuf": "SONY",
 	"slide": [
 		"../images/phones/sony-xperia-z3-plus-6.jpg",
 		"../images/phones/sony-xperia-z3-plus-7.jpg",
@@ -33,7 +35,7 @@
 		"VideoCall": "Có",
 		"Orther": "Làm mịn da"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 5.0 (Lollipop)",
 		"Chipset": "Snapdragon 810",
 		"NumCore": "8 nhân",

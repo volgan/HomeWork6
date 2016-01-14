@@ -2,6 +2,8 @@
 	"id": "oppo-r7s",
 	"name": "OPPO R7s",
 	"icon": "../images/phones/oppo-r7s.jpg",
+	"price": "9.490.000đ",
+	"manuf": "OPPO",
 	"slide": [
 		"../images/phones/oppo-r7s-6.jpg",
 		"../images/phones/oppo-r7s-7.jpg",
@@ -34,7 +36,7 @@
 		"VideoCall": "Có",
 		"Orther": "Làm mịn da"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 5.1 (Lollipop)",
 		"Chipset": "Qualcomm Snapdragon 615",
 		"NumCore": "8 nhân",

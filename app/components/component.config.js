@@ -4,7 +4,7 @@ angular
         'ngMaterial',
         'ngMessages',
         'ngFacebook',
-        'directive.g+signin',
+        'ui.bootstrap',
         'Home',
         'PhonesController',
         'LaptopController',

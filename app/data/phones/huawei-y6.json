@@ -2,6 +2,8 @@
 	"id": "huawei-y6",
 	"name": "Huawei Y6",
 	"icon": "../images/phones/huawei-y6.jpg",
+	"price": "3.190.00đ",
+	"manuf": "Huawei",
 	"slide": [
 		"../images/phones/huawei-y6-6.jpg",
 		"../images/phones/huawei-y6-7.jpg",
@@ -33,7 +35,7 @@
 		"VideoCall": "Có",
 		"Orther": "Không"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 5.1 (Lollipop)",
 		"Chipset": "Snapdragon 210",
 		"NumCore": "4 nhân",

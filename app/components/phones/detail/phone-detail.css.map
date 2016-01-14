@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACC,mBAAO;EACN,UAAU,EAAE,IAAI",
+"sources": ["phone-detail.scss"],
 "names": [],
 "file": "phone-detail.css"
 }

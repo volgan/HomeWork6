@@ -2,6 +2,8 @@
 	"id": "galaxy-a7",
 	"name": "Samsung Galaxy A7",
 	"icon": "../images/phones/galaxy-a7.jpg",
+	"price": "7.990.000đ",
+	"manuf": "Samsung",
 	"slide": [
 		"../images/phones/galaxy-a7-6.jpg",
 		"../images/phones/galaxy-a7-7.jpg",
@@ -34,7 +36,7 @@
 		"VideoCall": "Có",
 		"Orther": "Nhận diện khuôn mặt, Làm mịn da"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Android 4.4 (KitKat)",
 		"Chipset": "Snapdragon 615",
 		"NumCore": "8 nhân",

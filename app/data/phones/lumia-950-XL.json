@@ -1,7 +1,9 @@
 {
 	"id": "lumia-950-XL",
 	"name": "Microsoft Lumia 950 XL",
+	"price": "15.990.000đ",
 	"icon": "../images/phones/lumia-950-XL.jpg",
+	"manuf": "NOKIA",
 	"slide": [
 		"../images/phones/lumia-950-XL-6.jpg",
 		"../images/phones/lumia-950-XL-7.jpg",
@@ -34,7 +36,7 @@
 		"VideoCall": "Có",
 		"Orther": "Nhận diện khuôn mặt, Quay video Full HD"
 	},
-	"OS-CPU": {
+	"OS": {
 		"OS": "Windows 10 (for Mobile)",
 		"Chipset": "Qualcomm Snapdragon 810",
 		"NumCore": "8 nhân",
