@@ -1,0 +1,313 @@
+[
+	{
+		"id": "samsung-galaxy-tab-s2",
+		"name": "Samsung Galaxy Tab S2 97 (SM-T815)",
+		"price": 14000000,
+		"type": "Tablet"
+	},
+	{
+		"id": "asus-t200ta",
+		"name": "ASUS Transformer Book T200TA",
+		"price": 8890000,
+		"type": "Tablet"
+	},
+	{
+		"id": "asus-zenpad-z170cg",
+		"name": "ASUS ZenPad C 70 (Z170CG)",
+		"price": 3190000,
+		"type": "Tablet"
+	},
+	{
+		"id": "lenovo-ideatab-a5500",
+		"name": "Lenovo IdeaTab A8-50 HD (A5500)",		
+		"price": 4000000,
+		"type": "Tablet"
+	},
+	{
+		"id": "ipad-pro",
+		"name": "iPad Pro Wifi 32GB",		
+		"price": 20000000,
+		"type": "Tablet"
+	},
+	{
+		"id": "lenovo-phab-plus",
+		"name": "Lenovo Phab Plus",		
+		"price": 6490000
+	},
+	{
+		"id": "samsung-galaxy-tab-e-96",
+		"name": "Samsung Galaxy Tab S2 97 (SM-T815)",
+		"price": 600000,
+		"type": "Tablet"
+	},
+	{
+		"id": "asus-zenpad-z380kl",
+		"name": "Asus Zenpad Z380KL",
+		"price": 6100000,
+		"type": "Tablet"
+	},
+	{
+		"id": "asus-zenpad-z300cg",
+		"name": "Asus Zenpad Z300CG",
+		"price": 5490000,
+		"type": "Tablet"
+	},
+	{
+		"id": "acer-iconia-b1",
+		"name": "Acer Iconia B1-723",
+		"price": 2290000,
+		"type": "Tablet"
+	},
+		{
+		"id" : 1,
+		"name":"Pin dự phòng",
+		"price": 440000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 2,
+		"name":"Pin dự phòng",
+		"price": 390000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 3,
+		"name":"Tai nghe",
+		"price": 110000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 4,
+		"name": "Tai nghe",
+		"price": 320000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 5,
+		"name":"ốp lưng bao da",
+		"price": 180000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 6,
+		"name":"ốp lưng bao da",
+		"price": 300000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 7,
+		"name":"Thẻ nhớ",
+		"price": 150000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 8,
+		"name":"Thẻ nhớ",
+		"price": 480000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 9,
+		"name":"USB",
+		"price": 140000,
+		"type": "phu-kien"
+	},
+	{
+		"id" : 10,
+		"name":"USB",
+		"price": 240000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 11,
+		"name":"chuột máy tính",
+		"price": 220000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 12,
+		"name":"chuột máy tính",
+		"price": 120000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 13,
+		"name":"Miếng dán màn hình iPad Air",
+		"price": 100000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 14,
+		"name":"Loa",
+		"price": 590000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 15,
+		"name":"Loa",
+		"price": 990000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 16,
+		"name":"Pin",
+		"price": 90000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 17,
+		"name":"Pin",
+		"price": 380000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 18,
+		"name":"Cáp sạc",
+		"price": 150000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 19,
+		"name":"Adapter",
+		"price": 150000,
+		"type": "phu-kien"
+	},
+	{
+		"id": 20,
+		"name":"Miếng dán",
+		"price": 60000,
+		"type": "phu-kien"
+	},
+	{
+	    "id": "asus-zenbook-ux305fa",
+	    "name": "Laptop Asus Zenbook UX305FA",
+	    "price":18190000,
+	    "type": "Laptop"
+	},
+	{
+	    "id": "dell-inspiron-5458",
+	    "name": "Laptop Dell Inspiron 5458",
+	    "price": 18890000,
+	    "type": "Laptop"
+	},
+	{	
+	    "id": "asus-tp500lb-i5-5200u",
+	    "name": "Laptop Asus TP500LB i5 5200U",
+	    "price":15590000,
+	    "type": "Laptop"
+	},
+	{	
+	    "id": "acer-e5-573g-i7-4510u",
+	    "name": "Laptop Acer E5 573G i7 4510U",
+	    "price":14990000,
+	    "type": "Laptop"
+	},
+	{	
+	    "id": "hp-pavilion-15-ab254tx-i7-6500u",
+	    "name": "HP Pavilion 15 ab254TX i7 6500U",
+	    "price": 18690000,
+	    "type": "Laptop"
+	},
+	{	
+	    "id": "lenovo-yoga-500-14ibd-i3-5020u",
+	    "name": "Laptop Lenovo Yoga 500 14IBD i3 5020U",
+	    "price": 16900000,
+	    "type": "Laptop"
+	},
+	{	
+	    "id": "hp-15-ac152tu-i3-5005u",
+	    "name": "Laptop HP 15 ac152TU i3 5005U",
+	    "price": 10790000,
+	    "type": "Laptop"
+	},
+	{	
+	    "id": "asus-f454la-i3-4005u",
+	    "name": "Laptop Asus F454LA i3 4005U",
+	    "price": 9490000,
+	    "type": "Laptop"
+	},
+	{
+		"id": "iphone-6s",
+		"name": "iPhone 6s 64GB",
+		"price": 21790000,
+		"type": "Phone"
+	},
+	{
+		"id": "lg-v10",
+		"name": "LG V10",
+		"price": 15990000,
+		"type": "Phone"
+	},
+	{
+		"id": "lumia-950-XL",
+		"name": "Microsoft Lumia 950 XL",
+		"price": 15990000,
+		"type": "Phone"
+	},
+	{
+		"id": "oppo-r7s",
+		"name": "OPPO R7s",
+		"price": 9490000,
+		"type": "Phone"
+	},
+	{
+		"id": "ss-galaxy-s6-edge",
+		"name": "Samsung Galaxy S6 Edge 32GB",
+		"price": 17490000,
+		"type": "Phone"
+	},
+	{
+		"id": "galaxy-a7",
+		"name": "Samsung Galaxy A7",
+		"price": 7990000,
+		"type": "Phone"
+	},
+	{
+		"id": "huawei-g7-plus",
+		"name": "Huawei G7 Plus",
+		"price": 8990000,
+		"type": "Phone"
+	},
+	{
+		"id": "huawei-y6",
+		"name": "Huawei Y6",
+		"price": 3190000,
+		"type": "Phone"
+	},
+	{
+		"id": "mobiistar-lai-zumbo",
+		"name": "Mobiistar LAI Zumbo",
+		"price": 3190000,
+		"type": "Phone"
+	},
+	{
+		"id": "obi-sf1",
+		"name": "Obi Worldphone SJ15",
+		"price": 5000000,
+		"type": "Phone"
+	},
+	{
+		"id": "sony-xperia-z3-plus",
+		"name": "Sony Xperia Z3 Plus",
+		"price": 11990000,
+		"type": "Phone"
+	},
+	{
+		"id": "wiko-pulp",
+		"name": "Wiko Pulp Fab",
+		"price": 3690000,
+		"type": "Phone"
+	},
+	{
+		"id": "zenfone-2-laser-ze500kg",
+		"name": "Asus Zenfone 2 Laser",
+		"price": 3690000,
+		"type": "Phone"
+	},
+	{
+		"id": "htc-one-a9",
+		"name": "HTC One A9",
+		"price": 11590000,
+		"type": "Phone"
+	}	
+]

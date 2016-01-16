@@ -49,7 +49,7 @@
                             <button class="button button--aylen button--round-l button--text-thick">MUA NGAY</button>
                         </a>
                         <h3>{{phone.name | uppercase}}</h3>
-                        <h4>{{phone.price}} VNĐ</h4>
+                        <h4>{{phone.price | currency:"":0 | comma2dot}} VNĐ</h4>
                     </md-grid-tile-footer>
                 </md-grid-tile>
                 <md-grid-tile class="mobile" md-gutter="0" md-colspan-gt-md="6" md-colspan-sm="2" md-colspan-xs="1" md-rowspan="1">
@@ -57,13 +57,13 @@
                         <h2>LAPTOP</h2>
                     </md-grid-tile-footer>
                 </md-grid-tile>
-                <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index)" class="white" ng-repeat="laptop in mainCtr.Laptops | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
-                    <div ng-style="mainCtr.hide[$index]" ng-mouseenter="mainCtr.hidePhoneImage($index)">
+                <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index+3)" class="white" ng-repeat="laptop in mainCtr.Laptops | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
+                    <div ng-style="mainCtr.hide[$index+3]" ng-mouseenter="mainCtr.hidePhoneImage($index+3)">
                         <a class="phoneDetail" href="#/Laptop/{{laptop.id}}">
                             <img style="height: 250px" ng-src="{{laptop.icon}}">
                         </a>
                     </div>
-                    <div class="itemHidden" ng-style="mainCtr.show[$index]">
+                    <div class="itemHidden" ng-style="mainCtr.show[$index+3]">
                         <a href="#/Laptop/{{laptop.id}}">
                             <h3>{{laptop.name | uppercase}}</h3>
                             <div></div>
@@ -74,12 +74,12 @@
                             <span style="display: block"><strong>HĐH:</strong> {{laptop.OS}}</span>
                         </a>
                     </div>
-                    <md-grid-tile-footer class="phoneFooter" ng-mouseenter="mainCtr.showPhoneImage($index)">
+                    <md-grid-tile-footer class="phoneFooter" ng-mouseenter="mainCtr.showPhoneImage($index+3)">
                         <a href="#/Laptop/{{laptop.id}}">
                             <button class="button button--aylen button--round-l button--text-thick">MUA NGAY</button>
                         </a>
                         <h3>{{laptop.name | uppercase}}</h3>
-                        <h4>{{laptop.price+" "}}VNĐ</h4>
+                        <h4>{{laptop.price | currency:"":0 | comma2dot}} VNĐ</h4>
                     </md-grid-tile-footer>
                 </md-grid-tile>
                 <md-grid-tile class="mobile" md-gutter="0" md-colspan-gt-md="6" md-colspan-sm="2" md-colspan-xs="1" md-rowspan="1">
@@ -87,13 +87,13 @@
                         <h2>MÁY TÍNH BẢNG</h2>
                     </md-grid-tile-footer>
                 </md-grid-tile>
-                <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index)" class="white" ng-repeat="tablet in mainCtr.tablets | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
-                    <div ng-style="mainCtr.hide[$index]" ng-mouseenter="mainCtr.hidePhoneImage($index)">
+                <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index+6)" class="white" ng-repeat="tablet in mainCtr.tablets | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
+                    <div ng-style="mainCtr.hide[$index+6]" ng-mouseenter="mainCtr.hidePhoneImage($index+6)">
                         <a class="phoneDetail" href="#/Tablet/{{tablet.id}}">
                             <img style="height: 250px" ng-src="{{tablet.icon}}">
                         </a>
                     </div>
-                    <div class="itemHidden" ng-style="mainCtr.show[$index]">
+                    <div class="itemHidden" ng-style="mainCtr.show[$index+6]">
                         <a href="#/Tablet/{{tablet.id}}">
                             <h3>{{tablet.name | uppercase}}</h3>
                             <div></div>
@@ -104,12 +104,12 @@
                             <span><strong>Kết nối:</strong> {{tablet.Connect}}</span>
                         </a>
                     </div>
-                    <md-grid-tile-footer class="phoneFooter" ng-mouseenter="mainCtr.showPhoneImage($index)">
+                    <md-grid-tile-footer class="phoneFooter" ng-mouseenter="mainCtr.showPhoneImage($index+6)">
                         <a href="#/Tablet/{{tablet.id}}">
                             <button class="button button--aylen button--round-l button--text-thick">MUA NGAY</button>
                         </a>
                         <h3>{{tablet.name | uppercase}}</h3>
-                        <h4>{{tablet.price}} VNĐ</h4>
+                        <h4>{{tablet.price | currency:"":0 | comma2dot}} VNĐ</h4>
                     </md-grid-tile-footer>
                 </md-grid-tile>
             </md-grid-list>

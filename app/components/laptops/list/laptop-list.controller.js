@@ -1,27 +1,30 @@
-(function(){
+(function() {
     /**
-    *  Module
-    *
-    * Description
-    */
+     *  Module
+     *
+     * Description
+     */
     angular
         .module('LaptopController', [])
         .factory('Laptopservice', Laptopservice);
 
-        Laptopservice.$inject = ['$http'];
-        function Laptopservice ($http) {
-            return {
-                getLaptops : getLaptops
-            }
-            function getLaptops () {
-                return $http.get('../data/laptops/laptops.json')
-                    .success(getphoneComplete);
-            }
-            function getphoneComplete (response) {
-                console.log(response);
-                return response.data;
-            }
+    Laptopservice.$inject = ['$http'];
+
+    function Laptopservice($http) {
+        return {
+            getLaptops: getLaptops
         }
+
+        function getLaptops() {
+            return $http.get('../data/laptops/laptops.json')
+                .success(getphoneComplete);
+        }
+
+        function getphoneComplete(response) {
+            console.log(response);
+            return response.data;
+        }
+    }
 })();
 
 (function() {
@@ -32,23 +35,32 @@
      */
     angular
         .module('LaptopController')
-        .controller('LaptopListController', LaptopListController);
+        .controller('LaptopListController', LaptopListController)
+        .filter('comma2dot', comma2dot)
+
+    function comma2dot() {
+        return function(input) {
+            var ret = (input) ? input.replace(/,/g, ".") : null;
+            return ret;
+        };
+    }
 
     LaptopListController.$inject = ['$scope', 'Laptopservice'];
 
-    function LaptopListController($scope,Laptopservice) {
+    function LaptopListController($scope, Laptopservice) {
         var vm = this;
         vm.Laptops = [];
         vm.price = "price";
-        
+
         activated();
-        function activated(){
+
+        function activated() {
             return getLaptop();
         }
 
-        function getLaptop(){
+        function getLaptop() {
             return Laptopservice.getLaptops()
-                .success(function(data){
+                .success(function(data) {
                     vm.Laptops = data;
                 });
         }

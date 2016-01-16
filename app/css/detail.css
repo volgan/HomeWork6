@@ -31,6 +31,8 @@
   font-size: 16px;
   font-weight: 600;
   line-height: 1.3em; }
+.ItemDetail .INFOROW .ICON {
+  padding-left: 30px; }
 .ItemDetail .INFOROW .detailpromotion {
   display: block;
   overflow: hidden;

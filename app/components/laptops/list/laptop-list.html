@@ -7,7 +7,7 @@
                 </a>
             </p>
             <p class="name"><a href="#/Laptop/{{laptop.id}}">{{laptop.name | uppercase}}</a></p>
-            <p class="price">{{laptop.price}}</p>
+            <p class="price">{{laptop.price| currency:"":0 | comma2dot}} VNĐ</p>
             <p><strong>Màn hình:</strong> {{laptop.Display}}" </p>
             <p><strong>CPU:</strong> {{laptop.CPU}}</p>
             <p><strong>RAM:</strong> {{laptop.RAM}}/{{laptop.HardDisk}}</p>

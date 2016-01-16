@@ -22,4 +22,10 @@
 body {
     font-family: OpenSans;
 }
-/*end btn mua ngay*/
+
+.md-autocomplete-suggestions li {
+    line-height: 20px;
+    height: 60px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}

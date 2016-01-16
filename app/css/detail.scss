@@ -46,6 +46,9 @@
             display: block;
             @include FONT(16px, 600, 1.3em, #27ae60);
         }
+        .ICON{
+            padding-left: 30px;
+        }
         .detailpromotion {
             display: block;
             overflow: hidden;

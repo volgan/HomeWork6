@@ -10,7 +10,7 @@
                     </a>
                 </p>
                 <p class="name"><a href="#/Phone/{{phone.id}}">{{phone.name | uppercase}}</a></p>
-                <p class="price">{{phone.price}}</p>
+                <p class="price">{{phone.price| currency:"":0 | comma2dot}} VNĐ</p>
             </div>      
 
             <div class="itemHidden" ng-style="show">

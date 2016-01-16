@@ -1,42 +1,49 @@
-(function(){
+(function() {
     /**
-    *  Module
-    *
-    * Description
-    */
+     *  Module
+     *
+     * Description
+     */
     angular
         .module('Home', [])
         .factory('dataservice', dataservice);
 
-        dataservice.$inject = ['$http'];
-        function dataservice ($http) {
-            return {
-                getphones : getphones,
-                getLaptops : getLaptops,
-                getTablets : getTablets,
-            }
-            function getphones () {
-                return $http.get('../data/phones/phones.json')
-                    .success(getphoneComplete);
-            }
-            function getphoneComplete (response) {
-                return response.data;
-            }
-            function getTablets () {
-                return $http.get('../data/tablets/tablets.json')
-                    .success(getTabletComplete);
-            }
-            function getTabletComplete (response) {
-                return response.data;
-            }
-            function getLaptops () {
-                return $http.get('../data/laptops/laptops.json')
-                    .success(getphoneComplete);
-            }
-            function getphoneComplete (response) {
-                return response.data;
-            }
+    dataservice.$inject = ['$http'];
+
+    function dataservice($http) {
+        return {
+            getphones: getphones,
+            getLaptops: getLaptops,
+            getTablets: getTablets,
         }
+
+        function getphones() {
+            return $http.get('../data/phones/phones.json')
+                .success(getphoneComplete);
+        }
+
+        function getphoneComplete(response) {
+            return response.data;
+        }
+
+        function getTablets() {
+            return $http.get('../data/tablets/tablets.json')
+                .success(getTabletComplete);
+        }
+
+        function getTabletComplete(response) {
+            return response.data;
+        }
+
+        function getLaptops() {
+            return $http.get('../data/laptops/laptops.json')
+                .success(getphoneComplete);
+        }
+
+        function getphoneComplete(response) {
+            return response.data;
+        }
+    }
 })();
 
 (function() {
@@ -48,10 +55,17 @@
     angular.module('Home')
         .controller('MainController', MainController)
         .animation('.slide-animation', slideAnimation)
+        .filter('comma2dot', comma2dot)
 
-    MainController.$inject = ['$scope','dataservice'];
+    function comma2dot() {
+        return function(input) {
+            var ret = (input) ? input.replace(/,/g, ".") : null;
+            return ret;
+        };
+    }
+    MainController.$inject = ['$scope', 'dataservice'];
 
-    function MainController($scope,dataservice) {
+    function MainController($scope, dataservice) {
         var vm = this;
         vm.direction = 'left';
         vm.currentIndex = 0;
@@ -90,35 +104,38 @@
 
 
         activated_Phone();
-        function activated_Phone(){
+
+        function activated_Phone() {
             return getPhone();
         }
 
-        function getPhone (){
+        function getPhone() {
             return dataservice.getphones()
-                .success(function(data){
+                .success(function(data) {
                     vm.phones = data;
                 });
         }
         activated_Tablet();
-        function activated_Tablet(){
+
+        function activated_Tablet() {
             return getTablet();
         }
 
-        function getTablet (){
+        function getTablet() {
             return dataservice.getTablets()
-                .success(function(data){
+                .success(function(data) {
                     vm.tablets = data;
                 });
         }
         activated_Laptop();
-        function activated_Laptop(){
+
+        function activated_Laptop() {
             return getLaptops();
         }
 
-        function getLaptops (){
+        function getLaptops() {
             return dataservice.getLaptops()
-                .success(function(data){
+                .success(function(data) {
                     vm.Laptops = data;
                 });
         }
@@ -130,6 +147,7 @@
                 display: 'none'
             };
         };
+
         function showPhoneImage(id) {
             vm.hide[id] = {
                 display: 'block'
@@ -138,6 +156,7 @@
                 display: 'none'
             };
         }
+
         function hidePhoneImage(id) {
             vm.hide[id] = {
                 display: 'none'
@@ -146,9 +165,9 @@
                 display: 'block'
             };
         }
-        
 
-        function setCurrentSlideIndex (index) {
+
+        function setCurrentSlideIndex(index) {
             vm.direction = (index > vm.currentIndex) ? 'left' : 'right';
             vm.currentIndex = index;
         };
@@ -210,77 +229,3 @@
         };
     }
 })();
-// (function() {
-//     /**
-//      *  Module
-//      *
-//      * Description
-//      */
-//     angular.module('MyApp')
-//         .controller('DemoCtrl', DemoCtrl);
-
-//     function DemoCtrl($timeout, $q, $log) {
-//         var self = this;
-//         self.simulateQuery = false;
-//         self.isDisabled = false;
-//         // list of `state` value/display objects
-//         self.states = loadAll();
-//         self.querySearch = querySearch;
-//         self.selectedItemChange = selectedItemChange;
-//         self.searchTextChange = searchTextChange;
-//         self.newState = newState;
-
-//         function newState(state) {
-//             alert("Sorry! You'll need to create a Constituion for " + state + " first!");
-//         }
-//         // ******************************
-//         // Internal methods
-//         // ******************************
-//         /**
-//          * Search for states... use $timeout to simulate
-//          * remote dataservice call.
-//          */
-//         function querySearch(query) {
-//             var results = query ? self.states.filter(createFilterFor(query)) : self.states,
-//                 deferred;
-//             if (self.simulateQuery) {
-//                 deferred = $q.defer();
-//                 $timeout(function() {
-//                     deferred.resolve(results);
-//                 }, Math.random() * 1000, false);
-//                 return deferred.promise;
-//             } else {
-//                 return results;
-//             }
-//         }
-
-//         function searchTextChange(text) {
-//             $log.info('Text changed to ' + text);
-//         }
-
-//         function selectedItemChange(item) {
-//             $log.info('Item changed to ' + JSON.stringify(item));
-//         }
-//         /**
-//          * Build `states` list of key/value pairs
-//          */
-//         function loadAll() {
-//             var allStates = 'Samsung galaxy Tab, Nokia lumia, Iphone';
-//             return allStates.split(/, +/g).map(function(state) {
-//                 return {
-//                     value: state.toLowerCase(),
-//                     display: state
-//                 };
-//             });
-//         }
-//         /**
-//          * Create filter function for a query string
-//          */
-//         function createFilterFor(query) {
-//             var lowercaseQuery = angular.lowercase(query);
-//             return function filterFn(state) {
-//                 return (state.value.indexOf(lowercaseQuery) === 0);
-//             };
-//         }
-//     }
-// })();

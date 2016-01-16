@@ -7,7 +7,7 @@
                 </a>
             </p>
             <p class="name"><a href="#/Tablet/{{tablet.id}}">{{tablet.name | uppercase}}</a></p>
-            <p class="price">{{tablet.price}}</p>
+            <p class="price">{{tablet.price | currency:"":0 | comma2dot}} VNĐ</p>
             <span><strong>Màn hình:</strong> {{tablet.Screen}}" </span>
             <span><strong>HĐH:</strong> {{tablet.OS}} - <strong>CPU:</strong> {{tablet.CPU}}</span>
             <span><strong>RAM:</strong> {{tablet.RAM}} - <strong>ROM:</strong> {{tablet.ROM}}</span>

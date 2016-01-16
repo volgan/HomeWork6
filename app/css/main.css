@@ -269,7 +269,7 @@
 .phoneFooter {
     display: inline-block;
     color: black;
-    background-color: #336699;
+    background-color: #288ad6;
     height: 80px;
 }
 
@@ -278,6 +278,7 @@
     color: #FFCC66;
     font-weight: bolder;
     padding-bottom: 10px;
+    font-size: 15px;
 }
 
 .phoneFooter h3 {
