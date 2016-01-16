@@ -2,6 +2,9 @@
 	"id": "huawei-mediapad-t1",
 	"name": "Huawei MediaPad T1 8.0",
 	"icon": "../images/tablet/huawei-mediapad-t1.jpg",
+	"price":"3.490.000",
+	"manuf": "Huawei",
+	"descImg": "../images/tablet/huawei-mediapad-t1-80--mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/tablet/huawei-mediapad-t1-9.jpg",
 		"../images/tablet/huawei-mediapad-t1-7.jpg",
@@ -25,7 +28,7 @@
 		"screenSize": "8.0",
 		"touchScreen": "Cảm ứng điện dung đa điểm"
 	},
-	"CPU-RAM":{
+	"CPU":{
 		"Chipset": "ARM Cortex A7 (MSM 8210)",
 		"NumCore": "Quad-core",
 		"Speed": "1.2 GHz",
@@ -44,8 +47,8 @@
 		"Film": "HD 720p (1280 x 720 pixels)"
 	},
 	"Connection":{
-		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
-		"4G": "Không",
+		"ThreeG": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"FourG": "Không",
 		"Wifi": "Wi-Fi 802.11 b/g/n",
 		"Conversation": "Có",
 		"Bluetooth": "4.0",

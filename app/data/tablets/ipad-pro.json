@@ -2,6 +2,9 @@
 	"id": "ipad-pro",
 	"name": "iPad Pro Wifi 32GB",
 	"icon": "../images/tablet/ipad-pro.jpg",
+	"price":"19.990.000",
+	"manuf": "APPLE",
+	"descImg": "../images/tablet/ipad-pro-wifi-32gb-mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/tablet/ipad-pro-6.jpg",
 		"../images/tablet/ipad-pro-7.jpg",
@@ -24,7 +27,7 @@
 		"screenSize": "12.9",
 		"touchScreen": "Cảm ứng điện dung đa điểm"
 	},
-	"CPU-RAM":{
+	"CPU":{
 		"Chipset": "Apple A9X",
 		"NumCore": "Dual-core",
 		"Speed": "2.2 GHz",
@@ -43,8 +46,8 @@
 		"Film": "Full HD 1080p@30fps"
 	},
 	"Connection":{
-		"3G": "Không",
-		"4G": "Không",
+		"ThreeG": "Không",
+		"FourG": "Không",
 		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac",
 		"Conversation": "Face-Time",
 		"SIM": "Không",

@@ -40,15 +40,7 @@
             <div class="col-lg-8 col-md-8">
                 <span>{{PhoneDetail.phone.OS.OS}}</span>
             </div>
-        </li>
-        <li class="row">
-            <div class="col-lg-4 col-md-4">
-                <strong><span>Màn hình:</span></strong>
-            </div>
-            <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.OS.OS}} </span>
-            </div>
-        </li>
+        </li>        
         <li class="row">
             <div class="col-lg-4 col-md-4">
                 <strong><span>CPU:</span></strong>
@@ -115,7 +107,7 @@
         </li>
         <li class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <md-button class="md-raised md-primary">Xem chi tiết</md-button>
+                <md-button class="md-raised md-primary" ng-click="PhoneDetail.OPEN()">Xem chi tiết</md-button>
             </div>
         </li>
     </ul>

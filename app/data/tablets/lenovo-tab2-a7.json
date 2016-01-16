@@ -2,6 +2,9 @@
 	"id": "lenovo-tab2-a7",
 	"name": "Lenovo Tab 2 A7-30",
 	"icon": "../images/tablet/lenovo-tab2-a7.jpg",
+	"price":"2.490.000",
+	"manuf": "LENOVO",
+	"descImg": "../images/tablet/lenovo-tab-2-a7-30-mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/tablet/lenovo-tab2-a7-6.jpg",
 		"../images/tablet/lenovo-tab2-a7-7.jpg"
@@ -21,7 +24,7 @@
 		"screenSize": "7.0",
 		"touchScreen": "Cảm ứng điện dung đa điểm"
 	},
-	"CPU-RAM":{
+	"CPU":{
 		"Chipset": "MediaTek MT 8382",
 		"NumCore": "Quad-core",
 		"Speed": "1.3 GHz",
@@ -40,8 +43,8 @@
 		"Film": "Có"
 	},
 	"Connection":{
-		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
-		"4G": "Không",
+		"ThreeG": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"FourG": "Không",
 		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",
 		"Conversation": "Có",
 		"Bluetooth": "4.0",

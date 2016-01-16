@@ -4,6 +4,7 @@
 	"icon": "../images/phones/mobiistar-lai-zumbo.jpg",
 	"price": "3.190.000",
 	"manuf": "Mobiistar",
+	"descImg": "../images/phones/mobiistar-lai-zumbo-mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/phones/mobiistar-lai-zumbo-6.jpg",
 		"../images/phones/mobiistar-lai-zumbo-7.jpg",
@@ -50,9 +51,9 @@
 		"MaximumSupport": "32 GB"
 	},
 	"Connection": {
-		"2G": "GSM 850/900/1800/1900",
-		"3G": "HSDPA 850/900/1900/2100, LTE",
-		"4G": "Không",
+		"TwoG": "GSM 850/900/1800/1900",
+		"ThreeG": "HSDPA 850/900/1900/2100, LTE",
+		"FourG": "Không",
 		"NumSIM": "2 SIM 2 sóng",
 		"Type": "1 SIM thường & 1 Micro SIM",
 		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",

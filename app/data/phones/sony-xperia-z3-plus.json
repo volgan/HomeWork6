@@ -4,6 +4,7 @@
 	"icon": "../images/phones/sony-xperia-z3-plus.jpg",
 	"price": "11.990.000",
 	"manuf": "SONY",
+	"descImg": "../images/phones/sony-xperia-z3-plus-mo-ta-chuc-nang1.jpg",
 	"slide": [
 		"../images/phones/sony-xperia-z3-plus-6.jpg",
 		"../images/phones/sony-xperia-z3-plus-7.jpg",
@@ -50,9 +51,9 @@
 		"MaximumSupport": "128 GB"
 	},
 	"Connection": {
-		"2G": "GSM 850/900/1800/1900",
-		"3G": "HSDPA 850/900/1900/2100, LTE",
-		"4G": "LTE Cat 6",
+		"TwoG": "GSM 850/900/1800/1900",
+		"ThreeG": "HSDPA 850/900/1900/2100, LTE",
+		"FourG": "LTE Cat 6",
 		"NumSIM": "1 SIM",
 		"Type": "Nano SIM",
 		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac, DLNA, Wi-Fi Direct, Wi-Fi hotspot",

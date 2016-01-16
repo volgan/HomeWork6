@@ -2,6 +2,9 @@
 	"id": "asus-zenpad-z300cg",
 	"name": "Asus Zenpad Z300CG",
 	"icon": "../images/tablet/asus-zenpad-z300cg.jpg",
+	"price":"5.490.000",
+	"manuf": "Asus",
+	"descImg": "../images/tablet/asus-zenpad-c-70-z170cg-mo-ta-chuc-nang1.jpg",
 	"slide": [
 		"../images/tablet/asus-zenpad-z300cg-9.jpg",
 		"../images/tablet/asus-zenpad-z300cg-10.jpg",
@@ -28,7 +31,7 @@
 		"screenSize": "10.1",
 		"touchScreen": "Cảm ứng điện dung đa điểm"
 	},
-	"CPU-RAM":{
+	"CPU":{
 		"Chipset": "Intel® Atom™ x3-C3230",
 		"NumCore": "Quad-core",
 		"Speed": "1 GHz",
@@ -47,8 +50,8 @@
 		"Film": "Có quay phim"
 	},
 	"Connection":{
-		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
-		"4G": "Không",
+		"ThreeG": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"FourG": "Không",
 		"Wifi": "Wi-Fi 802.11 b/g/n",
 		"Conversation": "Không",
 		"SIM" : "1 micro SIM",

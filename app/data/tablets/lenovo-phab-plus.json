@@ -2,17 +2,19 @@
 	"id": "lenovo-phab-plus",
 	"name": "Lenovo Phab Plus",
 	"icon": "../images/tablet/lenovo-phab-plus.jpg",
+	"price":"6.490.000",
+	"manuf": "Samsung",
+	"descImg": "../images/tablet/lenovo-phab-plus-mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/tablet/lenovo-phab-plus-6.jpg",
 		"../images/tablet/lenovo-phab-plus-7.jpg",
-		"../images/tablet/lenovo-phab-plus-8.jpg"
+		"../images/tablet/lenovo-phab-plus-5.jpg"
 	],
 	"images": [
 		"../images/tablet/lenovo-phab-plus-1.jpg",
 		"../images/tablet/lenovo-phab-plus-2.jpg",
 		"../images/tablet/lenovo-phab-plus-3.jpg",
-		"../images/tablet/lenovo-phab-plus-4.jpg",
-		"../images/tablet/lenovo-phab-plus-5.jpg"
+		"../images/tablet/lenovo-phab-plus-4.jpg"
 	],
 	"general":{
 		"OS": "Android 5.0",
@@ -24,7 +26,7 @@
 		"screenSize": "7",
 		"touchScreen": "Cảm ứng điện dung đa điểm"
 	},
-	"CPU-RAM":{
+	"CPU":{
 		"Chipset": "Qualcomm Snapdragon 615",
 		"NumCore": "8 nhân",
 		"Speed": "1.5 GHz",
@@ -43,8 +45,8 @@
 		"Film": "Có quay phim"
 	},
 	"Connection":{
-		"3G": "Có 3G",
-		"4G": "Có",
+		"ThreeG": "Có 3G",
+		"FourG": "Có",
 		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac",
 		"Conversation": "Có, 2 Sim 2 Sóng",
 		"SIM": "Micro sim",

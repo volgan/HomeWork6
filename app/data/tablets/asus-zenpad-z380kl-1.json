@@ -2,6 +2,9 @@
 	"id": "asus-zenpad-z380kl",
 	"name": "Asus Zenpad Z380KL",
 	"icon": "../images/tablet/asus-zenpad-z380kl.jpg",
+	"price":"6.100.000",
+	"manuf": "Asus",
+	"descImg": "../images/tablet/asus-zenpad-c-70-z170cg-mo-ta-chuc-nang1.jpg",
 	"slide": [
 		"../images/tablet/asus-zenpad-z380kl-6.jpg",
 		"../images/tablet/asus-zenpad-z380kl-7.jpg",
@@ -23,7 +26,7 @@
 		"screenSize": "8",
 		"touchScreen": "Cảm ứng điện dung đa điểm"
 	},
-	"CPU-RAM":{
+	"CPU":{
 		"Chipset": "Qualcomm MSM8916",
 		"NumCore": "Quad-core",
 		"Speed": "1.2 GHz",
@@ -42,8 +45,8 @@
 		"Film": "Có quay phim"
 	},
 	"Connection":{
-		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
-		"4G": "LTE",
+		"ThreeG": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"FourG": "LTE",
 		"Wifi": "Wi-Fi 802.11 b/g/n",
 		"Conversation": "Không",
 		"SIM": "2 sim - Loại sim: micro",

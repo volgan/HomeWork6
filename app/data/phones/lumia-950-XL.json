@@ -4,6 +4,7 @@
 	"price": "15.990.000đ",
 	"icon": "../images/phones/lumia-950-XL.jpg",
 	"manuf": "NOKIA",
+	"descImg": "../images/phones/microsoft-lumia-950-xl-mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/phones/lumia-950-XL-6.jpg",
 		"../images/phones/lumia-950-XL-7.jpg",
@@ -51,9 +52,9 @@
 		"MaximumSupport": "200 GB"
 	},
 	"Connection": {
-		"2G": "GSM 850/900/1800/1900",
-		"3G": "HSDPA 850/900/1900/2100, LTE",
-		"4G": "LTE Cat 6",
+		"TwoG": "GSM 850/900/1800/1900",
+		"ThreeG": "HSDPA 850/900/1900/2100, LTE",
+		"FourG": "LTE Cat 6",
 		"NumSIM": "1 SIM",
 		"Type": "Nano SIM",
 		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi hotspot",

@@ -1,0 +1,30 @@
+<div id="HEADER">
+    <div class="container">
+        <div id="nav">
+            <div id="menu" ng-include="'responsive.html'">
+            </div>
+            <div class="row" id="leftNav">
+                <div class="col-lg-5 col-md-5" ng-include="'search-icon.html'" scope="" onload="">
+                </div>
+                <div class="col-lg-7 col-md-7">
+                    <div class="row">
+                        <!-- Begin Login -->
+                        <div class="col-lg-7 col-md-7" ng-controller="LoginController as Login" ng-cloak="" ng-include="'components/Login/login.html'">
+                        </div>
+                        <!-- End Login -->
+                        <div class="col-lg-4 col-md-4 firstRow">
+                            <a href="#/Location" title="Cửa hàng Poseidon">
+                                <img src="images/Maps.png" alt="" height="40px">
+                            </a>
+                            <a href="#/Location" title="Cửa hàng Poseidon">
+                                <label class="txt-menu" style="font-size:15px;">Cửa hàng Poseidon</label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" ng-include="'navBar.html'">
+            </div>
+        </div>
+    </div>
+</div>

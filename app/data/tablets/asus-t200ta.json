@@ -2,6 +2,9 @@
 	"id": "asus-t200ta",
 	"name": "ASUS Transformer Book T200TA",
 	"icon": "../images/tablet/asus-t200ta.jpg",
+	"price": "8.890.000",
+	"manuf": "ASUS",
+	"descImg": "../images/tablet/Asus-Transformer-Book-T200TA-mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/tablet/asus-t200ta-6.jpg",
 		"../images/tablet/asus-t200ta-7.jpg",
@@ -25,7 +28,7 @@
 		"screenSize": "11.6",
 		"touchScreen": "Cảm ứng điện dung đa điểm"
 	},
-	"CPU-RAM":{
+	"CPU":{
 		"Chipset": "Intel Atom Z3775",
 		"NumCore": "Quad-core",
 		"Speed": "1.46 GHz",
@@ -44,8 +47,8 @@
 		"Film": "Full HD 1080p (1920 x 1080 pixels)"
 	},
 	"Connection":{
-		"3G": "Không",
-		"4G": "Không",
+		"ThreeG": "Không",
+		"FourG": "Không",
 		"Wifi": "Có",
 		"Conversation": "Không",
 		"Bluetooth": "4.0",

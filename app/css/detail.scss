@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin MARGIN($top, $bottom) {
+    margin: {
+        top: $top;
+        bottom: $bottom;
+    }
+}
+
+@mixin FONT($size, $Weight, $lineHEIGHT, $color) {
+    color: $color;
+    font: {
+        size: $size;
+        weight: $Weight;
+    }
+    line-height: $lineHEIGHT;
+}
+
+.ItemDetail {
+    md-content {
+        overflow: hidden;
+    }
+    .md-button {
+        width: 100%;
+    }
+    .ROWTOP {
+        @include MARGIN(20px, 0);
+    }
+    .NAMEROW {
+        border-bottom: 1px solid #e5e5e5;
+        @include MARGIN(0, 10px);
+        .name {
+            @include FONT(26px, bold, 1.3em, #333);
+        }
+    }
+    .INFOROW {
+        .price {
+            display: block;
+            @include FONT(22px, bold, 1.3em, #d0021b);
+            margin-bottom: 6px;
+        }
+        .Info {
+            display: block;
+            @include FONT(16px, 600, 1.3em, #27ae60);
+        }
+        .detailpromotion {
+            display: block;
+            overflow: hidden;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            position: relative;
+            margin: 15px 0 10px;
+            span {
+                display: block;
+                margin-left: 5px;
+                overflow: hidden;
+                @include FONT(13px, 200, 2.3em, #2c3e50);
+                li {
+                    margin-left: 10px;
+                }
+            }
+        }
+        .Infocomes {
+            display: block;
+            overflow: hidden;
+            li {
+                display: block;
+                overflow: hidden;
+                padding-bottom: 20px;
+                @include FONT(13px, 200, 1.3em, #545454);
+                a {
+                    color: #288ad6;
+                }
+            }
+        }
+    }
+    .DETAILROW {
+        @include MARGIN(0, 20px);
+        h2 {
+            @include FONT(20px, bold, 1.3em, #666);
+        }
+        .carousel-control.right {
+            background: none !important;
+        }
+        .carousel-control.left {
+            background: none !important;
+        }
+        .carousel-indicators {
+            left: 90%;
+            li {
+                background: #e5e5e5;
+                height: 15px;
+                width: 15px;
+                margin: 5px;
+            }
+            .active {
+                background: #ff8400;
+                height: 15px;
+                width: 15px;
+            }
+        }
+        md-pagination-wrapper{
+            width: 600px !important;
+        }
+        .parameter {
+            float: right;
+            overflow: visible;
+            margin: 20px 0;
+            h2 {
+                margin: 0;
+            }
+            ul {
+                display: block;
+                position: relative;
+                overflow: hidden;
+            }
+            li {
+                div {
+                    vertical-align: top;
+                    @include FONT(13px, normal, 1.3em, #333);
+                }
+            }
+        }
+        .IMGDetail {
+            .row{
+                height: 400px;
+            }
+            h2 {
+                margin-left: 20px;
+            }
+            .itemIMG {
+                margin-bottom: 10px;
+            }
+            .carousel-control {
+                border: none !important;
+                width: 0;
+                margin-right: 10px;
+                margin-left: 10px
+                
+            }
+        }
+    }
+}
+.modal-header{
+    background: rgb(63,81,181);
+    color: rgba(255,255,255,0.87);  
+}
+.modal-body {
+    li {
+        display: table;
+        list-style-type: none;
+        border-bottom: 1px solid #dadada;
+    }
+    .row {
+        width: 90%;
+        margin-left: 20px;
+    }
+    span {
+        display: block;
+        padding: 6px 5px;
+        @include FONT(13px, normal, 1.3em, #666);
+    }
+    .HEADER {
+        display: block;
+        background: #f2f2f2;
+        @include FONT(16px, 600, 1.3em, #c0392b);
+        padding: 8px
+    }
+}

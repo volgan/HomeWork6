@@ -4,6 +4,7 @@
 	"icon": "../images/phones/wiko-pulp.jpg",
 	"price": "3.690.000",
 	"manuf": "Wiko",
+	"descImg": "../images/phones/wiko-pulp-fab-mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/phones/wiko-pulp-6.jpg",
 		"../images/phones/wiko-pulp-7.jpg",
@@ -51,9 +52,9 @@
 		"MaximumSupport": "64 GB"
 	},
 	"Connection": {
-		"2G": "GSM 850/900/1800/1900",
-		"3G": "HSDPA 850/900/1900/2100, LTE",
-		"4G": "Không",
+		"TwoG": "GSM 850/900/1800/1900",
+		"ThreeG": "HSDPA 850/900/1900/2100, LTE",
+		"FourG": "Không",
 		"NumSIM": "2 SIM 2 sóng",
 		"Type": "Micro SIM",
 		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",

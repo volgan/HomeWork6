@@ -1,0 +1,373 @@
+<div class="modal-header">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <h2>Thông số kỹ thuật chi tiết {{Laptop.name}}</h2>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="cancel()">
+                <md-icon md-svg-src="images/Close.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+        </div>
+    </md-toolbar>
+</div>
+<div class="modal-body">
+    <div class="row">
+        <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+            <img src="{{Laptop.image}}" alt="" height="400px">
+        </div>
+    </div>
+    <ul>
+        <li class="row">
+            <span class="HEADER">Bộ xử lý</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hãng CPU</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CPU.Manufacturer}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Công nghệ CPU</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CPU.Tech}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Loại CPU</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CPU.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Tốc độ CPU</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CPU.Speed}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Bộ nhớ đệm</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CPU.Cache}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Tốc độ tối đa</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CPU.MaxSpeed}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Bo mạnh</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chipset</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.MainBoard.Chipset}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Tốc độ Bus</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.MainBoard.Bus}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hỗ trợ RAM tối đa</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.MainBoard.SupporRam}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Bộ nhớ</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Loại RAM</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Storage.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>RAM</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Storage.RAM}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Tốc độ Bus</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Storage.Bus}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Đĩa cứng</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Loại ổ đĩa</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.HardDisk.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Dung lượng ổ đĩa</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.HardDisk.Capacity}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Màn hình</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Kích thước màn hình</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Display.ScreenSize}} inches</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Độ phân giải</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Display.screenResolution}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Công nghệ màn hình: </strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Display.Tech}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Cảm ứng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Display.touchScreen}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Đồ họa</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chipset đồ họa</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Graphics.Chipset}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Bộ nhớ đồ họa</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Graphics.Capacity}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Thiết kế card</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Graphics.Design}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Âm thanh</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Kênh âm thanh</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Audio.Channels}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Thông tin thêm</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Audio.Other}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Đĩa quang</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Có sẵn Đĩa Quang</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CD.CD}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Loại đĩa quang</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CD.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Tính năng mở rộng & cổng giao tiếp</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Cổng giao tiếp</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Interface.Interfaces}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Tính năng mở rộng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Interface.Other}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Giao tiếp mạng</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>LAN</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Network.LAN}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chuẩn Wifi</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Network.Wifi}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Kết nối không dây khác</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Network.Other}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Card Reader</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Đọc thẻ nhớ</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CardReader.Support}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Khe đọc thẻ nhớ</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.CardReader.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Webcam</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Độ phân giải WC</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Webcam.Resolution}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Thông tin thêm</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Webcam.Other}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Pin/Battery</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Thông tin pin</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Battery}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Hệ điều hành</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hệ điều hành</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.OS}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Kích thước & trọng lượng</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Kích thước</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Design.dimensions}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Trọng lượng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Laptop.Design.weight}}</span>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="modal-footer">
+    <!-- <button class="btn btn-primary" type="button" ng-cli class="row"ck="ok()">OK</button> -->
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

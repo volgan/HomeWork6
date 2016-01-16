@@ -4,6 +4,7 @@
 	"icon": "../images/phones/galaxy-a7.jpg",
 	"price": "7.990.000đ",
 	"manuf": "Samsung",
+	"descImg": "../images/phones/galaxy-a7-10.jpg",
 	"slide": [
 		"../images/phones/galaxy-a7-6.jpg",
 		"../images/phones/galaxy-a7-7.jpg",
@@ -51,9 +52,9 @@
 		"MaximumSupport": "64 GB"
 	},
 	"Connection": {
-		"2G": "GSM 850/900/1800/1900",
-		"3G": "HSDPA 850/900/1900/2100, LTE",
-		"4G": "Không",
+		"TwoG": "GSM 850/900/1800/1900",
+		"ThreeG": "HSDPA 850/900/1900/2100, LTE",
+		"FourG": "Không",
 		"NumSIM": "2 SIM 2 sóng",
 		"Type": "Nano SIM",
 		"Wifi": "Wi-Fi Direct",

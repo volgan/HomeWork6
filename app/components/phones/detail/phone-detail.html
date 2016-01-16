@@ -11,7 +11,19 @@
     </div>
     <div class="row INFOROW">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <img src="{{PhoneDetail.phone.icon}}" alt="">
+        	<div class="row">
+            	<img src="{{PhoneDetail.phone.icon}}" alt="">
+            </div>
+            <div class="row">
+            	<md-content class="content">
+					<md-button class="md-raised md-primary"><strong>MUA NGAY<strong></md-button>
+            	</md-content>
+            </div>
+            <div class="row">
+            	<md-content>
+					<md-button class="md-raised md-warn"><strong>TRẢ GÓP LÃI SUẤT 0%<strong></md-button>
+        		</md-content>
+            </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <p class="price">{{PhoneDetail.phone.price}}</p>
@@ -68,12 +80,8 @@
             </ul>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-            <md-content>
-                <div class="row">
-                </div>
-                <div class="row">
-                </div>
-            </md-content>
+            
+               
         </div>
     </div>
     <div class="row DETAILROW">
@@ -84,7 +92,7 @@
                         <div ng-include="'components/phones/detail/parameter.html'" scope="" onload=""></div>
                     </md-content>
                 </md-tab>
-                <md-tab label="Hình ảnh">
+                <md-tab label="Hình ảnh ({{PhoneDetail.phone.images.length}})">
                     <md-content>
                         <div ng-include="'components/phones/detail/image.html'" scope="" onload=""></div>
                     </md-content>
@@ -101,5 +109,6 @@
                 </md-tab>
             </md-tabs>
         </md-content>
+        
     </div>
 </div>

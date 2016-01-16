@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin MARGIN($top, $bottom) {
+    margin: {
+        top: $top;
+        bottom: $bottom;
+    }
+}
+
+@mixin FONT($size, $Weight, $lineHEIGHT, $color) {
+    color: $color;
+    font: {
+        size: $size;
+        weight: $Weight;
+    }
+    line-height: $lineHEIGHT;
+}
+
+@mixin demen($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+.SLIDE{
+    margin-top: 20px; 
+    margin-left: 30px;
+}

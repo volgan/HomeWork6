@@ -1,0 +1,420 @@
+<div class="modal-header">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <h2>Thông số kỹ thuật chi tiết {{phone.name}}</h2>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="cancel()">
+                <md-icon md-svg-src="images/Close.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+        </div>
+    </md-toolbar>
+</div>
+<div class="modal-body">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="{{phone.descImg}}" alt="" height="400px">
+        </div>
+    </div>
+    <ul>
+        <li class="row">
+            <span class="HEADER">Màn hình</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Công nghệ màn hình: </strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Display.screenTech}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Độ phân giải</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Display.screenResolution}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Màn hình rộng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Display.screenSize}}"</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Cảm ứng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Display.touchScreen}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Mặt kính cảm ứng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Display.glassTouch}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Camera sau</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Độ phân giải</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.CameraBehind.primary}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Quay phim</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.CameraBehind.film}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Đèn Flash</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.CameraBehind.Flash}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chụp ảnh nâng cao</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.CameraBehind.Advanced}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Camera trước</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Độ phân giải</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.CameraFront.primary}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Quay phim</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.CameraFront.film}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Videocall</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.CameraFront.VideoCall}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Thông tin khác</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.CameraFront.Orther}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Hệ điều hành-CPU</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hệ điều hành</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.OS.OS}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chipset (hãng SX CPU)</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.OS.Chipset}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Số nhân của CPU</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.OS.NumCore}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Tốc độ CPU</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.OS.Speed}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chip đồ họa (GPU)</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.OS.GPU}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Bộ nhớ & Lưu trữ</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>RAM</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Storage.RAM}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Bộ nhớ trong (ROM)</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Storage.ROM}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Bộ nhớ còn lại (khả dụng)</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Storage.availability}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Thẻ nhớ ngoài</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Storage.memoryCard}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hỗ trợ thẻ tối đa</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Storage.MaximumSupport}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Kết nối</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Băng tần 2G</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.TwoG}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Băng tần 3G</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.ThreeG}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hỗ trợ 4G</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.FourG}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Số khe sim</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.NumSIM}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Loại Sim</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.Wifi}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>GPS</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.GPS}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Bluetooth</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.Bluetooth}}</span>
+            </div>
+        </li>        
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>NFC</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.NFC}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Cổng kết nối/sạc</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.Charger}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Jack tai nghe</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.audioJack}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Kết nối khác</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Connection.other}}</span>
+            </div>
+        </li>        
+        <li class="row">
+            <span class="HEADER">Thiết kế & Trọng lượng</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Thiết kế</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Design.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chất liệu</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Design.Material}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Kích thước</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Design.dimensions}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Trọng lượng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Design.weight}}</span>
+            </div>
+        </li>        
+        <li class="row">
+            <span class="HEADER">Thông tin pin</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Dung lượng pin</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Battery.Capacity}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Loại pin</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Battery.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Giải trí & Ứng dụng</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Xem phim</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Entertaiment.WatchMovie}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Nghe nhạc</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Entertaiment.Music}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Ghi âm</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Entertaiment.Record}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Radio</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Entertaiment.Radio}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chức năng khác</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{phone.Entertaiment.Other}}</span>
+            </div>
+        </li>
+
+    </ul>
+</div>
+<div class="modal-footer">
+    <!-- <button class="btn btn-primary" type="button" ng-cli class="row"ck="ok()">OK</button> -->
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

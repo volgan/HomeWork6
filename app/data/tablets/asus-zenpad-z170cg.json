@@ -2,6 +2,9 @@
 	"id": "asus-zenpad-z170cg",
 	"name": "ASUS ZenPad C 7.0 (Z170CG)",
 	"icon": "../images/tablet/asus-zenpad-z170cg.jpg",
+	"price":"3.190.000",
+	"manuf": "Asus",
+	"descImg": "../images/tablet/asus-zenpad-c-70-z170cg-mo-ta-chuc-nang1.jpg",
 	"slide": [
 		"../images/tablet/asus-zenpad-z170cg-6.jpg",
 		"../images/tablet/asus-zenpad-z170cg-7.jpg",
@@ -24,7 +27,7 @@
 		"screenSize": "7",
 		"touchScreen": "Cảm ứng điện dung đa điểm"
 	},
-	"CPU-RAM":{
+	"CPU":{
 		"Chipset": "Intel Atom x3-C3230",
 		"NumCore": "Quad-core",
 		"Speed": "1 GHz",
@@ -43,8 +46,8 @@
 		"Film": "Có quay phim"
 	},
 	"Connection":{
-		"3G": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
-		"4G": "Không",
+		"ThreeG": "Có 3G (tốc độ Download 21Mbps/42 Mbps; Upload 5.76 Mbps)",
+		"FourG": "Không",
 		"Wifi": "Wi-Fi 802.11 b/g/n",
 		"Conversation": "Không",
 		"SIM": "2 sim - Loại sim: micro",

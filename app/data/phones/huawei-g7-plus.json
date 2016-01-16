@@ -4,6 +4,7 @@
 	"icon": "../images/phones/huawei-g7-plus.jpg",
 	"price": "8.990.000đ",
 	"manuf": "Huawei",
+	"descImg": "../images/phones/huawei-g7-plus-mo-ta-chuc-nang.jpg",
 	"slide": [
 		"../images/phones/huawei-g7-plus-6.jpg",
 		"../images/phones/huawei-g7-plus-7.jpg",
@@ -51,9 +52,9 @@
 		"MaximumSupport": "128 GB"
 	},
 	"Connection": {
-		"2G": "GSM 850/900/1800/1900",
-		"3G": "HSDPA 850/900/1900/2100, LTE",
-		"4G": "Có",
+		"TwoG": "GSM 850/900/1800/1900",
+		"ThreeG": "HSDPA 850/900/1900/2100, LTE",
+		"FourG": "Có",
 		"NumSIM": "2 SIM 2 sóng",
 		"Type": "Nano SIM",
 		"Wifi": "Wi-Fi 802.11 b/g/n, Wi-Fi hotspot",

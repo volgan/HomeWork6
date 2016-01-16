@@ -1,0 +1,66 @@
+<div class="col-lg-7 col-md-7" layout="column">
+    <md-content>
+        <div ng-hide="!Login.display" class="lock-size" layout="row" layout-align="center center">
+            <md-fab-speed-dial md-open="Login.isOpen" md-direction="{{'right'}}" ng-class="'md-fling'" ng-mouseenter="Login.isOpen=true" ng-mouseleave="Login.isOpen=false">
+                <md-fab-trigger>
+                    <md-button aria-label="menu" class="md-fab md-warn">
+                        <md-tooltip md-direction="bottom">
+                            Đăng nhập
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/User.svg"></md-icon>
+                    </md-button>
+                </md-fab-trigger>
+                <md-fab-actions>
+                    <md-button aria-label="Login" class="md-fab md-raised md-mini" ng-click="Login.poseidonLogin()">
+                        <md-tooltip md-direction="top">
+                            Poseidon
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/Login-01.svg" aria-label="Poseidon"></md-icon>
+                    </md-button>
+                    <md-button aria-label="Facebook" class="md-fab md-raised md-mini" ng-click="Login.FBLogin()">
+                        <md-tooltip md-direction="top">
+                            Facebook
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/Facebook.svg" aria-label="Facebook"></md-icon>
+                    </md-button>
+                </md-fab-actions>
+            </md-fab-speed-dial>
+        </div>
+        <div ng-hide="Login.display" class="lock-size row" layout="row" layout-align="center center" ng-mouseleave="show={display:'none'}" ng-init="show={display:'none'}">
+            <div class="col-lg-5 col-md-5 avatar">
+                <md-tooltip md-direction="bottom">
+                    {{Login.Name}}
+                </md-tooltip>
+                <img src="{{Login.Avatar}}" alt="Facebook Avatar" style="border-radius: 50%" height="56px" ng-mouseenter="show= {display: 'block'}">
+            </div>
+            <div class="col-lg-7 col-md-7 ">
+                <div class="col-lg-6 col-md-6" ng-style="show">
+                    <md-button aria-label="Facebook" class="md-fab md-raised md-mini icon_1" ng-click="Login.Logout()">
+                        <md-tooltip md-direction="top">
+                            LogOut
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/logOut.svg" aria-label="Log Out"></md-icon>
+                    </md-button>
+                </div>
+                <div class="col-lg-6 col-md-6" ng-style="show">
+                    <md-button aria-label="Shopping Cart" class="md-fab md-raised md-mini icon_2" ng-click="Login.FBLogin()">
+                        <md-tooltip md-direction="top">
+                            Shopping Cart
+                        </md-tooltip>
+                        <md-icon md-svg-src="images/Shopping-Cart.svg" aria-label="Shopping Cart"></md-icon>
+                    </md-button>
+                </div>
+            </div>
+        </div>
+    </md-content>
+</div>
+<div class="col-lg-4 col-md-4">
+    <md-content>
+        <md-tooltip md-direction="bottom">
+            Đăng Ký
+        </md-tooltip>
+        <md-button aria-label="menu" class="md-fab md-raised" ng-click="Login.register()" ng-disabled="!Login.display">
+            <md-icon md-svg-src="images/User_Add.svg"></md-icon>
+        </md-button>
+    </md-content>
+</div>

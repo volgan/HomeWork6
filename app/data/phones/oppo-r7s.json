@@ -4,6 +4,7 @@
 	"icon": "../images/phones/oppo-r7s.jpg",
 	"price": "9.490.000đ",
 	"manuf": "OPPO",
+	"descImg": "../images/phones/oppo-r7s-mo-ta-chuc-nang1.jpg",
 	"slide": [
 		"../images/phones/oppo-r7s-6.jpg",
 		"../images/phones/oppo-r7s-7.jpg",
@@ -51,9 +52,9 @@
 		"MaximumSupport": "128 GB"
 	},
 	"Connection": {
-		"2G": "GSM 850/900/1800/1900",
-		"3G": "HSDPA 850/900/1900/2100, LTE",
-		"4G": "LTE Cat 6",
+		"TwoG": "GSM 850/900/1800/1900",
+		"ThreeG": "HSDPA 850/900/1900/2100, LTE",
+		"FourG": "LTE Cat 6",
 		"NumSIM": "2 SIM 2 sóng",
 		"Type": "1 Nano + 1 Micro",
 		"Wifi": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi hotspot",

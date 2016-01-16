@@ -1,0 +1,31 @@
+<div class="modal-header">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <h2>Login Form</h2>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="login.cancel()">
+                <md-icon md-svg-src="images/Close.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+        </div>
+    </md-toolbar>
+</div>
+<div class="modal-body">
+    <md-content layout-padding>
+        <form name="loginForm">
+            <md-input-container class="md-block">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" ng-model="login.Email" required/>
+                <span ng-show="loginForm.email.$error.required && loginForm.email.$dirty">required</span>
+                <span ng-show="!loginForm.email.$error.required && loginForm.email.$error.email && loginForm.email.$dirty">invalid email</span>
+            </md-input-container>
+            <md-input-container class="md-block">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" ng-model="login.Pass" ng-minlength="8" ng-maxlength="20" ng-pattern="/(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z])/" required />
+                <span ng-show="loginForm.password.$error.required && loginForm.password.$dirty">required</span>
+                <span ng-show="!loginForm.password.$error.required && (loginForm.password.$error.minlength || loginForm.password.$error.maxlength) && loginForm.password.$dirty">Passwords must be between 8 and 20 characters.</span>
+                <span ng-show="!loginForm.password.$error.required && !loginForm.password.$error.minlength && !loginForm.password.$error.maxlength && loginForm.password.$error.pattern && loginForm.password.$dirty">Must contain one lower &amp; uppercase letter, and one non-alpha character (a number or a symbol.)</span>
+            </md-input-container>
+            <button type="submit" class="btn" ng-disabled="!loginForm.$valid" ng-click="login.LOGIN()">login</button>
+        </form>
+    </md-content>
+</div>

@@ -1,0 +1,114 @@
+<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+    <h2>Đặc điểm nổi bật của {{LaptopDetail.Laptop.name}}</h2>
+    <uib-carousel interval="3000">
+        <uib-slide ng-repeat="slide in LaptopDetail.Laptop.slide">
+            <img ng-src="{{slide}}" alt="">
+        </uib-slide>
+    </uib-carousel>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 parameter">
+    <h2>Thông số kỹ thuật</h2>
+    <ul>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>CPU</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.CPU.Manufacturer}}, {{LaptopDetail.Laptop.CPU.Tech}}, {{LaptopDetail.Laptop.CPU.Speed}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>RAM</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Storage.Type}}, {{LaptopDetail.Laptop.Storage.RAM}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Đĩa cứng</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.HardDisk.Type}}, {{LaptopDetail.Laptop.HardDisk.Capacity}}</span>
+            </div>
+        </li>       
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Màn hình rộng</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Display.ScreenSize}}", {{LaptopDetail.Laptop.Display.screenResolution}} </span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Cảm ứng</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Display.touchScreen}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Đồ họa</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Graphics.Chipset}}, {{LaptopDetail.Laptop.Graphics.Capacity}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Đĩa quang</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.CD.CD}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Webcam</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Webcam.Resolution}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Cổng giao tiếp</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Interface.Interfaces}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Kết nối khác</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Interface.Other}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>PIN/Battert</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Battery}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4">
+                <strong><span>Trọng lượng</span></strong>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <span>{{LaptopDetail.Laptop.Design.weight}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <md-button class="md-raised md-primary" ng-click="LaptopDetail.OPEN()">Xem chi tiết</md-button>
+            </div>
+        </li>
+    </ul>
+</div>

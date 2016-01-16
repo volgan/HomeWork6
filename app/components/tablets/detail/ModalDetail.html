@@ -1,0 +1,359 @@
+<div class="modal-header">
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <h2>Thông số kỹ thuật chi tiết {{Tablet.name}}</h2>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="cancel()">
+                <md-icon md-svg-src="images/Close.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+        </div>
+    </md-toolbar>
+</div>
+<div class="modal-body">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <img src="{{Tablet.descImg}}" alt="" height="400px">
+        </div>
+    </div>
+    <ul>
+        <li class="row">
+            <span class="HEADER">Thông tin chung</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hệ điều hành</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.general.OS}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Ngôn ngữ</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.general.Lang}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Màn hình</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Công nghệ màn hình: </strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.display.screenTech}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Độ phân giải</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.display.screenResolution}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Màn hình rộng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.display.screenSize}}"</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Cảm ứng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.display.touchScreen}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Chụp hình & Quay phim</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Camera sau</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Camera.Behind}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Camera trước</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Camera.Front}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Tính năng camera</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Camera.Advanced}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chụp ảnh nâng cao</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Camera.Film}}</span>
+            </div>
+        </li>
+        
+        <li class="row">
+            <span class="HEADER">CPU & RAM</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chipset (hãng SX CPU)</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.CPU.Chipset}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Số nhân của CPU</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.CPU.NumCore}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Tốc độ CPU</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.CPU.Speed}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chip đồ họa (GPU)</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.CPU.GPU}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>RAM</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.CPU.RAM}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Bộ nhớ & Lưu trữ</span>
+        </li>        
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Bộ nhớ trong (ROM)</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Storage.ROM}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Thẻ nhớ ngoài</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Storage.memoryCard}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hỗ trợ thẻ tối đa</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Storage.MaximumSupport}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Kết nối</span>
+        </li>
+        
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Băng tần 3G</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.ThreeG}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hỗ trợ 4G</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.FourG}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Đàm thoại</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.Conversation}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Hỗ trợ SIM</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.SIM}}</span>
+            </div>
+        </li>
+        
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.Wifi}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>GPS</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.GPS}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Bluetooth</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.Bluetooth}}</span>
+            </div>
+        </li>        
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Cổng USB</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.USB}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Cổng HDMI</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.HDMI}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Jack tai nghe</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.audioJack}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Kết nối khác</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Connection.other}}</span>
+            </div>
+        </li>        
+        <li class="row">
+            <span class="HEADER">Thiết kế & Trọng lượng</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Kích thước</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Design.dimensions}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Trọng lượng</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Design.weight}}</span>
+            </div>
+        </li>        
+        <li class="row">
+            <span class="HEADER">Thông tin pin</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Dung lượng pin</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Battery.Capacity}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Loại pin</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Battery.Type}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <span class="HEADER">Giải trí & Ứng dụng</span>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Xem phim</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Entertaiment.WatchMovie}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Nghe nhạc</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Entertaiment.Music}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Ghi âm</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Entertaiment.Record}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Radio</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Entertaiment.Radio}}</span>
+            </div>
+        </li>
+        <li class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <span><strong>Chức năng khác</strong></span>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                <span>{{Tablet.Entertaiment.Other}}</span>
+            </div>
+        </li>
+
+    </ul>
+</div>
+<div class="modal-footer">
+    <!-- <button class="btn btn-primary" type="button" ng-cli class="row"ck="ok()">OK</button> -->
+    <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
+</div>

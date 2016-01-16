@@ -1,0 +1,114 @@
+<div class="container ItemDetail">
+    <div class="row ROWTOP">
+        <a href="#">Trang chủ</a>
+        <span>></span>
+        <a href="#/Tablet">Tablet</a>
+        <span>></span>
+        <a href="#/Tablet">{{TabletDetail.Tablet.manuf | uppercase}}</a>
+    </div>
+    <div class="row NAMEROW">
+        <h1 class="name">Điện thoại {{TabletDetail.Tablet.name}}</h1>
+    </div>
+    <div class="row INFOROW">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        	<div class="row">
+            	<img src="{{TabletDetail.Tablet.icon}}" alt="">
+            </div>
+            <div class="row">
+            	<md-content class="content">
+					<md-button class="md-raised md-primary"><strong>MUA NGAY<strong></md-button>
+            	</md-content>
+            </div>
+            <div class="row">
+            	<md-content>
+					<md-button class="md-raised md-warn"><strong>TRẢ GÓP LÃI SUẤT 0%<strong></md-button>
+        		</md-content>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <p class="price">{{TabletDetail.Tablet.price}}</p>
+            <label class="Info">Quà khuyến mãi</label>
+            <div class="detailpromotion">
+                <span>* Cơ hội trúng xe Mercedes, với "Lộc xuân POSEIDON"</span>
+                <span>* Cơ hội trúng 10 TV LED 40" mỗi ngày (đến 15/01)</span>
+                <span>* Khách hàng chọn 1 trong 2 ưu đãi:
+					<li>Trả góp 0% với <a href="">HomeCredit</a></li>
+					<li>Tặng tai nghe Bluetooth Samsung Level U</li>
+				</span>
+            </div>
+            <ul class="Infocomes">
+                <li>
+                    <div class="col-lg-1">
+                        <img src="../images/check.png" alt="" height="13px">
+                    </div>
+                    <div class="col-lg-11">
+                        Bộ sản phẩm gồm:
+                        <a href="#">
+						Hộp, Sạc, Tai nghe, Sách hướng dẫn, Cáp, Cây lấy sim
+					</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-lg-1">
+                        <img src="../images/check.png" alt="" height="13px">
+                    </div>
+                    <div class="col-lg-11">
+                        Bảo hành chính hãng: thân máy 12 tháng, pin 12 tháng, sạc 12 tháng -
+                        <a href="#">
+						Xem điểm bảo hành
+					</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-lg-1">
+                        <img src="../images/check.png" alt="" height="13px">
+                    </div>
+                    <div class="col-lg-11">
+                        Giao hàng tận nơi miễn phí trong 30 phút.
+                        <a href="#">Tìm hiểu</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="col-lg-1">
+                        <img src="../images/check.png" alt="" height="13px">
+                    </div>
+                    <div class="col-lg-11">
+                        Đổi trả sản phẩm lỗi miễn phí trong 14 ngày.
+                        <a href="#">Tìm hiểu</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            
+               
+        </div>
+    </div>
+    <div class="row DETAILROW">
+        <md-content>
+            <md-tabs md-dynamic-height="" md-border-bottom="">
+                <md-tab label="Thông số">
+                    <md-content>
+                        <div ng-include="'components/tablets/detail/parameter.html'" scope="" onload=""></div>
+                    </md-content>
+                </md-tab>
+                <md-tab label="Hình ảnh ({{TabletDetail.Tablet.images.length}})">
+                    <md-content>
+                        <div ng-include="'components/tablets/detail/image.html'" scope="" onload=""></div>
+                    </md-content>
+                </md-tab>
+                <md-tab label="Phụ kiện">
+                    <md-content>
+                        <div ng-include="'components/tablets/detail/phu-kien.html'" scope="" onload=""></div>
+                    </md-content>
+                </md-tab>
+                <md-tab label="Bình Luận">
+                    <md-content>
+                        <div ng-include="'components/tablets/detail/comment.html'" scope="" onload=""></div>
+                    </md-content>
+                </md-tab>
+            </md-tabs>
+        </md-content>
+        
+    </div>
+</div>

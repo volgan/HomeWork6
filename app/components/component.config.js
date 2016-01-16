@@ -26,7 +26,8 @@ function configFunc($stateProvider, $urlRouterProvider, $facebookProvider) {
         .state('Main', {
             url: '/',
             templateUrl: 'components/main.html',
-            controller: 'MainController'
+            controller: 'MainController',
+            controllerAs: 'mainCtr'
         })
         .state('Phones', {
             url: '/Phone',
@@ -62,7 +63,7 @@ function configFunc($stateProvider, $urlRouterProvider, $facebookProvider) {
             url: '/Tablet/:TabletId',
             templateUrl: 'components/tablets/detail/tablet-detail.html',
             controller: 'TabletDetailController',
-            controllerAs: 'TabletList'
+            controllerAs: 'TabletDetail'
         })
         .state('Accessories', {
             url: '/phu-kien',
