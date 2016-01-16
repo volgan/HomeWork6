@@ -18,6 +18,7 @@
                     .success(getphoneComplete);
             }
             function getphoneComplete (response) {
+                console.log(response);
                 return response.data;
             }
         }
@@ -51,10 +52,10 @@
                     vm.Laptops = data;
                 });
         }
-        $scope.$watch("$scope.Laptops", function(newVal, OldVal){
-            console.log("New Val: " + newVal),
-            console.log("Old Val: " + OldVal)
-        })
+        // $scope.$watch("$scope.Laptops", function(newVal, OldVal){
+        //     console.log("New Val: " + newVal),
+        //     console.log("Old Val: " + OldVal)
+        // })
     }
 
 })();

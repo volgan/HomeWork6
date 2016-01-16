@@ -1,0 +1,35 @@
+a {
+  text-decoration: none !important; }
+
+.PKList {
+  width: 95%;
+  margin-top: 20px; }
+  .PKList .item {
+    height: 270px;
+    width: 200px;
+    border: 1px solid #ececec;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-bottom: 5px; }
+    .PKList .item .name {
+      height: 30px;
+      overflow: hidden;
+      padding-top: 5px;
+      overflow: hidden; }
+      .PKList .item .name a {
+        color: black;
+        line-height: 1.3em;
+        font-size: 14px;
+        font-family: OpenSans;
+        font-weight: bold; }
+      .PKList .item .name:hover a {
+        color: #4a90e2; }
+    .PKList .item .imgItem {
+      padding-top: 20px; }
+    .PKList .item .price {
+      color: #d0021b;
+      font-weight: bold; }
+    .PKList .item .info {
+      height: 40px;
+      overflow: hidden;
+      padding-top: 0; }

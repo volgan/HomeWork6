@@ -9,7 +9,9 @@ a {
     width: 193px;
     border: 1px solid #ececec;
     overflow: hidden;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px; }
     .PhoneList .item .name {
       height: 40px;
       overflow: hidden;
@@ -25,7 +27,7 @@ a {
     .PhoneList .item .imgItem {
       padding-top: 20px; }
       .PhoneList .item .imgItem a {
-        padding-left: 30px; }
+        padding-left: 12px; }
     .PhoneList .item .price {
       color: #d0021b;
       font-weight: bold; }

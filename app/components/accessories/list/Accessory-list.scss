@@ -24,10 +24,10 @@ a {
     }
 }
 
-@mixin General($height) {
+@mixin General($height, $top) {
     height: $height;
     overflow: hidden;
-    padding-top: 5px;
+    padding-top: $top;
 }
 
 @mixin price() {
@@ -35,16 +35,15 @@ a {
     font-weight: bold;
 }
 
-.laptopList {
-    @include Demension(92%);
-    .itemTab {
-        @include sexy-border(430px, 280px);
-        margin-bottom: 5px;
+.PKList{
+    @include Demension(95%);
+    .item{
+        @include sexy-border(270px, 200px);
         margin-right: 5px;
-
+        margin-bottom: 5px;
         .name {
-            @include General(20px);
-            margin: 0 0 10px;
+            @include General(30px, 5px);
+            overflow: hidden;
             a {
                 @include GeneralLink(black, 14px, 1.3em, bold);
             }
@@ -54,16 +53,12 @@ a {
         }
         .imgItem {
             padding-top: 20px;
-            a {
-                padding-left: 30px;
-            }
         }
         .price {
             @include price();
-            margin: 0 0 10px;
         }
-        p {
-            margin: 0;
+        .info{
+            @include General(40px, 0);
         }
     }
 }

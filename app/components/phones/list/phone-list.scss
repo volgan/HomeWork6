@@ -39,6 +39,8 @@ a {
     .item {
         @include sexy-border(250px, 193px);
         text-align: center;
+        margin-bottom: 5px;
+        margin-right: 5px;
         .name {
             @include General(40px);
             a {
@@ -51,7 +53,7 @@ a {
         .imgItem {
             padding-top: 20px;
             a {
-                padding-left: 30px;
+                padding-left: 12px;
             }
         }
         .price {

@@ -30,7 +30,7 @@
                 <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index)" class="white" ng-repeat="phone in mainCtr.phones | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
                     <div ng-style="mainCtr.hide[$index]" ng-mouseenter="mainCtr.hidePhoneImage($index)">
                         <a class="phoneDetail" href="#/Phone/{{phone.id}}">
-                            <img ng-src="{{phone.image}}">
+                            <img ng-src="{{phone.image}}" style="height: 250px">
                         </a>
                     </div>
                     <div class="itemHidden" ng-style="mainCtr.show[$index]">
@@ -60,17 +60,18 @@
                 <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index)" class="white" ng-repeat="laptop in mainCtr.Laptops | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
                     <div ng-style="mainCtr.hide[$index]" ng-mouseenter="mainCtr.hidePhoneImage($index)">
                         <a class="phoneDetail" href="#/Laptop/{{laptop.id}}">
-                            <img ng-src="{{laptop.icon}}">
+                            <img style="height: 250px" ng-src="{{laptop.icon}}">
                         </a>
                     </div>
                     <div class="itemHidden" ng-style="mainCtr.show[$index]">
                         <a href="#/Laptop/{{laptop.id}}">
-                            <p class="name"><a href="#/Laptop/{{laptop.id}}">{{laptop.name | uppercase}}</a></p>
-                            <p><strong>Màn hình:</strong> {{laptop.Display}}" </p>
-                            <p><strong>CPU:</strong> {{laptop.CPU}}</p>
-                            <p><strong>RAM:</strong> {{laptop.RAM}}/{{laptop.HardDisk}}</p>
-                            <p><strong>VGA:</strong> {{laptop.VGA}}</p>
-                            <p><strong>HĐH:</strong> {{laptop.OS}}</p>
+                            <h3>{{laptop.name | uppercase}}</h3>
+                            <div></div>
+                            <span style="display: block"><strong>Màn hình:</strong> {{laptop.Display}}" </span>
+                            <span style="display: block"><strong>CPU:</strong> {{laptop.CPU}}</span>
+                            <span style="display: block"><strong>RAM:</strong> {{laptop.RAM}}/{{laptop.HardDisk}}</span>
+                            <span style="display: block"><strong>VGA:</strong> {{laptop.VGA}}</span>
+                            <span style="display: block"><strong>HĐH:</strong> {{laptop.OS}}</span>
                         </a>
                     </div>
                     <md-grid-tile-footer class="phoneFooter" ng-mouseenter="mainCtr.showPhoneImage($index)">
@@ -89,12 +90,13 @@
                 <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index)" class="white" ng-repeat="tablet in mainCtr.tablets | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
                     <div ng-style="mainCtr.hide[$index]" ng-mouseenter="mainCtr.hidePhoneImage($index)">
                         <a class="phoneDetail" href="#/Tablet/{{tablet.id}}">
-                            <img ng-src="{{tablet.icon}}">
+                            <img style="height: 250px" ng-src="{{tablet.icon}}">
                         </a>
                     </div>
                     <div class="itemHidden" ng-style="mainCtr.show[$index]">
                         <a href="#/Tablet/{{tablet.id}}">
-                            <p class="name"><a href="#/Tablet/{{tablet.id}}">{{tablet.name | uppercase}}</a></p>
+                            <h3>{{tablet.name | uppercase}}</h3>
+                            <div></div>
                             <span><strong>Màn hình:</strong> {{tablet.Screen}}" </span>
                             <span><strong>HĐH:</strong> {{tablet.OS}} - <strong>CPU:</strong> {{tablet.CPU}}</span>
                             <span><strong>RAM:</strong> {{tablet.RAM}} - <strong>ROM:</strong> {{tablet.ROM}}</span>

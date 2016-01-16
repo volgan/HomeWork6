@@ -1,0 +1,16 @@
+<div class="container PKList">
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 item" ng-repeat="pk in PKList.PK | orderBy: PKList.price">
+            <div>
+                <p class="imgItem">
+                    <a href="#/pk/{{pk.id}}">
+                        <img src="{{pk.image}}" alt="{{pk.name}}" height="120px" height="120px">
+                    </a>
+                </p>
+                <p class="name"><a href="#/pk/{{pk.id}}">{{pk.name | uppercase}}</a></p>
+                <p class="info">{{pk.info}}</p>
+                <p class="price">{{pk.price}} VNĐ</p>
+            </div>
+        </div>
+    </div>
+</div>

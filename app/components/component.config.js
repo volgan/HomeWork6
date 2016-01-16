@@ -69,7 +69,7 @@ function configFunc($stateProvider, $urlRouterProvider, $facebookProvider) {
             url: '/phu-kien',
             templateUrl: 'components/accessories/list/Accessory-list.html',
             controller: 'AccessoryListController',
-            controllerAs: 'AccessoryList'
+            controllerAs: 'PKList'
         })
         .state('Location', {
             url: '/Location',
