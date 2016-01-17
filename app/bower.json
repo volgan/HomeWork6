@@ -26,6 +26,8 @@
     "angular-bootstrap": "~0.14.3",
     "angular-material": "~1.0.1",
     "angular-ui-router": "~0.2.15",
-    "ng-facebook": "~0.1.6"
+    "ng-facebook": "~0.1.6",
+    "gsap": "~1.18.2",
+    "angular-touch": "~1.4.8"
   }
 }

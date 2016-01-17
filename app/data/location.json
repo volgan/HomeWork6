@@ -1,0 +1,43 @@
+{
+	"cities":
+	[{
+    "name": "Cửa hàng FPT Shop Tiểu khu Mỹ Lâm",
+    "address" : "Số 203-205 Nguyễn Đức Thuận (Ngã tư Đại Học Nông Nghiệp), Thị trấn Trâu Qùy, Huyện Gia Lâm, TP. Hà Nội",
+    "timeWork" : "8:00 - 22:00 cả thứ 7 và CN, ngày lễ",
+    "website": "poseidon.com",
+    "lat" : 21.021356,
+    "long" : 105.938240
+},
+{
+    "name": "Cửa hàng FPT Shop Thanh Hóa",
+    "address" : "Số 203-205 Nguyễn Đức Thuận (Ngã tư Đại Học Nông Nghiệp), Thị trấn Trâu Qùy, Huyện Gia Lâm, TP. Hà Nội",
+    "timeWork" : "8:00 - 22:00 cả thứ 7 và CN, ngày lễ",
+    "website": "poseidon.com",
+    "lat" : 19.790816,
+    "long" : 105.777111
+},
+{
+    "name": "Cửa hàng FPT Shop Đà nẳng",
+    "address" : "Số 203-205 Nguyễn Đức Thuận (Ngã tư Đại Học Nông Nghiệp), Thị trấn Trâu Qùy, Huyện Gia Lâm, TP. Hà Nội",
+    "timeWork" : "8:00 - 22:00 cả thứ 7 và CN, ngày lễ",
+    "website": "poseidon.com",
+    "lat" : 16.069534,
+    "long" : 108.209522
+},
+{
+    "name": "Cửa hàng FPT Shop TPHCM",
+    "address" : "Số 203-205 Nguyễn Đức Thuận (Ngã tư Đại Học Nông Nghiệp), Thị trấn Trâu Qùy, Huyện Gia Lâm, TP. Hà Nội",
+    "timeWork" : "8:00 - 22:00 cả thứ 7 và CN, ngày lễ",
+    "website": "poseidon.com",
+    "lat" : 13.977695,
+    "long" : 107.995426 
+},
+{
+    "name": "Cửa hàng FPT Shop Cà Mau",
+    "address" : "Số 203-205 Nguyễn Đức Thuận (Ngã tư Đại Học Nông Nghiệp), Thị trấn Trâu Qùy, Huyện Gia Lâm, TP. Hà Nội",
+    "timeWork" : "8:00 - 22:00 cả thứ 7 và CN, ngày lễ",
+    "website": "poseidon.com",
+    "lat" : 10.788234,
+    "long" : 106.685692 
+}]
+}

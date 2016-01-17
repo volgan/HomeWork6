@@ -97,11 +97,15 @@
             }
 
             function Register() {
-                vm.Avatar = "../images/User-Login.png";
-                vm.Email = register.Email;
-                vm.Name = register.name;
-                vm.display = false;
-                cancel();
+                if (register.show == false && register.isconfirm == true)
+                {
+                    // console.log("New");
+                    vm.Avatar = "../images/User-Login.png";
+                    vm.Email = register.Email;
+                    vm.Name = register.name;
+                    vm.display = false;
+                    cancel();
+                }
             }
 
             function compare($event) {
@@ -109,12 +113,12 @@
                 if ((($event.keyCode >= 48) && ($event.keyCode <= 57)) || (($event.keyCode >= 65) && ($event.keyCode <= 90)))
                 {
                     // console.log(register.isconfirm);
-                    console.log("RePass: " + register.RePass + " Pass: " + register.Pass);
+                    // console.log("RePass: " + register.RePass + " Pass: " + register.Pass);
                     if (register.Pass == register.RePass) {
 
                         register.isconfirm = true;
                         register.show = false;
-                        console.log(register.isconfirm);
+                        // console.log(register.isconfirm);
                     }
                     else {
                         register.show = true;

@@ -1,1 +1,9 @@
-<h1>Location page</h1>
+<div id="map"></div>
+<div id="search">
+    <input type="text" class="search form-control" placeholder="Tìm cửa hàng.." ng-model="location">
+    <div class="listCities" ng-repeat="marker in location.markers | filter : {title:location}">
+        <a id="country_container" href="#" ng-click="location.openInfoWindow($event, marker)">
+            <label id="names">{{marker.title}}</label>
+        </a>
+    </div>
+</div>
