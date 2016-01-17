@@ -16,27 +16,27 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" ng-model="register.Email" required/>
                 <span ng-show="registerForm.email.$error.required && registerForm.email.$dirty">required</span>
-                <span ng-show="!registerForm.email.$error.required && registerForm.email.$error.email && registerForm.email.$dirty">invalid email</span>
+                <span ng-show="!registerForm.email.$error.required && registerForm.email.$error.email && registerForm.email.$dirty" style="color:red">invalid email</span>
             </md-input-container>
             <md-input-container class="md-block">
                 <label for="email">Name</label>
                 <input type="text" id="name" name="name" ng-model="register.name" required/>
-                <span ng-show="registerForm.name.$error.required && registerForm.name.$dirty">required</span>
+                <span ng-show="registerForm.name.$error.required && registerForm.name.$dirty" style="color:red">required</span>
             </md-input-container>
             <md-input-container class="md-block">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" ng-model="register.Pass" ng-minlength="8" ng-maxlength="20" ng-pattern="/(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z])/" required />
-                <span ng-show="registerForm.password.$error.required && registerForm.password.$dirty">required</span>
-                <span ng-show="!registerForm.password.$error.required && (registerForm.password.$error.minlength || registerForm.password.$error.maxlength) && registerForm.password.$dirty">Passwords must be between 8 and 20 characters.</span>
-                <span ng-show="!registerForm.password.$error.required && !registerForm.password.$error.minlength && !registerForm.password.$error.maxlength && registerForm.password.$error.pattern && registerForm.password.$dirty">Must contain one lower &amp; uppercase letter, and one non-alpha character (a number or a symbol.)</span>
+                <span ng-show="registerForm.password.$error.required && registerForm.password.$dirty" style="color:red">required</span>
+                <span ng-show="!registerForm.password.$error.required && (registerForm.password.$error.minlength || registerForm.password.$error.maxlength) && registerForm.password.$dirty" style="color:blue">Passwords must be between 8 and 20 characters.</span>
+                <span ng-show="!registerForm.password.$error.required && !registerForm.password.$error.minlength && !registerForm.password.$error.maxlength && registerForm.password.$error.pattern && registerForm.password.$dirty" style="color:red">Must contain one lower &amp; uppercase letter, and one non-alpha character (a number or a symbol.)</span>
             </md-input-container>
             <md-input-container class="md-block">
-                <label for="password_c">Confirm Password</label>
-                <input type="password" id="password_c" name="password_c" ng-model="register.password_c" valid-password-c required />
-                <span ng-show="registerForm.password_c.$error.required && registerForm.password_c.$dirty">Please confirm your password.</span>
-                <span ng-show="!registerForm.password_c.$error.required && registerForm.password_c.$error.noMatch && registerForm.password.$dirty">Passwords do not match.</span>
+                <label for="RePass">Confirm Password</label>
+                <input type="password" id="RePass" name="RePass" ng-model="register.RePass" valid-password-c required ng-keyup="register.compare($event)"/>
+                <span ng-show="registerForm.RePass.$error.required && registerForm.RePass.$dirty">Please confirm your password.</span>
+                <span ng-show = "register.show" style="color:red">Password not match</span>
             </md-input-container>
-            <button type="submit" class="btn" ng-disabled="!registerForm.$valid" ng-click="register.Register()">Register</button>
+            <button type="submit" class="btn" ng-show="(registerForm.$valid && (register.isconfirm == true))" ng-click="register.Register()">Register</button>
         </form>
     </md-content>
 </div>

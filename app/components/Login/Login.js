@@ -81,6 +81,8 @@
 
         function RegisterModalCtr($scope, $uibModalInstance) {
             var register = this;
+            register.isconfirm = false;
+            register.show = false;
             register.id = "";
             register.name = "";
             register.Email = "";
@@ -88,6 +90,7 @@
             register.RePass = "";
             register.Register = Register;
             register.cancel = cancel;
+            register.compare = compare;
 
             function cancel() {
                 $uibModalInstance.dismiss('cancel');
@@ -99,7 +102,26 @@
                 vm.Name = register.name;
                 vm.display = false;
                 cancel();
-            }            
+            }
+
+            function compare($event) {
+                // console.log($event.keyCode);
+                if ((($event.keyCode >= 48) && ($event.keyCode <= 57)) || (($event.keyCode >= 65) && ($event.keyCode <= 90)))
+                {
+                    // console.log(register.isconfirm);
+                    console.log("RePass: " + register.RePass + " Pass: " + register.Pass);
+                    if (register.Pass == register.RePass) {
+
+                        register.isconfirm = true;
+                        register.show = false;
+                        console.log(register.isconfirm);
+                    }
+                    else {
+                        register.show = true;
+                    }
+                    
+                }
+            }
         }
 
         function LoginModalCtrl($scope, $uibModalInstance) {
@@ -111,6 +133,7 @@
             function cancel() {
                 $uibModalInstance.dismiss('cancel');
             }
+
             function LOGIN() {
                 vm.Avatar = "../images/User-Login.png";
                 vm.Email = login.Email;

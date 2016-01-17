@@ -129,6 +129,9 @@ $color-text: #333333;
 #leftNav {
     margin-bottom: 20px;
     margin-top: 20px;
+    .firstRow{
+        margin-top: 20px;
+    }
 }
 
 .row {
@@ -151,8 +154,14 @@ $color-text: #333333;
     margin-left: 20px;
 }
 
-#buttonMenu > a {
-    font-size: 25px !important;
+#buttonMenu{
+    padding-left: 30px;
+    a{ 
+        font-size: 25px !important;
+    }
+    img{
+        cursor: pointer;
+    }
 }
 
 .subs {

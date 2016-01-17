@@ -103,6 +103,8 @@
 #leftNav {
   margin-bottom: 20px;
   margin-top: 20px; }
+  #leftNav .firstRow {
+    margin-top: 20px; }
 
 .row {
   margin-right: -15px;
@@ -119,8 +121,12 @@
   height: 40px;
   margin-left: 20px; }
 
-#buttonMenu > a {
-  font-size: 25px !important; }
+#buttonMenu {
+  padding-left: 30px; }
+  #buttonMenu a {
+    font-size: 25px !important; }
+  #buttonMenu img {
+    cursor: pointer; }
 
 .subs {
   z-index: 1000;
@@ -189,5 +195,3 @@ label {
 
   #submenu {
     display: none; } }
-
-/*# sourceMappingURL=head.css.map */

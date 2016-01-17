@@ -29,3 +29,6 @@ body {
     background: white;
     border-bottom: 1px solid #ccc;
 }
+md-autocomplete input:not(.md-input){
+    background: white;
+}
