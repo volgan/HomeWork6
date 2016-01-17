@@ -20,7 +20,7 @@
         }
 
         function getComplete(response) {
-            return response.data;
+            return response;
         }
     }
 })();
@@ -35,9 +35,9 @@
         .module('Location')
         .controller('LocationController', LocationController);
 
-    LocationController.$inject = ['$scope', 'LocationService'];
+    LocationController.$inject = ['LocationService'];
 
-    function LocationController($scope, LocationService) {
+    function LocationController(LocationService) {
         var vm = this;
         var cities = [];
         vm.map = {};
@@ -52,7 +52,7 @@
         function getLocal() {
             return LocationService.getLocals()
                 .success(function(data) {
-                    cities = data;
+                    cities = data.cities;
                     callMap();
                 })
         }
@@ -69,19 +69,20 @@
             var createMarker = function(info) {
 
                 var marker = new google.maps.Marker({
-                    map: $scope.map,
+                    map: vm.map,
                     position: new google.maps.LatLng(info.lat, info.long),
                     title: info.name
                 });
                 marker.content = '<div class="infoWindowContent"><strong>Địa chỉ</strong>: ' + info.address + '<br><strong> Thời gian làm việc: </strong>' + info.timeWork + '<br> <strong>Website: </strong>' + info.website + '</div>';
                 google.maps.event.addListener(marker, 'click', function() {
                     infoWindow.setContent('<p><strong>Tên cửa hàng: </strong>' + info.name + '  </p>' + marker.content);
-                    infoWindow.open($scope.map, marker);
+                    infoWindow.open(vm.map, marker);
                 });
                 vm.markers.push(marker);
             }
 
-            for (i = 0; i < cities.length; i++){
+            for (var i = 0; i < cities.length; i++){
+                console.log(cities[i])
                 createMarker(cities[i]);
             }
             vm.openInfoWindow = function(e, selectedMarker){
