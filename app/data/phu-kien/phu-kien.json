@@ -1,0 +1,143 @@
+[
+	{
+		"id" : 1,
+		"name":"Pin dự phòng",
+		"image":"../images/phu-kien/pin-sac-du-phong-6000-mah-x-mobile-xr02-trang-org-1.jpg",
+		"info":"Pin sạc dự phòng 6000 mAh Xmobile XR02",
+		"price": 440000
+	},
+	{
+		"id" : 2,
+		"name":"Pin dự phòng",
+		"image":"../images/phu-kien/pin-sac-du-phong-10000-mah-eco-y40-do-org-1.jpg",
+		"info":"Pin sạc dự phòng 10000 mAh ECO Y40",
+		"price": 390000
+	},
+	{
+		"id" : 3,
+		"name":"Tai nghe",
+		"image":"../images/phu-kien/tai-nghe-ep-kanen-ip-218-tgdd-1-org-4.jpg",
+		"info":"Tai nghe EP Kanen IP-218",
+		"price": 110000
+	},
+	{
+		"id" : 4,
+		"name": "Tai nghe",
+		"image":"../images/phu-kien/tai-nghe-chup-tai-kanen-ip-852-tgdd-1-org-3.jpg",
+		"info":"Tai nghe chụp tai Kanen IP-852",
+		"price": 320000
+	},
+	{
+		"id" : 5,
+		"name":"ốp lưng bao da",
+		"image":"../images/phu-kien/bao-da-galaxy-tab-a-plus-10-inch-coreka-tgdd-org-1.jpg",
+		"info":"Bao da Galaxy Tab A Plus 10 inch Coreka",
+		"price": 180000
+	},
+	{
+		"id" : 6,
+		"name":"ốp lưng bao da",
+		"image":"../images/phu-kien/bao-da-ipad-mini-4-nap-gap-jm-xanh-org-1.jpg",
+		"info":"Bao da Ipad Mini 4 nắp gập JM",
+		"price": 300000
+	},
+	{
+		"id" : 7,
+		"name":"Thẻ nhớ",
+		"image":"../images/phu-kien/the-nho-microsd-8gb-class-4-1-org-1.jpg",
+		"info":"Thẻ nhớ 8Gb MicroSD Class 4",
+		"price": 150000
+	},
+	{
+		"id" : 8,
+		"name":"Thẻ nhớ",
+		"image":"../images/phu-kien/the-nho-microsd-32gb-class-10-tgdd-org-1.jpg",
+		"info":"Thẻ nhớ 32Gb MicroSD class 10",
+		"price": 480000
+	},
+	{
+		"id" : 9,
+		"name":"USB",
+		"image":"../images/phu-kien/usb-apacer-ah328-8gb-20-org-2.jpg",
+		"info":"USB 8GB 2.0 Apacer AH328",
+		"price": 140000
+	},
+	{
+		"id" : 10,
+		"name":"USB",
+		"image":"../images/phu-kien/usb-transcend-770-16gb-30-trang-org-2.jpg",
+		"info":"USB 16GB 3.0 Transcend 770",
+		"price": 240000
+	},
+	{
+		"id": 11,
+		"name":"chuột máy tính",
+		"image":"../images/phu-kien/chuot-khong-day-zadez-m356-trang-1-org-1.jpg",
+		"info":"Chuột không dây Zadez M356",
+		"price": 220000
+	},
+	{
+		"id": 12,
+		"name":"chuột máy tính",
+		"image":"../images/phu-kien/chuot-co-day-genius-ns-100x-den-1-org-1.jpg",
+		"info":"Chuột có dây Genius NS-100X",
+		"price": 120000
+	},
+	{
+		"id": 13,
+		"name":"Miếng dán màn hình iPad Air",
+		"image":"../images/phu-kien/mieng-dan-man-hinh-ipad-air-1-org-1.jpg",
+		"info":"Miếng dán màn hình iPad Air",
+		"price": 100000
+	},
+	{
+		"id": 14,
+		"name":"Loa",
+		"image":"../images/phu-kien/loa-enkor-e300plus-tgdd-1-org-1.jpg",
+		"info":"Loa Enkor E300PLUS",
+		"price": 590000
+	},
+	{
+		"id": 15,
+		"name":"Loa",
+		"image":"../images/phu-kien/loa-vi-tinh-fenda-a521-den-org-1.jpg",
+		"info":"Loa vi tính Fenda A521",
+		"price": 990000
+	},
+	{
+		"id": 16,
+		"name":"Pin",
+		"image":"../images/phu-kien/pin-samsung-eb585157lu-pisen-1-org-1.jpg",
+		"info":"Pin Samsung EB585157LU Pisen",
+		"price": 90000
+	},
+	{
+		"id": 17,
+		"name":"Pin",
+		"image":"../images/phu-kien/pin-samsung-galaxy-s-iv-pisen-1-org-2.jpg",
+		"info":"Pin Samsung Galaxy S IV Pisen",
+		"price": 380000
+	},
+	{
+		"id": 18,
+		"name":"Cáp sạc",
+		"image":"../images/phu-kien/cap-sac-iphone-5-6-x-org-mobile15.jpg",
+		"info":"Cáp sạc iPhone 5 - iPhone 6 X mobile",
+		"price": 150000
+	},
+	{
+		"id": 19,
+		"name":"Adapter",
+		"image":"../images/phu-kien/adapter-x-mobile-c051-1a-usb-xam-1-org-4.jpg",
+		"info":"Adapter 1A C058 USB Xmobile",
+		"price": 150000
+	},
+	{
+		"id": 20,
+		"name":"Miếng dán",
+		"image":"../images/phu-kien/mieng-dan-man-hinh-5-inch-2-org-2.jpg",
+		"info":"Miếng dán màn hình 5 inch",
+		"price": 60000
+	}
+	
+]

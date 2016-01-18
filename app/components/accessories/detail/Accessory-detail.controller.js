@@ -42,7 +42,51 @@
         var vm = this;
         vm.PK = {};
         vm.price = "price";
-        
+        vm.cmts = [];
+        vm.replies = [];
+        vm.rep;
+        vm.cmt;
+        vm.addCmt = addCmt;
+        vm.addRep = addRep;
+        vm.displayRepForm = displayRepForm;
+        vm.displayRep = displayRep;
+        vm.showRepForm = {
+            display: 'none'
+        };
+        vm.showRep = {
+            display: 'none'
+        };
+
+        function addCmt(tablet) {
+            vm.cmts.push(vm.cmt);
+            vm.showRep = {
+                display: 'none'
+            };
+            vm.showRepForm = {
+                display: 'none'
+            };
+            vm.cmt = null;
+        }
+
+        function addRep(tablet) {
+            vm.replies.push(vm.rep);
+            vm.showRep = {
+                display: 'block'
+            };
+            vm.rep = null;
+        }
+
+        function displayRepForm() {
+            vm.showRepForm = {
+                display: 'block'
+            };
+        }
+
+        function displayRep() {
+            vm.showRep = {
+                display: 'block'
+            };
+        }
         activated();
 
         function activated() {
@@ -55,7 +99,7 @@
                     vm.PK = data;
                     vm.length = vm.PK.images.length;
                 });
-        }        
+        }
     }
 
 })();

@@ -1,7 +1,7 @@
 <legend>Hỏi, đáp về sản phẩm</legend>
-<form ng-submit="PhoneDetail.addCmt(PhoneDetail.phone)">
+<form ng-submit="PK.addCmt(PK.phone)">
     <fieldset>
-        <textarea class="areaCmt" ng-model="PhoneDetail.cmt" placeholder="Ý kiến của bạn về sản phẩm ..."></textarea>
+        <textarea class="areaCmt" ng-model="PK.cmt" placeholder="Ý kiến của bạn về sản phẩm ..."></textarea>
         <button type="submit" class="md-raised md-primary md-button btnCmt">
             <strong>GỬI</strong>
         </button>
@@ -9,25 +9,25 @@
 </form>
 <ul>
     <h4>Mới nhất</h4>
-    <li ng-repeat="cmt in PhoneDetail.cmts.slice().reverse()">
+    <li ng-repeat="cmt in PK.cmts.slice().reverse()">
         <blockquote>
             <img class="imgCmt" src="../images/User-Login.png">
             <cite class="nameCmt">Quang Nhật</cite>
             <pre class="preCmt">{{cmt}}</pre>
             <a class="exBtnCmt">
                 <button>Thích</button>
-                <button ng-click="PhoneDetail.displayRepForm()">Trả lời</button>
-                <button ng-click="PhoneDetail.displayRep()">Xem tất cả câu trả lời</button>
+                <button ng-click="PK.displayRepForm()">Trả lời</button>
+                <button ng-click="PK.displayRep()">Xem tất cả câu trả lời</button>
             </a>
-            <form ng-style="PhoneDetail.showRepForm" ng-submit="PhoneDetail.addRep(PhoneDetail.phone)">
+            <form ng-style="PK.showRepForm" ng-submit="PK.addRep(PK.phone)">
                 <fieldset class="replyCmt">
-                    <textarea class="areaCmt" ng-model="PhoneDetail.rep" placeholder="Ý kiến của bạn ..."></textarea>
+                    <textarea class="areaCmt" ng-model="PK.rep" placeholder="Ý kiến của bạn ..."></textarea>
                     <button type="submit" class="md-raised md-primary md-button btnCmt">
                         <strong>GỬI</strong>
                     </button>
                 </fieldset>
             </form>
-            <fieldset ng-style="PhoneDetail.showRep" ng-repeat="rep in PhoneDetail.replies.slice().reverse()">
+            <fieldset ng-style="PK.showRep" ng-repeat="rep in PK.replies.slice().reverse()">
                 <img class="imgRep" src="../images/User-Login.png">
                 <cite class="nameRep">Quang Nhật</cite>
                 <pre class="preRep">{{rep}}</pre>

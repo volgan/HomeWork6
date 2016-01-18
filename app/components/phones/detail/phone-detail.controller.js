@@ -55,17 +55,31 @@
         vm.rep;
         vm.cmt;
         vm.addCmt = addCmt;
-        vm.addRep = addRep;
+        vm.addRep = addRep;vm.displayRepForm = displayRepForm;
+        vm.displayRep = displayRep;
+        vm.showRepForm = {display:'none'};
+        vm.showRep = {display:'none'};
 
+        activated();
+        
         function addCmt(phone) {
              vm.cmts.push(vm.cmt);
+             vm.showRep = {display:'none'};
+             vm.showRepForm = {display:'none'};
              vm.cmt=null;
         }
         function addRep(phone) {
              vm.replies.push(vm.rep);
+             vm.showRep = {display:'block'};
              vm.rep=null;
         }
-        activated();
+        function displayRepForm() {
+             vm.showRepForm = {display:'block'};
+        }
+        function displayRep() {
+             vm.showRep = {display:'block'};
+        }
+        
         function activated() {
             return getPhone();
         };

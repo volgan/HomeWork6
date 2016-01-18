@@ -17,10 +17,10 @@
 
         function getLaptops() {
             return $http.get('../data/laptops/' + $stateParams.LaptopId + '.json')
-                .success(getphoneComplete);
+                .success(getlaptopComplete);
         }
 
-        function getphoneComplete(response) {
+        function getlaptopComplete(response) {
             return response.data;
         }
     }
@@ -55,18 +55,48 @@
         vm.cmt;
         vm.addCmt = addCmt;
         vm.addRep = addRep;
+        vm.displayRepForm = displayRepForm;
+        vm.displayRep = displayRep;
+        vm.showRepForm = {
+            display: 'none'
+        };
+        vm.showRep = {
+            display: 'none'
+        };
 
-        function addCmt(phone) {
+        activated();
+
+        function addCmt(laptop) {
             vm.cmts.push(vm.cmt);
+            vm.showRep = {
+                display: 'none'
+            };
+            vm.showRepForm = {
+                display: 'none'
+            };
             vm.cmt = null;
         }
 
-        function addRep(phone) {
+        function addRep(laptop) {
             vm.replies.push(vm.rep);
+            vm.showRep = {
+                display: 'block'
+            };
             vm.rep = null;
         }
-        activated();
 
+        function displayRepForm() {
+            vm.showRepForm = {
+                display: 'block'
+            };
+        }
+
+        function displayRep() {
+            vm.showRep = {
+                display: 'block'
+            };
+        }
+        
         function activated() {
             return getLaptop();
         }

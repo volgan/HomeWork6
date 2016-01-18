@@ -16,7 +16,7 @@
         }
 
         function getphuKien() {
-            return $http.get('../data/phu-kien.json')
+            return $http.get('../data/phu-kien/phu-kien.json')
                 .success(getPKComplete);
         }
 
