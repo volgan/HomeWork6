@@ -50,9 +50,21 @@
         vm.next = NEXT;
         vm.prev = PREV;
         vm.selectIMG = selectIMG;
+        vm.cmts = [];
+        vm.replies = [];
+        vm.rep;
+        vm.cmt;
+        vm.addCmt = addCmt;
+        vm.addRep = addRep;
 
-
-
+        function addCmt(phone) {
+             vm.cmts.push(vm.cmt);
+             vm.cmt=null;
+        }
+        function addRep(phone) {
+             vm.replies.push(vm.rep);
+             vm.rep=null;
+        }
         activated();
         function activated() {
             return getPhone();
@@ -63,7 +75,6 @@
                 .success(function(data) {
                     vm.phone = data;
                     vm.length = vm.phone.images.length;
-                    // console.log(vm.phone.images.length);
                 });
         };
 
