@@ -73,6 +73,12 @@
                 controller: 'AccessoryListController',
                 controllerAs: 'PKList'
             })
+            .state('AccessoriesDetails', {
+                url: '/phu-kien/:PKID',
+                templateUrl: 'components/accessories/detail/Accessory-detail.html',
+                controller: 'PKController',
+                controllerAs: 'PK'
+            })
             .state('Location', {
                 url: '/Location',
                 templateUrl: 'components/Location/location.html',
