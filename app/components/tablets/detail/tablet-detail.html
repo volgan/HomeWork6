@@ -4,15 +4,15 @@
         <span>></span>
         <a href="#/Tablet">Tablet</a>
         <span>></span>
-        <a href="#/Tablet">{{TabletDetail.Tablet.manuf | uppercase}}</a>
+        <a href="#/Tablet">{{Detail.Tablet.manuf | uppercase}}</a>
     </div>
     <div class="row NAMEROW">
-        <h1 class="name">Điện thoại {{TabletDetail.Tablet.name}}</h1>
+        <h1 class="name">Điện thoại {{Detail.Tablet.name}}</h1>
     </div>
     <div class="row INFOROW">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         	<div class="row ICON">
-            	<img src="{{TabletDetail.Tablet.icon}}" alt="">
+            	<img src="{{Detail.Tablet.icon}}" alt="">
             </div>
             <div class="row">
             	<md-content class="content">
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <p class="price">{{TabletDetail.Tablet.price}} VNĐ</p>
+            <p class="price">{{Detail.Tablet.price}} VNĐ</p>
             <label class="Info">Quà khuyến mãi</label>
             <div class="detailpromotion">
                 <span>* Cơ hội trúng xe Mercedes, với "Lộc xuân POSEIDON"</span>
@@ -92,12 +92,12 @@
                         <div ng-include="'components/tablets/detail/parameter.html'" scope="" onload=""></div>
                     </md-content>
                 </md-tab>
-                <md-tab label="Hình ảnh ({{TabletDetail.Tablet.images.length}})">
+                <md-tab label="Hình ảnh ({{Detail.Tablet.images.length}})">
                     <md-content>
                         <div ng-include="'components/tablets/detail/image.html'" scope="" onload=""></div>
                     </md-content>
                 </md-tab>
-                <md-tab label="Phụ kiện">
+                <md-tab label="Phụ kiện ({{Detail.PK.length}})">
                     <md-content>
                         <div ng-include="'components/tablets/detail/phu-kien.html'" scope="" onload=""></div>
                     </md-content>

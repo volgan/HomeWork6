@@ -1,7 +1,7 @@
 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-    <h2>Đặc điểm nổi bật của {{TabletDetail.Tablet.name}}</h2>
+    <h2>Đặc điểm nổi bật của {{Detail.Tablet.name}}</h2>
     <uib-carousel interval="3000">
-        <uib-slide ng-repeat="slide in TabletDetail.Tablet.slide">
+        <uib-slide ng-repeat="slide in Detail.Tablet.slide">
             <img ng-src="{{slide}}" alt="">
         </uib-slide>
     </uib-carousel>
@@ -14,7 +14,7 @@
                 <strong><span>Màn hình:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.display.screenSize}} inches, {{TabletDetail.Tablet.display.screenResolution}}</span>
+                <span>{{Detail.Tablet.display.screenSize}} inches, {{Detail.Tablet.display.screenResolution}}</span>
             </div>
         </li>
         <li class="row">
@@ -22,7 +22,7 @@
                 <strong><span>Camera sau:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.Camera.Behind}}, {{TabletDetail.Tablet.Camera.Film}}</span>
+                <span>{{Detail.Tablet.Camera.Behind}}, {{Detail.Tablet.Camera.Film}}</span>
             </div>
         </li>
         <li class="row">
@@ -30,7 +30,7 @@
                 <strong><span>Camera trước:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.Camera.Front}}</span>
+                <span>{{Detail.Tablet.Camera.Front}}</span>
             </div>
         </li>
         <li class="row">
@@ -38,7 +38,7 @@
                 <strong><span>Hệ điều hành:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.general.OS}}</span>
+                <span>{{Detail.Tablet.general.OS}}</span>
             </div>
         </li>        
         <li class="row">
@@ -46,7 +46,7 @@
                 <strong><span>CPU:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.CPU.NumCore}}, {{TabletDetail.Tablet.CPU.Speed}}</span>
+                <span>{{Detail.Tablet.CPU.NumCore}}, {{Detail.Tablet.CPU.Speed}}</span>
             </div>
         </li>
         <li class="row">
@@ -54,7 +54,7 @@
                 <strong><span>RAM:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.CPU.RAM}}</span>
+                <span>{{Detail.Tablet.CPU.RAM}}</span>
             </div>
         </li>
         <li class="row">
@@ -62,7 +62,7 @@
                 <strong><span>Bộ nhớ trong:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.Storage.ROM}}</span>
+                <span>{{Detail.Tablet.Storage.ROM}}</span>
             </div>
         </li>
         <li class="row">
@@ -70,7 +70,7 @@
                 <strong><span>Hỗ trợ thẻ nhớ tối đa:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.Storage.MaximumSupport}}</span>
+                <span>{{Detail.Tablet.Storage.MaximumSupport}}</span>
             </div>
         </li>
         <li class="row">
@@ -78,7 +78,7 @@
                 <strong><span>Số khe SIM:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.Connection.SIM}}</span>
+                <span>{{Detail.Tablet.Connection.SIM}}</span>
             </div>
         </li>
         <li class="row">
@@ -86,7 +86,7 @@
                 <strong><span>Dung lượng pin:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.Battery.Capacity}}</span>
+                <span>{{Detail.Tablet.Battery.Capacity}}</span>
             </div>
         </li>
         <li class="row">
@@ -94,12 +94,12 @@
                 <strong><span>Kết nối:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{TabletDetail.Tablet.Connection.Wifi}}</span>
+                <span>{{Detail.Tablet.Connection.Wifi}}</span>
             </div>
         </li>
         <li class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <md-button class="md-raised md-primary" ng-click="TabletDetail.OPEN()">Xem chi tiết</md-button>
+                <md-button class="md-raised md-primary" ng-click="Detail.OPEN()">Xem chi tiết</md-button>
             </div>
         </li>
     </ul>

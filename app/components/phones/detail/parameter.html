@@ -1,7 +1,7 @@
 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-    <h2>Đặc điểm nổi bật của {{PhoneDetail.phone.name}}</h2>
+    <h2>Đặc điểm nổi bật của {{Detail.phone.name}}</h2>
     <uib-carousel interval="3000">
-        <uib-slide ng-repeat="slide in PhoneDetail.phone.slide">
+        <uib-slide ng-repeat="slide in Detail.phone.slide">
             <img ng-src="{{slide}}" alt="">
         </uib-slide>
     </uib-carousel>
@@ -14,7 +14,7 @@
                 <strong><span>Màn hình:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.Display.screenSize}}, {{PhoneDetail.phone.Display.screenResolution}}</span>
+                <span>{{Detail.phone.Display.screenSize}}, {{Detail.phone.Display.screenResolution}}</span>
             </div>
         </li>
         <li class="row">
@@ -22,7 +22,7 @@
                 <strong><span>Camera sau:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.CameraBehind.primary}}, {{PhoneDetail.phone.CameraBehind.film}}</span>
+                <span>{{Detail.phone.CameraBehind.primary}}, {{Detail.phone.CameraBehind.film}}</span>
             </div>
         </li>
         <li class="row">
@@ -30,7 +30,7 @@
                 <strong><span>Camera trước:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.CameraFront.primary}}</span>
+                <span>{{Detail.phone.CameraFront.primary}}</span>
             </div>
         </li>
         <li class="row">
@@ -38,7 +38,7 @@
                 <strong><span>Hệ điều hành:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.OS.OS}}</span>
+                <span>{{Detail.phone.OS.OS}}</span>
             </div>
         </li>        
         <li class="row">
@@ -46,7 +46,7 @@
                 <strong><span>CPU:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.OS.Chipset}}, {{PhoneDetail.phone.OS.NumCore}}, {{PhoneDetail.phone.OS.Speed}}</span>
+                <span>{{Detail.phone.OS.Chipset}}, {{Detail.phone.OS.NumCore}}, {{Detail.phone.OS.Speed}}</span>
             </div>
         </li>
         <li class="row">
@@ -54,7 +54,7 @@
                 <strong><span>Chip đồ họa:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.OS.GPU}}</span>
+                <span>{{Detail.phone.OS.GPU}}</span>
             </div>
         </li>
         <li class="row">
@@ -62,7 +62,7 @@
                 <strong><span>Màn hình:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.Display.screenSize}}, {{PhoneDetail.phone.Display.screenResolution}}</span>
+                <span>{{Detail.phone.Display.screenSize}}, {{Detail.phone.Display.screenResolution}}</span>
             </div>
         </li>
         <li class="row">
@@ -70,7 +70,7 @@
                 <strong><span>RAM:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.Storage.RAM}}</span>
+                <span>{{Detail.phone.Storage.RAM}}</span>
             </div>
         </li>
         <li class="row">
@@ -78,7 +78,7 @@
                 <strong><span>Bộ nhớ trong:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.Storage.ROM}}</span>
+                <span>{{Detail.phone.Storage.ROM}}</span>
             </div>
         </li>
         <li class="row">
@@ -86,7 +86,7 @@
                 <strong><span>Hỗ trợ thẻ nhớ tối đa:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.Storage.MaximumSupport}}</span>
+                <span>{{Detail.phone.Storage.MaximumSupport}}</span>
             </div>
         </li>
         <li class="row">
@@ -94,7 +94,7 @@
                 <strong><span>Số khe SIM:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.Connection.NumSIM}}, {{PhoneDetail.phone.Connection.Type}}</span>
+                <span>{{Detail.phone.Connection.NumSIM}}, {{Detail.phone.Connection.Type}}</span>
             </div>
         </li>
         <li class="row">
@@ -102,12 +102,12 @@
                 <strong><span>Kết nối:</span></strong>
             </div>
             <div class="col-lg-8 col-md-8">
-                <span>{{PhoneDetail.phone.Connection.Wifi}}</span>
+                <span>{{Detail.phone.Connection.Wifi}}</span>
             </div>
         </li>
         <li class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <md-button class="md-raised md-primary" ng-click="PhoneDetail.OPEN()">Xem chi tiết</md-button>
+                <md-button class="md-raised md-primary" ng-click="Detail.OPEN()">Xem chi tiết</md-button>
             </div>
         </li>
     </ul>

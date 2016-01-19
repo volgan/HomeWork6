@@ -12,15 +12,21 @@
 
     function TabletDetailService($http, $stateParams) {
         return {
-            getTablet: getTablet
+            getTablet: getTablet,
+            getphuKien: getphuKien
         }
 
         function getTablet() {
             return $http.get('../data/tablets/' + $stateParams.TabletId + '.json')
-                .success(getTabletComplete);
+                .success(getComplete);
         }
 
-        function getTabletComplete(response) {
+        function getphuKien() {
+            return $http.get('../data/phu-kien/phu-kien.json')
+                .success(getComplete);
+        }
+
+        function getComplete(response) {
             return response.data;
         }
     }
@@ -37,14 +43,16 @@
     function TabletDetailController(TabletDetailService, $scope, $uibModal, $log) {
         var vm = this;
         vm.Tablet = [];
-        vm.price = "price";
+
         vm.animationsEnabled = true;
         vm.OPEN = OPEN;
+
         vm.index = 0;
         vm.length = 0;
         vm.next = NEXT;
         vm.prev = PREV;
         vm.selectIMG = selectIMG;
+
         vm.cmts = [];
         vm.replies = [];
         vm.rep;
@@ -60,6 +68,45 @@
             display: 'none'
         };
 
+        var TypePK = ['tai nghe', 'cáp sạc', 'ốp lưng', 'pin dự phòng']
+        vm.PK = [];
+
+        //Get Phu kien
+        activated_PK();
+        function activated_PK() {
+            return getPK();
+        }
+
+        function getPK() {
+            return TabletDetailService.getphuKien()
+                .success(function(data) {
+                    $.each(data, function(index, val) {
+                        var lowercaseVal = angular.lowercase(val.name);
+                        for (var i = 0; i < TypePK.length; i++) {
+                            if (lowercaseVal.indexOf(angular.lowercase(TypePK[i])) >= 0) {
+                                vm.PK.push(val);
+                            }
+                        }
+                    });
+                });
+        }
+
+        //Get Tablet
+        activated();
+
+        function activated() {
+            return getTablet();
+        }
+
+        function getTablet() {
+            return TabletDetailService.getTablet()
+                .success(function(data) {
+                    vm.Tablet = data;
+                    vm.length = vm.Tablet.images.length;
+                });
+        }
+
+        //Comment
         function addCmt(tablet) {
             vm.cmts.push(vm.cmt);
             vm.showRep = {
@@ -89,22 +136,9 @@
             vm.showRep = {
                 display: 'block'
             };
-        }        
-
-        activated();
-
-        function activated() {
-            return getTablet();
         }
 
-        function getTablet() {
-            return TabletDetailService.getTablet()
-                .success(function(data) {
-                    vm.Tablet = data;
-                    vm.length = vm.Tablet.images.length;
-                });
-        }
-
+        //Open Modal
         function OPEN() {
             console.log("new");
             var modalInstance = $uibModal.open({
@@ -136,6 +170,7 @@
             }
         }
 
+        //images
         function NEXT() {
             if (vm.index == (vm.length - 1)) {
                 // console.log(vm.index);

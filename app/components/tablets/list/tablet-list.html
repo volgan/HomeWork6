@@ -1,6 +1,6 @@
 <div class="container tabletList">
     <div class="row">
-        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 itemTab" ng-repeat="tablet in TabletList.tablets | orderBy: tabletList.price">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 itemTab" ng-repeat="tablet in List.tablets | orderBy: List.price">
             <p class="imgItem">
                 <a href="#/Tablet/{{tablet.id}}">
                     <img src="{{tablet.icon}}" alt="{{tablet.name}}" height="180px" height="180px">

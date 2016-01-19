@@ -1,6 +1,6 @@
 <div class="container laptopList">
     <div class="row">
-        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 itemTab" ng-repeat="laptop in LaptopList.Laptops | orderBy: LaptopList.price" ng-mouseleave= "show={display: 'none'}; hide={display: 'block'}">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 itemTab" ng-repeat="laptop in List.Laptops | orderBy: List.price" ng-mouseleave= "show={display: 'none'}; hide={display: 'block'}">
             <p class="imgItem">
                 <a href="#/Laptop/{{laptop.id}}">
                     <img src="{{laptop.icon}}" alt="{{laptop.name}}" height="180px" height="180px">

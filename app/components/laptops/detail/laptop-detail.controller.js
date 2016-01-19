@@ -12,15 +12,21 @@
 
     function LaptopDetailservice($http, $stateParams) {
         return {
-            getLaptops: getLaptops
+            getLaptops: getLaptops,
+            getphuKien: getphuKien
         }
 
         function getLaptops() {
             return $http.get('../data/laptops/' + $stateParams.LaptopId + '.json')
-                .success(getlaptopComplete);
+                .success(getComplete);
         }
 
-        function getlaptopComplete(response) {
+        function getphuKien() {
+            return $http.get('../data/phu-kien/phu-kien.json')
+                .success(getComplete);
+        }
+
+        function getComplete(response) {
             return response.data;
         }
     }
@@ -41,14 +47,16 @@
     function LaptopDetailController($scope, LaptopDetailservice, $uibModal, $log) {
         var vm = this;
         vm.Laptop = {};
-        vm.price = "price";
+
         vm.animationsEnabled = true;
         vm.OPEN = OPEN;
         vm.index = 0;
         vm.length = 0;
+
         vm.next = NEXT;
         vm.prev = PREV;
         vm.selectIMG = selectIMG;
+
         vm.cmts = [];
         vm.replies = [];
         vm.rep;
@@ -64,8 +72,46 @@
             display: 'none'
         };
 
+        //Get Phu Kien        
+        var TypePK = ['tai nghe', 'chuột', 'bàn phím', 'usb', 'loa', 'adapter']
+        vm.PK = [];
+
+        activated_PK();
+
+        function activated_PK() {
+            return getPK();
+        }
+
+        function getPK() {
+            return LaptopDetailservice.getphuKien()
+                .success(function(data) {
+                    $.each(data, function(index, val) {
+                        var lowercaseVal = angular.lowercase(val.name);
+                        for (var i = 0; i < TypePK.length; i++) {
+                            if (lowercaseVal.indexOf(angular.lowercase(TypePK[i])) >= 0) {
+                                vm.PK.push(val);
+                            }
+                        }
+                    });
+                });
+        }
+
+        //Get Laptop
         activated();
 
+        function activated() {
+            return getLaptop();
+        }
+
+        function getLaptop() {
+            return LaptopDetailservice.getLaptops()
+                .success(function(data) {
+                    vm.Laptop = data;
+                    vm.length = vm.Laptop.images.length;
+                });
+        }
+
+        // Comment
         function addCmt(laptop) {
             vm.cmts.push(vm.cmt);
             vm.showRep = {
@@ -96,19 +142,8 @@
                 display: 'block'
             };
         }
-        
-        function activated() {
-            return getLaptop();
-        }
 
-        function getLaptop() {
-            return LaptopDetailservice.getLaptops()
-                .success(function(data) {
-                    vm.Laptop = data;
-                    vm.length = vm.Laptop.images.length;
-                });
-        }
-
+        //Modal function
         function OPEN() {
             console.log("new");
             var modalInstance = $uibModal.open({
@@ -140,6 +175,7 @@
             }
         }
 
+        //Images
         function NEXT() {
             if (vm.index == (vm.length - 1)) {
                 // console.log(vm.index);

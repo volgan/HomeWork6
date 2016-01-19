@@ -35,49 +35,49 @@
                 url: '/Phone',
                 templateUrl: 'components/phones/list/phone-list.html',
                 controller: 'PhoneListController',
-                controllerAs: 'PhoneList'
+                controllerAs: 'List'
             })
             .state('PhonesDetails', {
                 url: '/Phone/:PhoneId',
                 templateUrl: 'components/phones/detail/phone-detail.html',
                 controller: 'PhoneDetailController',
-                controllerAs: 'PhoneDetail'
+                controllerAs: 'Detail'
             })
             .state('Laptop', {
                 url: '/Laptop',
                 templateUrl: 'components/laptops/list/laptop-list.html',
                 controller: 'LaptopListController',
-                controllerAs: 'LaptopList'
+                controllerAs: 'List'
             })
             .state('LaptopDetails', {
                 url: '/Laptop/:LaptopId',
                 templateUrl: 'components/laptops/detail/laptop-detail.html',
                 controller: 'LaptopDetailController',
-                controllerAs: 'LaptopDetail'
+                controllerAs: 'Detail'
             })
             .state('Tablets', {
                 url: '/Tablet',
                 templateUrl: 'components/tablets/list/tablet-list.html',
                 controller: 'TabletListController',
-                controllerAs: 'TabletList'
+                controllerAs: 'List'
             })
             .state('TabletsDetails', {
                 url: '/Tablet/:TabletId',
                 templateUrl: 'components/tablets/detail/tablet-detail.html',
                 controller: 'TabletDetailController',
-                controllerAs: 'TabletDetail'
+                controllerAs: 'Detail'
             })
             .state('Accessories', {
                 url: '/phu-kien',
                 templateUrl: 'components/accessories/list/Accessory-list.html',
                 controller: 'AccessoryListController',
-                controllerAs: 'PKList'
+                controllerAs: 'List'
             })
             .state('AccessoriesDetails', {
                 url: '/phu-kien/:PKID',
                 templateUrl: 'components/accessories/detail/Accessory-detail.html',
                 controller: 'PKController',
-                controllerAs: 'PK'
+                controllerAs: 'Detail'
             })
             .state('Location', {
                 url: '/Location',
