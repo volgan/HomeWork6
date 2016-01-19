@@ -73,6 +73,7 @@
 
         //Get Phu kien
         activated_PK();
+
         function activated_PK() {
             return getPK();
         }
@@ -129,6 +130,12 @@
         function displayRepForm() {
             vm.showRepForm = {
                 display: 'block'
+            };
+        }
+
+        function hideRepForm() {
+            vm.showRepForm = {
+                display: 'none'
             };
         }
 

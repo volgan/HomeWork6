@@ -220,7 +220,14 @@
     margin-bottom: 5px;
     display: block;
 }
-
+.mainHeader{
+    background-color: #288ad6;
+    padding-bottom: 1%;
+}
+.mainHeader h2{
+    font-weight: bolder;
+    color: #FFF;
+}
 .phoneName {
     font-weight: bolder;
     font-size: 20px;

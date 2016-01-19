@@ -112,7 +112,7 @@
         }
 
         // Comment
-        function addCmt(laptop) {
+        function addCmt(phone) {
             vm.cmts.push(vm.cmt);
             vm.showRep = {
                 display: 'none'
@@ -123,7 +123,7 @@
             vm.cmt = null;
         }
 
-        function addRep(laptop) {
+        function addRep(phone) {
             vm.replies.push(vm.rep);
             vm.showRep = {
                 display: 'block'
@@ -134,6 +134,12 @@
         function displayRepForm() {
             vm.showRepForm = {
                 display: 'block'
+            };
+        }
+
+        function hideRepForm() {
+            vm.showRepForm = {
+                display: 'none'
             };
         }
 

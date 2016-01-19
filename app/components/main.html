@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row SLIDE">
-    	
+        
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 leftPANEL">
             <div class="slider">
                 <a class="arrow prev" ng-click="mainCtr.nextSlide()"></a>
@@ -23,8 +23,8 @@
         <div ng-cloak class="demo-grid">
             <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="1:1" md-gutter="15px" md-gutter-sm="25px" md-gutter-gt-sm="30px">
                 <md-grid-tile class="mobile" md-gutter="0" md-colspan-gt-md="6" md-colspan-sm="2" md-colspan-xs="1" md-rowspan="1">
-                    <md-grid-tile-footer>
-                        <h2>ĐIỆN THOẠI</h2>
+                    <md-grid-tile-footer class="mainHeader">
+                        <a href="#/Phone"><h2>ĐIỆN THOẠI</h2></a>
                     </md-grid-tile-footer>
                 </md-grid-tile>
                 <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index)" class="white" ng-repeat="phone in mainCtr.phones | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
@@ -53,8 +53,8 @@
                     </md-grid-tile-footer>
                 </md-grid-tile>
                 <md-grid-tile class="mobile" md-gutter="0" md-colspan-gt-md="6" md-colspan-sm="2" md-colspan-xs="1" md-rowspan="1">
-                    <md-grid-tile-footer>
-                        <h2>LAPTOP</h2>
+                    <md-grid-tile-footer class="mainHeader">
+                        <a href="#/Laptop"><h2>LAPTOP</h2></a>
                     </md-grid-tile-footer>
                 </md-grid-tile>
                 <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index+3)" class="white" ng-repeat="laptop in mainCtr.Laptops | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">
@@ -83,8 +83,8 @@
                     </md-grid-tile-footer>
                 </md-grid-tile>
                 <md-grid-tile class="mobile" md-gutter="0" md-colspan-gt-md="6" md-colspan-sm="2" md-colspan-xs="1" md-rowspan="1">
-                    <md-grid-tile-footer>
-                        <h2>MÁY TÍNH BẢNG</h2>
+                    <md-grid-tile-footer class="mainHeader">
+                        <a href="#/Tablet"><h2>MÁY TÍNH BẢNG</h2></a>
                     </md-grid-tile-footer>
                 </md-grid-tile>
                 <md-grid-tile ng-mouseleave="mainCtr.showPhoneImage($index+6)" class="white" ng-repeat="tablet in mainCtr.tablets | limitTo:3" md-colspan-gt-md="2" md-colspan="1" md-rowspan="2" md-rowspan-sm="1">

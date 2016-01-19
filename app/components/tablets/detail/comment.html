@@ -9,7 +9,7 @@
 </form>
 <ul>
     <h4>Mới nhất</h4>
-    <li ng-repeat="cmt in Detail.cmts.slice().reverse()">
+    <li ng-repeat="cmt in Detail.cmts.slice().reverse() track by $index">
         <blockquote>
             <img class="imgCmt" src="../images/User-Login.png">
             <cite class="nameCmt">Quang Nhật</cite>
@@ -22,12 +22,12 @@
             <form ng-style="Detail.showRepForm" ng-submit="Detail.addRep(Detail.phone)">
                 <fieldset class="replyCmt">
                     <textarea class="areaCmt" ng-model="Detail.rep" placeholder="Ý kiến của bạn ..."></textarea>
-                    <button type="submit" class="md-raised md-primary md-button btnCmt">
+                    <button type="submit" class="md-raised md-primary md-button btnCmt" ng-click="Detail.hideRepForm()">
                         <strong>GỬI</strong>
                     </button>
                 </fieldset>
             </form>
-            <fieldset ng-style="Detail.showRep" ng-repeat="rep in Detail.replies.slice().reverse()">
+            <fieldset ng-style="Detail.showRep" ng-repeat="rep in Detail.replies.slice().reverse() track by $index">
                 <img class="imgRep" src="../images/User-Login.png">
                 <cite class="nameRep">Quang Nhật</cite>
                 <pre class="preRep">{{rep}}</pre>

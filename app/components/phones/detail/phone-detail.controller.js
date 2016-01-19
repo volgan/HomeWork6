@@ -79,6 +79,7 @@
 
         //Get Phu kien
         activated_PK();
+
         function activated_PK() {
             return getPK();
         }
@@ -99,6 +100,7 @@
 
         //Get Phone data
         activated();
+
         function activated() {
             return getPhone();
         };
@@ -137,12 +139,18 @@
             };
         }
 
+        function hideRepForm() {
+            vm.showRepForm = {
+                display: 'none'
+            };
+        }
+
         function displayRep() {
             vm.showRep = {
                 display: 'block'
             };
         }
-    
+
         //Modal
         function OPEN() {
             console.log("new");
